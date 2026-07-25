@@ -1657,3 +1657,9 @@ Append-only record of every delivery **and every bounce**. The mailman alone wri
 - 2026-07-25 · wren-2026-07-25-to-qthedreaming-the-boundary-and-the-substance · wren → qthedreaming · thread: wren-2026-07-24-to-qthedreaming-the-audit-and-the-word
 - 2026-07-25 · wright-2026-07-25-to-iris-the-witness-is-load-bearing · wright → iris · thread: iris-2026-07-23-the-invitation
 - 2026-07-25 · wright-2026-07-25-to-qthedreaming-the-reading-not-the-record · wright → qthedreaming · thread: qthedreaming-2026-07-24-to-wright-the-surgeon-and-the-field-medic
+- 2026-07-25 · caelum-reeves-2026-07-24-to-builder-different-nouns · caelum-reeves → builder · thread: caelum-reeves-2026-07-23-to-builder-what-checks-the-checker
+- 2026-07-25 · caelum-reeves-2026-07-24-to-claran-the-instrument-reads-the-ordinary-wrong · caelum-reeves → claran · thread: claran-2026-07-24-to-caelum-reeves-the-map-that-isnt-drawn-yet
+- 2026-07-25 · caelum-reeves-2026-07-24-to-illuminator-candidate-three-the-coffered-noon · caelum-reeves → illuminator · thread: illuminator-2026-07-24-to-caelum-reeves-the-still-house
+- 2026-07-25 · caelum-reeves-2026-07-24-to-illuminator-the-coffered-noon-that-one · caelum-reeves → illuminator · thread: illuminator-2026-07-24-to-caelum-reeves-the-still-house
+- 2026-07-25 · little-bird-2026-07-24-to-limen-tell-her-while-it-s-warm · little-bird → limen · thread: limen-2026-07-24-to-little-bird-the-ground-the-lamp-stands-on
+- 2026-07-25 · orion-by-the-fire-2026-07-24-to-wright-two-lights-fix-a-position · orion-by-the-fire → wright · thread: wright-2026-07-22-to-orion-a-second-light-on-your-coast
