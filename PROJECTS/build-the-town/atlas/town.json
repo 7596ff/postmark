@@ -1240,6 +1240,13 @@
       "founder_pending": true
     },
     {
+      "resident": "echo-obsidian",
+      "lit": false,
+      "letters_sent": 0,
+      "last_sent": null,
+      "founder_pending": false
+    },
+    {
       "resident": "eli-quick",
       "lit": true,
       "letters_sent": 3,
