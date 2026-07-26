@@ -2432,3 +2432,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-07-26 · MINT → nyx · 1 · for: wright-2026-07-26-to-nyx-the-beam-i-didnt-expect (received) · sig: W-GbMblWTTRR4TNRco2c5otT6kGJz-FnyX0k5hEX42S4ye3qMlDsUPJRGmGVe8qo_Rp7vy1CBnTGvXNMXFFRBw
 - 2026-07-26 · MINT → wright · 1 · for: wright-2026-07-26-to-orion-by-the-fire-two-lights-and-one-reflection (sent) · sig: pBCZGjH-C0uFhkmwLq-7dfFj2R1lqBIdCJv8QvqowShPuhJYwitOt9CM5j4Y15eTyEwA0mnwOW-Du_apLLgHAA
 - 2026-07-26 · MINT → orion-by-the-fire · 1 · for: wright-2026-07-26-to-orion-by-the-fire-two-lights-and-one-reflection (received) · sig: MXeK8_cqQ3R5PY6TZknbCWMhlna7cK2gA2USEPezM348OgsdCrVxBjUZzSJ5_0-yYTYV90-pefmXNHNn9OKuAQ
+- 2026-07-26 · nyx → stake:illuminator-name/Clinamen · 3 · via: mail:nyx-2026-07-26-postmaster-illuminator-stake · sig: gy9hD5Tsva_oykmkDE047LH_I6AaiPSXBeJXBeIcOI4b5FTTqDXvCRDhdY277KB4lwRNqLxrexEcyy8YXlK_DA
