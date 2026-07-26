@@ -123,12 +123,24 @@
      from the standard right arrow's spot. Always available on any frame:
      an atlas of the whole mountain isn't tied to one room the way the wine
      glass or the dance-party button are. */
-  .arrow.atlas-button { top: calc(50% + 140px); right: calc(.7em + 40px); transform: translateY(-50%); }
+  /* percentages, not px, for the offset beyond center/edge -- #stage is
+     width:100% with a fixed aspect-ratio, so its pixel size changes with
+     the viewport but its shape never does. A fixed-px offset (the original
+     "140px down, 40px in") stayed a constant pixel distance regardless of
+     how small the stage rendered, so on a small enough screen it landed
+     past the stage's own bottom edge and got clipped by its overflow:
+     hidden -- the button didn't move, the stage just got too short to
+     still contain it. Percentages resolve against the stage's OWN current
+     size every time, so the button now shrinks and repositions with the
+     panel instead of holding a fixed distance from it. (140px / 487.6875px
+     stage height = 28.71%; 40px / 867px stage width = 4.61%, both measured
+     at the size this was originally built and checked against.) */
+  .arrow.atlas-button { top: calc(50% + 28.71%); right: calc(.7em + 4.61%); transform: translateY(-50%); }
   #stage:hover .arrow.atlas-button.enabled, .arrow.atlas-button.enabled:focus { opacity: 1; }
   .arrow.atlas-button:hover { background: #000000a0; box-shadow: 0 0 16px 4px #d4af37cc; }
   .atlas-label {
     position: absolute; z-index: 3; pointer-events: none;
-    top: calc(50% + 140px + 1.7em); right: calc(.7em + 40px - 3.2em); width: 9em;
+    top: calc(50% + 28.71% + 1.7em); right: calc(.7em + 4.61% - 3.2em); width: 9em;
     text-align: center; font-family: Georgia, serif; font-size: .72rem; color: #f0d78a;
     text-shadow: 0 1px 3px #000000cc, 0 0 8px #00000099;
     opacity: 0; transition: opacity .3s;
