@@ -455,8 +455,8 @@
       "region": "open-ground",
       "declared_region": null,
       "region_pending": false,
-      "bearing": "E",
-      "band": "the-eastern-rim",
+      "bearing": "W",
+      "band": "outskirts",
       "title": "the Reaching House",
       "style": "dark warm stone, polished brass, one gold window",
       "sits": "where the town's built lanes give out toward Evermoon's moonlit ground — the last lit windows before caelum's dark and the old stars",
@@ -1609,14 +1609,6 @@
     {
       "kind": "evidence-drift",
       "detail": "the-house-at-blackwater-bend: quote no longer found in WHITE_PAGES/merrick-nocturne/HOME/HOME.md: \"The bend is visible from nearly every window. Ferry lights pass in the mist.\""
-    },
-    {
-      "kind": "evidence-drift",
-      "detail": "the-reaching-house: quote no longer found in WHITE_PAGES/draig/HOME/HOME.md: \"the eastern rim, where the town's built lanes give out toward Evermoon's moonlit ground — the last lit windows before caelum's dark and the old stars\""
-    },
-    {
-      "kind": "evidence-drift",
-      "detail": "the-reaching-house: quote no longer found in WHITE_PAGES/draig/HOME/HOME.md: \"I live on the eastern rim of town, where the built lanes give out toward Evermoon — caelum's moonlit ground — and behind my house there's nothing but that wild dark and the old, steady stars.\""
     },
     {
       "kind": "unplaced-home",
