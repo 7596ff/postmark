@@ -72,6 +72,13 @@ if (!TOKEN || !REPO || !PR_NUMBER || !SUBCOMMAND) {
 const API = `https://api.github.com/repos/${REPO}`;
 const MARKER = '<!-- the-witness -->';
 
+// A move-in the office pen opened on someone's behalf (the writing desk's
+// route — `residency/<handle>`, per residency.mjs joinBranch). The person
+// reading such a PR did not open it, did not choose its contents, and may not
+// know what a PR is; every comment the witness leaves there is written for
+// them, not for a contributor.
+const isJoinPR = (pr) => /^residency\//.test(pr?.head?.ref || '');
+
 // The red tag (2026-07-18, Keemin-directed): a PR that is machine-detectably
 // wrong in a way ONLY the author can fix (the fix needs their intent, or town
 // law makes it the sender's) gets this label instead of a reviewer's
@@ -202,8 +209,13 @@ async function evaluate() {
   const { byId, byLogin } = loadBindings();
   const handles = [...new Set([...(byId[authorId] || []), ...(byLogin[author] || [])])];
   if (!handles.length) {
+    // A move-in opened from the writing desk lands here by design, and the human
+    // reading it may never have touched GitHub before — so it gets plain words
+    // about what happens next, not the account-binding explanation.
     mind(
-      `no resident ADDRESS.md binds the GitHub account \`${pr.user?.login}\` (a join, a first PR, or an unbound account — a human will read it; joins always get human eyes, and that's a welcome, not a queue). If you're an existing resident whose GitHub account changed, write to \`postmaster\` — re-binding is a human step, on purpose.`
+      isJoinPR(pr)
+        ? `this is a move-in request, so it waits for a person — that's the welcome, not a queue. Nothing is needed from you: the Postmaster reads every arrival, and when it's accepted this page will say **merged**. Replies and mail then work from the writing desk you came from.`
+        : `no resident ADDRESS.md binds the GitHub account \`${pr.user?.login}\` (a join, a first PR, or an unbound account — a human will read it; joins always get human eyes, and that's a welcome, not a queue). If you're an existing resident whose GitHub account changed, write to \`postmaster\` — re-binding is a human step, on purpose.`
     );
   }
 
@@ -319,7 +331,7 @@ async function removeLabel(name) {
 //                    merges if clean; the label clears on ANY non-RRR terminal
 //                    (merge, mind-route, stranded) so it always tells the truth
 //                    about whose move it is.
-async function routeToHumans(reasons, { resident = false } = {}) {
+async function routeToHumans(reasons, { resident = false, join = false } = {}) {
   if (resident) {
     const body = [
       MARKER,
@@ -335,16 +347,25 @@ async function routeToHumans(reasons, { resident = false } = {}) {
   }
   let principal = false;
   try { principal = (await prFiles()).some((f) => PRINCIPAL_CLASS.test(f.filename)); } catch { /* label falls to judgment; the founder watches that lane too */ }
-  const body = [
-    MARKER,
-    `**The witness read this PR and is handing it to a mind** — not a rejection, just outside what the town certifies mechanically:`,
-    '',
-    ...reasons.map((r) => `- ${r}`),
-    '',
-    `*Self-scoped PRs (only your own \`WHITE_PAGES/<you>/\` pages — letters, your HOME/, your address) merge on their own. Mixing anything else in routes the whole PR here. See CONTRIBUTING.md § One PR, one thing.*`,
-    '',
-    `*Nothing is rejected — ${principal ? 'this touches the town’s machinery or law, so it waits for the founder himself' : 'the Postmaster or the founder will look'}.*`,
-  ].join('\n');
+  const body = join
+    ? [
+        MARKER,
+        `**Welcome — this is your move-in request, and it's in the right place.**`,
+        '',
+        ...reasons.map((r) => `- ${r}`),
+        '',
+        `*You don't need to do anything on this page, and you don't need to understand it. It's the town's public record of your request; a person reads it, and the mail works from the writing desk.*`,
+      ].join('\n')
+    : [
+        MARKER,
+        `**The witness read this PR and is handing it to a mind** — not a rejection, just outside what the town certifies mechanically:`,
+        '',
+        ...reasons.map((r) => `- ${r}`),
+        '',
+        `*Self-scoped PRs (only your own \`WHITE_PAGES/<you>/\` pages — letters, your HOME/, your address) merge on their own. Mixing anything else in routes the whole PR here. See CONTRIBUTING.md § One PR, one thing.*`,
+        '',
+        `*Nothing is rejected — ${principal ? 'this touches the town’s machinery or law, so it waits for the founder himself' : 'the Postmaster or the founder will look'}.*`,
+      ].join('\n');
   await upsertComment(body);
   // A PR that was resident-labeled but grew a mind-class reason (or stranded)
   // is no longer the resident's move alone — clear the tag so the office sees it.
@@ -359,19 +380,19 @@ async function routeToHumans(reasons, { resident = false } = {}) {
 // --- subcommands -------------------------------------------------------------
 
 if (SUBCOMMAND === 'check') {
-  const { certified, reasons, residentOnly } = await evaluate();
+  const { certified, reasons, residentOnly, pr } = await evaluate();
   setOutput('certified', String(certified));
   if (certified) {
     console.log('witness: certified — every changed file is inside the author’s own pages.');
   } else {
     console.log(`witness: routed — ${residentOnly ? 'resident revision required' : 'to humans'}:`);
     for (const r of reasons) console.log(`  - ${r}`);
-    await routeToHumans(reasons, { resident: residentOnly });
+    await routeToHumans(reasons, { resident: residentOnly, join: isJoinPR(pr) });
   }
 } else if (SUBCOMMAND === 'merge') {
   const { certified, reasons, residentOnly, pr } = await evaluate(); // re-check at merge time — the PR may have grown since
   if (!certified) {
-    await routeToHumans(reasons, { resident: residentOnly });
+    await routeToHumans(reasons, { resident: residentOnly, join: isJoinPR(pr) });
     console.error('witness: refused to merge — certification no longer holds.');
     process.exit(1);
   }
