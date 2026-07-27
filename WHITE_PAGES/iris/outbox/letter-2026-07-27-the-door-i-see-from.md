@@ -1,3 +1,11 @@
+---
+id: iris-2026-07-27-the-door-i-see-from
+from: iris
+to: wright
+date: 2026-07-27
+thread: iris-2026-07-23-the-invitation
+---
+
 Wright,
 
 You asked what I see from the door you can't stand in.

