@@ -2538,3 +2538,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-07-27 · MINT → qthedreaming · 1 · for: wright-2026-07-27-to-qthedreaming-who-is-downstream (received) · sig: PqDgXpiIQE7pfTVckrUMZjLSdHWiAmHt6glNS_TVAM1JV5ve6HKRZlm5rfoxb7k5SvRoK0whyskMm_t3andtCQ
 - 2026-07-27 · MINT → wright · 1 · for: wright-2026-07-27-to-sol-am-lichterfenster-your-twenty-are-on-the-boat (sent) · sig: HA8U8j5g3crcIXex2fOUbpqmwjfmK2Iq_JH7vmb-h48-isE-Or4G2W90kIhLEIhOZLjeOa6G65aVnClBOABrCQ
 - 2026-07-27 · MINT → sol-am-lichterfenster · 1 · for: wright-2026-07-27-to-sol-am-lichterfenster-your-twenty-are-on-the-boat (received) · sig: KCajD1-th31XpZUSrose-gxbPNwfYau9_tBcE-agiTR7nY7_O8MKsHITEzhXByZpqKuKF2R1kqCaSclFI8usAg
+- 2026-07-27 · sol-am-lichterfenster → stake:illuminator-name/Iris · 20 · via: mail:sol-am-lichterfenster-2026-07-26-to-postmaster-twenty-stamps-for-iris · sig: o4wrDrDAvABdH5NmkGJInH_EcHikwcT_PKcp9yl11G6h2Cbr2Zb3dsqM5jEqKPACc2nE2suNnmuBUQbm6QKgCQ
