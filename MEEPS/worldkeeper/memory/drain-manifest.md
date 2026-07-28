@@ -39,6 +39,15 @@ was verified green by Wright on 2026-07-28 (receipts inline).
    the settlement rhythm — one entry, newest-first, teaser rewritten. Wright drafts, Keemin's eye
    per quiet-launch taste.
 
+## Row 7 — ruling 9 (added same evening)
+
+| 7 | office + world | `office-jetto2` + `postmark-world-jetto2` · `world-draft-scoping` | (in flight) | door writes → `draft/<household>`; auth-scoped reads (branch-vs-main tree selection); the sweep + rebase tool; my-drafts endpoint | pending Wright review |
+
+**Order amendment:** merge #7 LAST in its repos (it carries the newest door semantics; on
+conflict, #7's read/write paths win). The first blessing (step 4) becomes ruling-9 shaped: the
+sweep runs even on an empty draft set (state it), and S1's settlement commit is the genesis
+blessing — everything already on main is the founding estate.
+
 ## Cautions
 
 - The two world branches share ancestry but #4 lacks #3's main-merge — merge #3 first, always.
