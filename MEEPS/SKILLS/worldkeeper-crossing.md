@@ -33,11 +33,12 @@ crossing; this file deliberately does not duplicate them (a second copy is a fut
 - Holds and quarantine lists are **empty at birth**; an empty pass is stated, never skipped.
   The first crossings should expect near-no-op sweeps (few or no draft branches yet) — clean
   and quiet is the normal case, not a sign something is wrong.
-- Scheduled dispatch is **WIRED** (2026-07-28 eve): the durable task fires this round at both
-  crossings (`MEEPS/worldkeeper/map.md § Standing scheduled task`). The pin push to protected
-  site main still rides the deploy-key lane, founder-assisted until wired into your hands —
-  **if the pin push bounces at a headless fire, bless + report and leave the pin for a
-  founder; never force, never substitute another route.**
+- Scheduled dispatch is the **Codex heartbeat** returning to the keeper's live task
+  (`MEEPS/worldkeeper/map.md § Standing scheduled task` — stood up 2026-07-28 eve; the keeper
+  records the automation id there at creation). The pin push to protected site main still
+  rides the deploy-key lane, founder-assisted until wired into your hands — **if the pin push
+  bounces at a scheduled fire, bless + report and leave the pin for a founder; never force,
+  never substitute another route.**
 
 ## Boundaries
 

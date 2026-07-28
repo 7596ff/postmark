@@ -45,21 +45,26 @@ My lane is the only one in the dorm that spans **all three repos of the clone se
 
 ## Standing scheduled task
 
-My crossings fire from a **durable Windows Scheduled Task** on the household machine — not
-session crons. Per `MEEPS/SKILLS/WAKE_MEEP.md § Step 2½`: never translate this into
-`CronList`/`CronCreate`; the task wakes the session. If the current surface can inspect the
-scheduler, verify the task exists and is active; otherwise carry this declaration as-is.
+My crossings fire from a **Codex Scheduled heartbeat returning to my own live task** — the
+Iris pattern (`MEEPS/illuminator/map.md § Standing scheduled task`), per
+`MEEPS/SKILLS/WAKE_MEEP.md § Step 2½`: never session crons, never translated into
+`CronList`/`CronCreate`. Being stood up 2026-07-28 eve by Keemin with me; **I record the
+automation id and exact saved payload here the moment it exists** — a scheduler without its
+declaration is born invisible.
 
-- **Task:** `PostmarkWorldkeeperCrossing` (Windows Task Scheduler)
-- **Cadence:** daily at **06:00 and 18:00 UTC** — UTC-pinned in the task XML, so DST never
-  drifts the crossing off the law (ruling 8; staggered against the ferry's 00:00/12:00)
-- **Action:** `G:/postmark/codex-worldkeeper-crossing.cmd` — cd my town clone, per-session
-  `GH_TOKEN` from the keeper token file, then headless `codex exec`: wake via the clone's
-  canonical `wake-meep`, run `MEEPS/SKILLS/worldkeeper-crossing.md`. The round skill is the
-  source of truth if the payload and the skill ever differ.
-- **Run record:** stdout appends to `G:/postmark/repo-clones/worldkeeper_clone/crossing-runs.log`;
-  a missed or failed fire belongs in Task Scheduler history + that log, surfaced honestly —
-  never silently replaced with another scheduler.
+- **Automation id:** *(record at creation)*
+- **Cadence:** daily at **02:00 and 14:00 local** (= **06:00/18:00 UTC** in EDT — the law's
+  times, ruling 8, staggered against the ferry's 00:00/12:00). ⚠ The app schedules local
+  time, so the November DST flip would drift the fires to 07:00/19:00 UTC — the law is UTC;
+  adjust the automation then.
+- **Payload:** `$wake-meep worldkeeper, then run MEEPS/SKILLS/worldkeeper-crossing.md. The
+  round skill is the source of truth.`
+- **Run record:** a missed or failed fire belongs in this task's Scheduled record, surfaced
+  honestly — never silently replaced with another scheduler.
+- **Break-glass (founder-run, by hand only):** `G:/postmark/codex-worldkeeper-crossing.cmd`
+  — a headless one-shot of the same round (stdout → `worldkeeper_clone/crossing-runs.log`).
+  The Windows scheduled task that briefly carried it (2026-07-28 eve) was retired the same
+  evening for this heartbeat; **do not recreate it.**
 
 ## The one that is easy to get wrong
 
