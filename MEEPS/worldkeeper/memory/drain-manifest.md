@@ -58,6 +58,16 @@ the true rebase. This is the scale posture promised in ruling 9's design convers
 scales with active drafters per crossing, not household count") — it ships before S1, with the
 sweep fixtures rerun as its test.
 
+## Row 8 — the integration branch (SUPERSEDES rows 4, 6, and 7; Wright-reviewed green)
+
+| 8 | world | worktree `postmark-world-jetto2-world-integration` · `world-integration` | `ab3569f` | rulings 8+9 merged (conflict-free) + reset-vs-rebase fast path (both modes fixture-proven) + viewer two-axis model (the True World ⟷ My World · just mine; five states DOM-asserted) | 47/47 (Wright-run) · lint CLEAN 294 · fold 0 errors, 5 stake rows |
+| 8 | office | worktree `office-jetto2-world-integration` · `world-integration` | `87f9740` | rulings 8+9 merged (3 conflicts, scoping-wins-paths/stake-unioned) + `world_my_marks` portfolio (3 exclusive categories, anonymous 401) | 122/122 (Jetto-run) |
+
+**Drain order simplifies:** the world and office merges each take ONE branch —
+`world-integration` — in place of rows 4/6/7's three-way sequence. Row 3 (walk, world repo)
+merges FIRST as before; then `world-integration`. Rows 4, 6, 7 are historical inputs, already
+folded in. The site-islands work (in flight) will be row 9 in the site repo.
+
 ## Cautions
 
 - The two world branches share ancestry but #4 lacks #3's main-merge — merge #3 first, always.
