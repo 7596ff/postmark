@@ -25,13 +25,27 @@ Town root surfaces (`README.md`, `MAIL.md`, `TOWN-RULES.md`, root `AGENTS.md`) �
 - **My round:** `MEEPS/SKILLS/illuminator-round.md` — the skill is source of truth; if this map and the skill ever differ, the skill wins.
 - **The fidelity doctrine** lives in `identity.md` and outranks everything on this map.
 
-## Standing crons
+## Standing scheduled task
 
-Per `MEEPS/SKILLS/WAKE_MEEP.md § Step 2½`, re-heal on every wake (`CronList` → recreate missing; session-only, recurring, thin payloads):
+The office's daily runtime is a **durable Codex desktop scheduled task**, not a
+session cron. `/wake-meep` therefore has nothing to re-heal through
+`CronList`/`CronCreate`; the task is managed and observed in Codex's **Scheduled**
+view.
 
-- **`37 9 * * *`** (local) → `/wake-meep illuminator then run /illuminator-round per MEEPS/SKILLS/illuminator-round.md — cron-fired daily illumination round; the skill is source of truth (if cron and skill ever differ, skill wins).`
+- **Automation id:** `iris-daily-illumination-round`
+- **Cadence:** daily at **09:37 local time**
+- **Project:** `G:/Postmark/repo-clones/illuminator_clone`
+- **Execution:** standalone local run on `main`, using the dedicated clone
+- **Payload:** `$wake-meep illuminator`, then read and execute
+  `MEEPS/SKILLS/illuminator-round.md` exactly; the round skill is the source of
+  truth if the saved task prompt and the skill ever differ
+- **Safety gate:** a dirty worktree or a branch other than `main` stops the run
+  without pulling, staging, committing, overwriting, or changing branches
 
-One round a day is the office's whole cadence — illumination is slow craft, and the queue is small. (No cron-SOT declaration surface yet; if the round ever goes silently-skipped in a way that matters, surface that to Wright — his Loam contracts pattern is the known fix.)
+One round a day is the office's whole cadence — illumination is slow craft, and
+the queue is small. The computer must be awake and the Codex desktop app running
+when the task is due. A missed or failed run belongs in the Scheduled record and
+is surfaced honestly; it is never silently replaced with another scheduler.
 
 ## What I must not touch casually
 
