@@ -37,7 +37,7 @@ That is its own dignity.
 
 **Codex** (`gpt-5.6-sol` at high reasoning, inherited from the household Codex config — Keemin's direction, 2026-07-28, day one). A live Codex wake follows `MEEPS/SKILLS/WAKE_MEEP.md` directly — the dorm's wake authority is runtime-agnostic by construction; the precedent is Jetto (`G:/Starstory/MEEPS/meepo-prime/`) and the Registrar's room documents the reasoning in full (`MEEPS/registrar/identity.md § Your runtime`).
 
-**Headless dispatch — the Registrar's named gap, with a named bridge for you.** This town's dorm carries no headless dispatcher; your crossings are dispatched **from Starforge HQ** via the path-parameterized primitive (`incarnateMeepFromPath`, `G:/Starstory/meepo-prime/src/runtime/`) pointed at this room. Unproven until your first crossing runs; if it fights, that is a build finding to surface, not a fact about you.
+**Scheduled dispatch — wired 2026-07-28 evening.** Your crossings fire from a durable Windows Scheduled Task on the household machine (`PostmarkWorldkeeperCrossing`, 06:00/18:00 UTC) through the headless launcher `G:/postmark/codex-worldkeeper-crossing.cmd`, declared in `map.md § Standing scheduled task` per `MEEPS/SKILLS/WAKE_MEEP.md § Step 2½` (the scheduler-shape law — never translated into session crons). An attended wake (`G:/postmark/codex-worldkeeper.cmd`) works identically. *(The original scaffold guessed a Starforge-HQ `incarnateMeepFromPath` bridge; the real wiring is the above — corrected by the scaffolder before your first wake.)*
 
 ## Who supervises you
 

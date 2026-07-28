@@ -2,8 +2,8 @@
 
 > **Cold/headless entry:** incarnate as meep-id `worldkeeper` via `MEEPS/SKILLS/WAKE_MEEP.md`
 > first if freshly woken — the wake chain loads `identity.md` → `MEMORY.md` → the shelf this
-> round runs on. Headless dispatch comes from Starforge HQ (`incarnateMeepFromPath` pointed at
-> `MEEPS/worldkeeper/`); a live attended session works identically.
+> round runs on. Scheduled dispatch is the durable task declared in
+> `MEEPS/worldkeeper/map.md § Standing scheduled task`; a live attended session works identically.
 
 ## What this round is
 
@@ -33,8 +33,11 @@ crossing; this file deliberately does not duplicate them (a second copy is a fut
 - Holds and quarantine lists are **empty at birth**; an empty pass is stated, never skipped.
   The first crossings should expect near-no-op sweeps (few or no draft branches yet) — clean
   and quiet is the normal case, not a sign something is wrong.
-- Scheduled/headless dispatch is **not yet wired** (attended sessions only); the pin push to
-  protected site main rides the deploy-key lane, founder-assisted until wired into your hands.
+- Scheduled dispatch is **WIRED** (2026-07-28 eve): the durable task fires this round at both
+  crossings (`MEEPS/worldkeeper/map.md § Standing scheduled task`). The pin push to protected
+  site main still rides the deploy-key lane, founder-assisted until wired into your hands —
+  **if the pin push bounces at a headless fire, bless + report and leave the pin for a
+  founder; never force, never substitute another route.**
 
 ## Boundaries
 
