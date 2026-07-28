@@ -12,6 +12,21 @@ Ruled already, and NOT re-litigated here: extend the sealed mint (P0, "B"); the
 open escrows read as stable signed inputs; retirement gated on zero escrow; the stamp
 ledger stays the one money ledger; dregg's conformance corpus as a hard requirement.
 
+## Adjudication applied — 2026-07-28
+
+This remains the draft's judgment record; the gold plan's activity-log entry
+`2026-07-28 — the draft-calls adjudication slate + RULING 8` is the ruling
+authority. The P3 build gate applies it as follows:
+
+- calls 1 and 2: blessed verbatim — the two world-mark line shapes stand and
+  `world-mark` remains reserved out of ballot topics;
+- calls 3 and 8: ratified — unstake has no friction and self-stake is allowed;
+- call 4: **reversed** — there is no household cap and therefore no cap clip;
+  a stake clips only to the resident's liquid balance;
+- call 6: extended by the ruled economy subset — the town still derives the
+  world's input, but mark weight is now `Σ open escrow + k × unique staking
+  households`, with household identity resolved from the town's pins.
+
 ---
 
 ## 1. The line shape — a mark id carries a slash, so "reuse the existing shape" can't be literal
@@ -70,7 +85,7 @@ a mark's ✦weight, which the whole town sees. If that turns out to matter, (b) 
 cheapest fix and needs no grammar change — a date comparison in the engine.
 **Reversible:** fully.
 
-## 4. Q4 — caps: 20 per household per mark, as a constant, clipping not bouncing
+## 4. Q4 — caps: draft chose 20 per household; build gate reversed it to NO CAP
 
 Explicitly deferred to this gate. The ballot reads
 `cap_per_household_per_candidate` from a per-topic JSON file; marks have no such file.
@@ -85,6 +100,9 @@ Defined **once** in `stamp-mint.mjs` and imported by the verifier and the door, 
 and gate cannot disagree. The cap is on what is **currently** staked, so an unstake
 returns headroom. **Reversible:** yes — but note that lowering it later would make
 already-lawful history unlawful, so it is easier to raise than to lower.
+
+**ADJUDICATED 2026-07-28:** option (a), no cap. The draft choice above is
+preserved as the record of what was on the table; it is not the built law.
 
 ## 5. Where world-stake lines live: the main ledger
 

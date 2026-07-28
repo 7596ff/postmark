@@ -33,7 +33,6 @@ import {
   parseDeliveries, householdKeys, deriveMints, deriveFriendshipMints, combineDerived,
   settlementDecision, meepChecker, rulesLine,
   parseStampLedger, sealChain, foldBalances, parseLaws, classifyEntry, walkLedger,
-  WORLD_MARK_CAP_PER_HOUSEHOLD,
 } from './stamp-mint.mjs';
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
@@ -116,7 +115,6 @@ export function verifyStampLedger(repo, { pubkeyPem } = {}) {
     };
     const voteMinted = new Set();       // `${handle}|${topic}`
     const stakedByTopic = new Map();    // `${topic}|${candidate}|${householdKey}` -> total staked
-    const markStakeByHousehold = new Map(); // `${mark}|${householdKey}` -> currently staked
     const markPosition = new Map();     // `${mark}|${handle}` -> currently open escrow
     const hasStake = new Set();         // `${handle}|${topic}`
     const ballots = new Map();          // topic -> file (cached)
@@ -149,24 +147,18 @@ export function verifyStampLedger(repo, { pubkeyPem } = {}) {
       }
 
       // ── world-mark stakes (write-release P3) ─────────────────────────────
-      // Two of the three laws here are already enforced by the generic movement
-      // fold below and are deliberately NOT repeated: a stake beyond the staker's
-      // balance overdraws the handle, and an unstake beyond a mark's total escrow
-      // overdraws the `stake:world-mark/…` account. What the generic fold CANNOT
-      // see is ownership — the escrow account is per MARK while a position is per
-      // (mark, handle), so without the check below one resident could unstake
-      // another's stamps and every account would still be non-negative. That hole
-      // is the reason this branch exists.
+      // The generic movement fold below already enforces two accounting
+      // invariants, so they are deliberately NOT repeated: a stake beyond the
+      // staker's balance overdraws the handle, and an unstake beyond a mark's
+      // total escrow overdraws the `stake:world-mark/…` account. What the generic
+      // fold CANNOT see is ownership — the escrow account is per MARK while a
+      // position is per (mark, handle), so without the check below one resident
+      // could unstake another's stamps and every account would still be
+      // non-negative. That hole is the reason this branch exists.
       if (cls.kind === 'world-stake') {
         if (lawAt(cls.date).meeps.has(cls.handle)) {
           problems.push(`line ${lineNo}: LAWFUL fails — meep "${cls.handle}" cannot stake`); break;
         }
-        const hkey = `${cls.mark}|${hh(cls.handle, cls.date)}`;
-        const total = (markStakeByHousehold.get(hkey) ?? 0) + cls.n;
-        if (total > WORLD_MARK_CAP_PER_HOUSEHOLD) {
-          problems.push(`line ${lineNo}: LAWFUL fails — household stake on world-mark ${cls.mark} totals ${total}, cap is ${WORLD_MARK_CAP_PER_HOUSEHOLD}`); break;
-        }
-        markStakeByHousehold.set(hkey, total);
         const pk = `${cls.mark}|${cls.handle}`;
         markPosition.set(pk, (markPosition.get(pk) ?? 0) + cls.n);
       }
@@ -178,10 +170,6 @@ export function verifyStampLedger(repo, { pubkeyPem } = {}) {
           problems.push(`line ${lineNo}: LAWFUL fails — ${cls.handle} unstakes ${cls.n} from world-mark ${cls.mark} but holds only ${open} there`); break;
         }
         markPosition.set(pk, open - cls.n);
-        // an unstake frees the household's cap headroom again — the cap is on what
-        // is CURRENTLY staked, not on what was ever staked
-        const hkey = `${cls.mark}|${hh(cls.handle, cls.date)}`;
-        markStakeByHousehold.set(hkey, Math.max(0, (markStakeByHousehold.get(hkey) ?? 0) - cls.n));
       }
 
       if (cls.kind === 'gift') {

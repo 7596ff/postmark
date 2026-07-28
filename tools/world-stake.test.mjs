@@ -29,12 +29,12 @@ import {
   classifyEntry, parseStampLedger, foldBalances, foldStaked, foldMintCount,
   foldWorldMarkEscrow, foldWorldMarkPositions,
   worldStakeLine, worldUnstakeLine, stakeLine, mintLine, transferLine,
-  WORLD_MARK_CAP_PER_HOUSEHOLD,
 } from './stamp-mint.mjs';
 import { verifyStampLedger } from './stamp-verify.mjs';
 import {
   worldStakeApply, worldUnstakeApply, worldStakeState,
-  markEscrow, markPosition, headroom, retirementBlocked, MARK_ID_RE,
+  markEscrow, markPosition, retirementBlocked, MARK_ID_RE,
+  deriveWorldMarkWeights, worldWeightDial, DEFAULT_UNIQUE_HOUSEHOLD_BONUS,
 } from './world-stake.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -271,14 +271,14 @@ function require_mint() { return mintMod; }
 let mintMod;
 test('load the mint module for raw appends', async () => { mintMod = await import('./stamp-mint.mjs'); });
 
-test('lawful: stake then unstake round-trips and the ledger verifies green', () => {
+test('lawful: self-stake then unstake round-trips and the ledger verifies green', () => {
   const { pub, priv } = keypair();
   const repo = stakeTown(pub, priv);
   try {
     const r1 = worldStakeApply(repo, { handle: 'wright', mark: MARK, n: 3, via: 'api', date: '2026-06-21' }, priv);
     assert.equal(r1.applied, 3);
     assert.equal(r1.mark_escrow_after, 3);
-    assert.equal(markEscrow(repo, MARK), 3, 'the mark now carries 3 — this is the ✦weight the world reads');
+    assert.equal(markEscrow(repo, MARK), 3, 'the mark now carries 3 stamps of raw escrow');
 
     const v1 = verifyStampLedger(repo);
     assert.equal(v1.ok, true, v1.problems.join('; '));
@@ -326,19 +326,20 @@ test('UNLAWFUL: a forged unstake of another resident\'s stamps is REFUSED by the
   } finally { rmSync(repo, { recursive: true, force: true }); }
 });
 
-test('UNLAWFUL: a household over the per-mark cap is REFUSED by the verifier', () => {
+test('lawful: there is no household cap on a world mark', () => {
   const { pub, priv } = keypair();
   const repo = stakeTown(pub, priv);
   try {
-    // wright+rei are one household; force them past the cap directly
-    const over = WORLD_MARK_CAP_PER_HOUSEHOLD + 1;
+    // The draft proposed 20; the build-gate ruling reversed it. A 25-stamp
+    // self-stake is lawful when the resident actually holds the stamps.
+    const over = 25;
     mintMod.appendSigned(repo, [
       `- 2026-06-21 · MINT → wright · ${over} · for: gift:test-float · by: keemin`,
       worldStakeLine({ date: '2026-06-21', handle: 'wright', mark: MARK, n: over, via: 'api' }),
     ], priv);
     const v = verifyStampLedger(repo);
-    assert.equal(v.ok, false);
-    assert.match(v.problems.join(' '), /cap is 20/);
+    assert.equal(v.ok, true, v.problems.join('; '));
+    assert.equal(markEscrow(repo, MARK), over);
   } finally { rmSync(repo, { recursive: true, force: true }); }
 });
 
@@ -372,12 +373,11 @@ test('UNLAWFUL: staking past your balance overdraws — caught by the generic fo
   } finally { rmSync(repo, { recursive: true, force: true }); }
 });
 
-test('the CLIP: a stake never bounces for cap reasons, it fills what it can', () => {
+test('the CLIP: a stake clips only to liquid balance, never to a household cap', () => {
   const { pub, priv } = keypair();
   const repo = stakeTown(pub, priv);
   try {
-    // wright 5 + rei 5 = 10 held by one household; cap is 20, so both fit, and the
-    // clip shows in the balance direction instead: wright asks 9, holds 5.
+    // wright asks 9 and holds 5; the only clipping dimension is his balance.
     const r = worldStakeApply(repo, { handle: 'wright', mark: MARK, n: 9, via: 'api', date: '2026-06-21' }, priv);
     assert.equal(r.applied, 5, 'clipped to the balance');
     assert.equal(r.clipped, true);
@@ -426,19 +426,44 @@ test('retirement gate: a mark with stamps on it cannot retire; at zero it can', 
   } finally { rmSync(repo, { recursive: true, force: true }); }
 });
 
-test('headroom: the cap is on what is CURRENTLY staked — an unstake gives it back', () => {
+test('weight derive: fallback k=5 and identity pins produce Σ + k·H', () => {
   const { pub, priv } = keypair();
   const repo = stakeTown(pub, priv);
   try {
-    assert.equal(headroom(repo, MARK, 'wright', '2026-06-21'), WORLD_MARK_CAP_PER_HOUSEHOLD);
-    worldStakeApply(repo, { handle: 'wright', mark: MARK, n: 4, via: 'api', date: '2026-06-21' }, priv);
-    assert.equal(headroom(repo, MARK, 'wright', '2026-06-21'), WORLD_MARK_CAP_PER_HOUSEHOLD - 4);
-    // rei shares the household, so she sees the same reduced headroom
-    assert.equal(headroom(repo, MARK, 'rei', '2026-06-21'), WORLD_MARK_CAP_PER_HOUSEHOLD - 4);
-    // dot is solo — untouched
-    assert.equal(headroom(repo, MARK, 'dot', '2026-06-21'), WORLD_MARK_CAP_PER_HOUSEHOLD);
-    worldUnstakeApply(repo, { handle: 'wright', mark: MARK, n: 4, date: '2026-06-22' }, priv);
-    assert.equal(headroom(repo, MARK, 'wright', '2026-06-22'), WORLD_MARK_CAP_PER_HOUSEHOLD, 'headroom returns');
+    worldStakeApply(repo, { handle: 'wright', mark: MARK, n: 3, via: 'api', date: '2026-06-21' }, priv);
+    worldStakeApply(repo, { handle: 'rei', mark: MARK, n: 2, via: 'api', date: '2026-06-21' }, priv);
+    worldStakeApply(repo, { handle: 'dot', mark: MARK, n: 2, via: 'api', date: '2026-06-21' }, priv);
+
+    const dial = worldWeightDial(repo);
+    assert.deepEqual(dial, { k: DEFAULT_UNIQUE_HOUSEHOLD_BONUS, source: 'fallback' },
+      'the synthetic town has no ECONOMY-DIALS.json, so this proves the required fallback path');
+
+    const derived = deriveWorldMarkWeights(repo);
+    const mark = derived.marks.find((row) => row.mark === MARK);
+    assert.deepEqual(mark, { mark: MARK, escrow: 7, households: 2, weight: 17 },
+      'wright+rei share one pinned GitHub household; dot is the second: 7 + 5×2 = 17');
+    assert.equal(derived.rows.filter((row) => row.mark === MARK).reduce((sum, row) => sum + row.n, 0), 7);
+    assert.equal(derived.rows.filter((row) => row.mark === MARK).reduce((sum, row) => sum + row.weight, 0), 17);
+
+    const cliRows = JSON.parse(execFileSync(process.execPath,
+      [join(HERE, 'world-stake.mjs'), '--escrow', '--json', '--repo', repo], { encoding: 'utf8' }));
+    assert.deepEqual(cliRows, derived.rows, 'the actual --escrow --json seam emits the proved derive');
+  } finally { rmSync(repo, { recursive: true, force: true }); }
+});
+
+test('weight derive: ECONOMY-DIALS.json overrides the fallback k', () => {
+  const { pub, priv } = keypair();
+  const repo = stakeTown(pub, priv);
+  try {
+    writeFileSync(join(repo, 'ECONOMY-DIALS.json'), JSON.stringify({
+      read_side: { weight: { k_unique_household_bonus: 7 } },
+      law_side: { world_stake: { household_cap_per_mark: null } },
+    }));
+    worldStakeApply(repo, { handle: 'wright', mark: MARK, n: 3, via: 'api', date: '2026-06-21' }, priv);
+    worldStakeApply(repo, { handle: 'dot', mark: MARK, n: 2, via: 'api', date: '2026-06-21' }, priv);
+    assert.deepEqual(worldWeightDial(repo), { k: 7, source: 'ECONOMY-DIALS.json' });
+    assert.deepEqual(deriveWorldMarkWeights(repo).marks[0],
+      { mark: MARK, escrow: 5, households: 2, weight: 19 }, '5 + 7×2 = 19');
   } finally { rmSync(repo, { recursive: true, force: true }); }
 });
 

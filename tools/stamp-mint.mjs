@@ -93,13 +93,6 @@ const RULES_V1 = 'stamps-v1';
 const GENESIS_SEAL_SEED = 'postmark-stamps-v1';
 const CAP_SENDS = 5;
 const CAP_RECEIVES = 5;
-// World-mark stakes: how much one household may hold on one mark at a time
-// (write-release P3, Q4 — NOT ruled by Keemin; this is the build gate's provisional
-// call, recorded in the draft's CALLS.md). It matches the ballot's default cap so
-// the number a resident already learned at the vote carries over, and it is a cap
-// on what is CURRENTLY staked — an unstake frees headroom again. One definition
-// here so the verifier and the office door can never disagree about the law.
-export const WORLD_MARK_CAP_PER_HOUSEHOLD = 20;
 // stamps-v3 (budding-friendship milestone): the default rung ladder the office
 // pen declares. "threshold:reward" per rung, each way, once per pair per rung.
 // The held 50/100 rungs are deliberately NOT here — adding a rung is a dated law
@@ -638,11 +631,10 @@ export function foldStaked(entries) {
   return st;
 }
 
-// Open escrow per world-mark: stakes minus unstakes, the number the world's
-// compile reads as a mark's ✦weight. A mark absent here has none.
-// This is the "stable signed inputs, no balance-coupled dimming" the P0 ruling
-// asked for: it is a fold over sealed lines, so it cannot move when a resident's
-// liquid balance moves — only when they stake or unstake on purpose.
+// Open escrow per world-mark: stakes minus unstakes. A mark absent here has none.
+// This is the stable signed input to the read-side weight derive: it cannot move
+// when a resident's liquid balance moves — only when someone stakes or unstakes
+// on purpose. The derive adds the ruled unique-household breadth term.
 export function foldWorldMarkEscrow(entries) {
   const esc = new Map(); // mark id -> open escrow
   for (const e of entries) {
