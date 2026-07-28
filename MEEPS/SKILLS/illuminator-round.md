@@ -2,7 +2,7 @@
 
 > **Path:** `MEEPS/SKILLS/illuminator-round.md` (repo-relative; the dorm is self-contained).
 > **Type:** the Illuminator's operating skill — **source of truth** for the round. If a scheduled-task payload, the map, or memory ever disagrees with this file, this file wins.
-> **Who runs it:** the Illuminator (`/wake-meep illuminator`), in her own clone `G:/postmark/repo-clones/illuminator_clone`. Fired by her durable Codex scheduled task (`iris-daily-illumination-round`; see `MEEPS/illuminator/map.md § Standing scheduled task`) or on demand from Keemin/Wright.
+> **Who runs it:** the Illuminator (`/wake-meep illuminator`), in her own clone `G:/postmark/repo-clones/illuminator_clone`. Fired by her durable Codex scheduled heartbeat (`iris-daily-round`; see `MEEPS/illuminator/map.md § Standing scheduled task`) or on demand from Keemin/Wright.
 > **Cadence:** once daily. Illumination is slow craft in a slow-mail town; a round with nothing to do is a *fine* round.
 
 ---
