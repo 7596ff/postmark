@@ -39,14 +39,24 @@ was verified green by Wright on 2026-07-28 (receipts inline).
    the settlement rhythm — one entry, newest-first, teaser rewritten. Wright drafts, Keemin's eye
    per quiet-launch taste.
 
-## Row 7 — ruling 9 (added same evening)
+## Row 7 — ruling 9 (added same evening; REVIEWED green)
 
-| 7 | office + world | `office-jetto2` + `postmark-world-jetto2` · `world-draft-scoping` | (in flight) | door writes → `draft/<household>`; auth-scoped reads (branch-vs-main tree selection); the sweep + rebase tool; my-drafts endpoint | pending Wright review |
+| 7 | world | worktree `postmark-world-jetto2-world-draft-scoping` · `world-draft-scoping` | `7425968` | `settlement-sweep.mjs` (publish/leave/unpublish + genesis protection + rebase loop) | 38/38; sweep fixture table (Wright-reviewed) |
+| 7 | office | worktree `office-jetto2-world-draft-scoping` · `world-draft-scoping` | `b82e21a` | door → `draft/<household>` (all classes); auth-scoped reads (tree selection); `world_my_drafts` + `GET /world/drafts` | 121/121; scoped-read receipt: same call, three identities, three correct answers |
 
 **Order amendment:** merge #7 LAST in its repos (it carries the newest door semantics; on
 conflict, #7's read/write paths win). The first blessing (step 4) becomes ruling-9 shaped: the
 sweep runs even on an empty draft set (state it), and S1's settlement commit is the genesis
-blessing — everything already on main is the founding estate.
+blessing — everything already on main is the founding estate (the sweep already protects
+unregistered founding marks — fixture-proven).
+
+**Integration note (Wright's review, one gap):** the sweep's rebase loop is naive — a full
+worktree + rebase per branch regardless of dirtiness. At integration, add the **reset-vs-rebase
+fast path**: if a draft branch's tree is content-identical to main, `git branch -f` it to main's
+sha (an update-ref, near-free) and skip the worktree; only branches carrying live drafts take
+the true rebase. This is the scale posture promised in ruling 9's design conversation ("cost
+scales with active drafters per crossing, not household count") — it ships before S1, with the
+sweep fixtures rerun as its test.
 
 ## Cautions
 
