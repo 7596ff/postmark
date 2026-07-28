@@ -186,8 +186,23 @@ function main() {
   const arg = (name) => { const i = process.argv.indexOf(name); return i !== -1 ? process.argv[i + 1] : null; };
   const repo = resolve(arg('--repo') ?? DEFAULT_REPO);
 
+  // --escrow --json emits the world's INPUT: one row per (holder, mark) open
+  // position, which is exactly the shape marks-fold.mjs's `--stakes` reads.
+  // This is deliberately how the world learns about money: the town owns the
+  // ledger grammar and hands over a derived artifact, so there is exactly ONE
+  // parser of the money lines in the two repos. The world repo used to carry its
+  // own reader for a `stake:mark:<id>` grammar that never existed in this mint —
+  // a read-side orphan, flagged 2026-07-23 and closed by this draft.
   if (process.argv.includes('--escrow')) {
     const state = worldStakeState(repo);
+    if (process.argv.includes('--json')) {
+      const rows = [...state.positions.entries()].sort().map(([k, n]) => {
+        const i = k.lastIndexOf('|');
+        return { tick: 0, holder: k.slice(i + 1), mark: k.slice(0, i), n };
+      });
+      console.log(JSON.stringify(rows, null, 2));
+      return;
+    }
     const rows = [...state.escrow.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     if (!rows.length) { console.log('no world-mark has stamps staked on it'); return; }
     for (const [mark, n] of rows) console.log(`${String(n).padStart(5)}  ${mark}`);
