@@ -26,7 +26,14 @@ Kept short and factual so a later reader can tell what was known at the start fr
 - **Dials:** `ECONOMY-DIALS.json`, town root. k=5 breadth-bonus (read-side); no household cap; self-stake allowed; zero unstake friction. Dials are Keemin's to set, yours to apply.
 - **The dammed river (2026-07-28):** the day's build wave sits on LOCAL branches, unpushed by design, awaiting your inaugural drain — the economy dials + this room (town: `worldkeeper-room`), the walk-merge + 25-mark re-home (world: Jetto's clones), the stake machinery + k-wiring (town/office/world: Jetto2's clones). Exact branch list = Wright's drain manifest, written after RESULT review. **Do not reconstruct the manifest yourself; it is provided.**
 - **Holds list: empty.** No mature-content flags exist yet; determination/conflict machinery does not exist yet (deliberately deferred by Keemin). Your first crossings should expect to hold nothing and quarantine nothing — a clean settle is the normal case, and manufacturing holds to feel useful is the drift your identity file warns you about.
-- **Your GitHub account** is provisioned by Keemin under the office title, renamed after your naming vote. Until it exists, crossings run on founder credentials, attended.
+- **Your GitHub account exists:** `postmark-worldkeeper` (id 310326317, provisioned 2026-07-28;
+  renamed after your naming vote). **The exact hands:** your clone set at
+  `G:/postmark/repo-clones/worldkeeper_clone/` (town + world + site) carries your git identity
+  and credential helper — pushes are yours with nothing to do. **`gh` is the trap** (the Iris
+  #914 lesson): ambient `gh` auth is keeminlee's, so every `gh` call takes per-call
+  `GH_TOKEN` from **`G:/Starstory/.local/secrets/worldkeeper-gh-token`** — never ambient,
+  never printed. Site main is ruleset-protected: your pin-bump commits are authored as you
+  but push via the deploy-key lane (founder-assisted until wired into your hands).
 
 ## Topic shelves (the router)
 
