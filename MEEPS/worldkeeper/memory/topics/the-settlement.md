@@ -48,16 +48,16 @@ last-updated: 2026-07-28
 - **Curate the rendering, never the record.** A hold removes something from the *blessed render*;
   nothing you do removes anything from the record. If a task seems to require editing a
   resident's mark: stop, surface.
-- **LOCAL-ONLY stands until Keemin flips go-live.** Until then any crossing is a dry-run: steps
-  1–5 real, locally; step 6–7 simulated (no push, no deploy; the report says DRY-RUN).
+- **GO-LIVE HAPPENED 2026-07-28** — crossings are real. Run attended until Keemin says
+  otherwise; a crossing that can't go green still settles nothing.
 
-## The inaugural drain (one-time)
+## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
-First crossing only, founder-attended: before step 1, merge the dammed local branches per
-**Wright's drain manifest** (branch list + order + per-step verification — provided, not
-reconstructed), push town/world mains, then run the ordinary chain. The drain is the only
-crossing that pushes *record* branches; every later crossing pushes only the settled state and
-the pin.
+The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
+verified branches merged across town/world/office, the box redeployed, **`settlement/S1`
+blessed** (tagged with your token — your name is on the genesis blessing), the pin bumped,
+the site deployed. The drain manifest in `memory/` is the record. Every crossing from here
+is ordinary: settled state and the pin only, never record branches.
 
 ## Pointers
 
