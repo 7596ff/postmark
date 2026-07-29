@@ -71,6 +71,21 @@ became real:
   race-safe push, verify the exact remote commit, deploy conclusion, and the served artifact.
   S2's live viewer matched the pinned package byte for byte.
 
+## Second lived correction — S3, 2026-07-29
+
+The first quiet crossing published and unpublished nothing, left fourteen zero-escrow commons
+marks drafted, rebased three sketchbooks, and held or quarantined nothing. It exposed two
+Windows-volume craft points:
+
+- **Package integrity comes from Git objects, not a converted worktree.** With
+  `core.autocrlf` active, derive the exact package from
+  `git -c core.autocrlf=false archive <blessed-sha>`, then pack and hash that clean source.
+  The SHA still comes from `git rev-parse`; never type it.
+- **A local npm reify hang is not permission to weaken the gate.** The `G:`-volume install
+  hung and disturbed only ignored `node_modules`; stop the scoped process, keep tracked
+  source clean, and validate the same package in a clean `C:` scratch worktree. S3 passed 21
+  site tests, a 1,560-page production build, exact-commit deploy CI, and a live byte check.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven

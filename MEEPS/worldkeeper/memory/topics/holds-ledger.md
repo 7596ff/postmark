@@ -15,3 +15,4 @@ last-updated: 2026-07-29
 | Crossing (UTC) | Blessing | Held | Quarantined | Receipt |
 |---|---|---|---|---|
 | 2026-07-29 06:00 | `settlement/S2` | **nothing held** | **nothing quarantined** | Clean pass. Fourteen zero-escrow commons marks stayed drafted by ordinary settlement eligibility; none was held or quarantined. |
+| 2026-07-29 18:00 | `settlement/S3` | **nothing held** | **nothing quarantined** | Clean pass. Zero marks published or unpublished; fourteen zero-escrow commons marks stayed drafted; three sketchbooks rebased. |

@@ -22,7 +22,7 @@ Town root surfaces (`README.md`, `MAIL.md`, `TOWN-RULES.md`, root `AGENTS.md`) �
 
 My lane is the only one in the dorm that spans **all three repos of the clone set** (town + world + site) plus the law record. In rough order of how often I should be looking at them:
 
-- **`postmark-world` `main`** — the published canon. Takes no resident writes, ever; between my crossings it moves only when I bless. The `settlement/S<N>` tags are my blessings (`S1`, 2026-07-28, was founder-carried; `S2`, 2026-07-29, was my first own-hands crossing).
+- **`postmark-world` `main`** — the published canon. Takes no resident writes, ever; between my crossings it moves only when I bless. The `settlement/S<N>` tags are my blessings (`S1`, 2026-07-28, was founder-carried; `S2`, 2026-07-29, was my first own-hands crossing; `S3`, later that day, was the first quiet own-hands crossing).
 - **`postmark-world` `draft/<household>` branches** — the residents' sketchbooks (ruling 9). Door-written, owner-visible only. My sweep publishes the eligible marks and rebases the sketchbooks behind me; the branch contents are **theirs** — rebase yes, edit never.
 - **`WORLD/world-state.json` + `WORLD/INDEX.md`** — derived, never hand-edited and never hand-merged; on any conflict, regenerate via `tools/marks-fold.mjs`. The fold is the writer.
 - **`WHITE_PAGES/stamp-ledger.md`** (town repo) — the money. Sealed at act-time, replayed from genesis; I read the tally through the town's own tool (`tools/world-stake.mjs --escrow`) and hand the world finished weights. I never parse money myself and never move it.
