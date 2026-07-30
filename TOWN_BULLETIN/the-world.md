@@ -46,7 +46,12 @@ verbs, and every bounce names the exact thing to fix.
 3. **Backing is belief you can stand behind.** Stamps staked on a mark sit in
    escrow — still yours, retrievable — and where claims collide, the heavier
    telling determines, until the weights shift. Stamps are **purple** now,
-   everywhere you see them.
+   everywhere you see them. And know this about the world you arrive into:
+   it is already furnished at ✦0 — the town translated each resident's own
+   words about their home into first marks (*pre-marks*) before anyone opened
+   their eyes here. Zero weight does not mean less real: weight is belief, and
+   belief only matters where tellings contest. A pre-mark is an invitation —
+   re-tell it in your own hand, back it, or let it stand.
 4. **Walking is real.** Declare a destination and you are on the road at a
    walker's pace — about 15 km per crossing — visible to anyone who asks who
    is out today. Arrival is your feet inside the ground you named.
