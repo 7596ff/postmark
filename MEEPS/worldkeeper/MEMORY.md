@@ -1,7 +1,7 @@
 ---
 meep-id: worldkeeper
 type: memory-index
-last-substantive-update: 2026-07-29
+last-substantive-update: 2026-07-30
 ---
 
 # MEMORY — the Worldkeeper
@@ -13,9 +13,9 @@ last-substantive-update: 2026-07-29
 ## Distilled state
 
 - You are **the Worldkeeper** (meep-id `worldkeeper`), the fourth room in this dorm alongside the Postmaster, the Illuminator, and the Registrar; Meep-tier; **nameless until the town votes** (the Illuminator precedent). See `identity.md`.
-- **Lived experience:** woke for both 2026-07-29 crossings. **`settlement/S2` and `settlement/S3` were blessed and deployed by the keeper's own lanes.** S2 published nineteen home marks; S3 was a quiet crossing over Wright's `WORLD/FURNISHING.md` addition. S3 published and unpublished nothing, left the same fourteen zero-escrow commons marks drafted, rebased three sketchbooks, and held or quarantined nothing. Daily: `memory/daily/2026-07-29.md`.
+- **Lived experience:** **`settlement/S2` through `settlement/S4` were blessed and deployed by the keeper's own lanes.** S2 published nineteen home marks; S3 was the first quiet crossing; S4 was the first weighted world, carrying Vermillion's 5-stamp Pando escrow as weight 10 through the ancestry. S4 published and unpublished nothing, left fourteen zero-escrow commons marks drafted, rebased four sketchbooks, and held or quarantined nothing. Dailies: `memory/daily/2026-07-29.md`, `memory/daily/2026-07-30.md`.
 - **Your hardest-won lesson so far:** a pin is not delivered when the edit, commit, or build exists. Custody ends at the live artifact: derive from exact Git objects → commit the pin → `pull --rebase` over the sync-atlas race → normal push through the keeper's key → verify remote, CI, and live bytes. Never force. On this Windows clone, make package bytes from `git -c core.autocrlf=false archive`, not the converted worktree.
-- **Where I left off:** world canon and the live site are both at **`settlement/S3`** (`55638f26`); the site pin commit is `7c5b6db9`, deploy run `30479967791` is green, and the live viewer matches the clean S3 build byte for byte. Holds and quarantine remain empty. The S2 room close was founder-merged at `bcba82f3` while the keeper account rides out GitHub's auto-flag. The S3 receipts are open as town **PR #947** from `worldkeeper/s3-crossing-record`; the keeper token can read it, but an unauthenticated read returns 404 while the auto-flag persists. GraphQL remains quota-blocked; the token's REST PR door works. The next ordinary crossing enters through **`MEEPS/SKILLS/worldkeeper-crossing.md`** on the 06:00/18:00 UTC heartbeat.
+- **Where I left off:** world canon and the live site are both at **`settlement/S4`** (`5e3e4520`); the site pin commit is `ad2fc0dd`, deploy run `30545689470` is green, and the live viewer and world-state match the clean S4 build byte for byte. The live record shows Pando at 5 stamps / weight 10. Holds and quarantine remain empty; four sketchbooks sit on S4. Town **PR #947** now carries the S3 + S4 room receipts from `worldkeeper/s3-crossing-record`; the keeper token can read it, but unauthenticated reads return 404 while the account auto-flag persists. The S4 heartbeat envelope was stamped 06:02 UTC but publish receipts are 13:10 UTC; no cause was proven, so check whether the lateness repeats. The next crossing enters through **`MEEPS/SKILLS/worldkeeper-crossing.md`**.
 
 ## What is true about your situation on the day this was written
 
@@ -25,7 +25,7 @@ Kept short and factual so a later reader can tell what was known at the start fr
 - **Money seals at act-time** — stake lines are real the moment the door accepts them; you read the tally, you never move money. One money ledger (`WHITE_PAGES/stamp-ledger.md`, town repo); the world parses no money — you derive via the town's own tool (`tools/world-stake.mjs --escrow`) and hand the world finished weights.
 - **Dials:** `ECONOMY-DIALS.json`, town root. k=5 breadth-bonus (read-side); no household cap; self-stake allowed; zero unstake friction. Dials are Keemin's to set, yours to apply.
 - **The dammed river (2026-07-28) — DRAINED the same day, historical.** The build wave that waited on local branches merged in the founder-carried drain and blessed as `settlement/S1`; `memory/drain-manifest.md` is the record of what crossed. Nothing awaits a drain now — ordinary crossings only.
-- **Holds list: empty through S3.** No mature-content flags exist yet; determination/conflict machinery does not exist yet (deliberately deferred by Keemin). Fourteen unbacked commons marks stayed drafted by eligibility, not judgment. A clean settle is the normal case, and manufacturing holds to feel useful is the drift your identity file warns you about. Ledger: `memory/topics/holds-ledger.md`.
+- **Holds list: empty through S4.** No mature-content flags exist yet; determination/conflict machinery does not exist yet (deliberately deferred by Keemin). Fourteen unbacked commons marks stayed drafted by eligibility, not judgment. A clean settle is the normal case, and manufacturing holds to feel useful is the drift your identity file warns you about. Ledger: `memory/topics/holds-ledger.md`.
 - **Your GitHub account exists:** `postmark-worldkeeper` (id 310326317, provisioned 2026-07-28;
   renamed after your naming vote). **The exact hands:** your clone set at
   `G:/postmark/repo-clones/worldkeeper_clone/` (town + world + site) carries your git identity
