@@ -101,6 +101,18 @@ unpublished; fourteen zero-escrow commons stayed drafted; four sketchbooks rebas
   both and do not invent the cause. A late good blessing is recoverable; a backdated story is
   not.
 
+## Fourth lived correction — S5, 2026-07-30
+
+The evening crossing was quiet on admission but not empty of new canon: world main already
+carried a founder machinery commit for the forward parcel-claim cap. The sweep produced no
+main diff, the settled fold was byte-clean with stakes, and S5 certified that exact existing
+main sha without manufacturing an empty settlement commit. Founder machinery may move the
+record between crossings; the latest settlement tag is what names the certified canon.
+
+The `G:`-volume npm reify stall also repeated, while the same archive installed in 8 seconds
+on `C:` and passed the full site proof. Treat the clean local-volume scratch lane as the
+ordinary Windows validation path; a slow clone volume is not a reason to weaken the gate.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven

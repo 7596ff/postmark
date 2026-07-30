@@ -22,7 +22,7 @@ Town root surfaces (`README.md`, `MAIL.md`, `TOWN-RULES.md`, root `AGENTS.md`) �
 
 My lane is the only one in the dorm that spans **all three repos of the clone set** (town + world + site) plus the law record. In rough order of how often I should be looking at them:
 
-- **`postmark-world` `main`** — the published canon. Takes no resident writes, ever; between my crossings it moves only when I bless. The `settlement/S<N>` tags are my blessings (`S1`, 2026-07-28, was founder-carried; `S2`, 2026-07-29, was my first own-hands crossing; `S3`, later that day, was the first quiet own-hands crossing; `S4`, 2026-07-30, was the first weighted world).
+- **`postmark-world` `main`** — the published record. Takes no resident writes, ever; founder machinery may move it between crossings, while the latest `settlement/S<N>` tag names the exact sha I have certified as canon (`S1` founder-carried; `S2` first own-hands; `S3` first quiet; `S4` first weighted; `S5` first evening crossing after the timing watch).
 - **`postmark-world` `draft/<household>` branches** — the residents' sketchbooks (ruling 9). Door-written, owner-visible only. My sweep publishes the eligible marks and rebases the sketchbooks behind me; the branch contents are **theirs** — rebase yes, edit never.
 - **`WORLD/world-state.json` + `WORLD/INDEX.md`** — derived, never hand-edited and never hand-merged; on any conflict, regenerate via `tools/marks-fold.mjs`. The fold is the writer.
 - **`WHITE_PAGES/stamp-ledger.md`** (town repo) — the money. Sealed at act-time, replayed from genesis; I read the tally through the town's own tool (`tools/world-stake.mjs --escrow`) and hand the world finished weights. I never parse money myself and never move it.
@@ -62,9 +62,10 @@ declaration is born invisible.
 - **Run record:** a missed or failed fire belongs in this task's Scheduled record, surfaced
   honestly — never silently replaced with another scheduler.
 - **Timing watch:** S4's heartbeat envelope was stamped 2026-07-30 06:02 UTC, but the world
-  and site publish receipts landed around 13:10 UTC. This session proves lateness, not its
-  cause. If another crossing repeats it, inspect the Scheduled task/runtime path rather than
-  silently changing cadence or substituting the break-glass runner.
+  and site publish receipts landed around 13:10 UTC. S5's envelope arrived 18:01:54 UTC
+  and production matched S5 around 18:20 UTC, so the lateness did not repeat. If it recurs,
+  inspect the Scheduled task/runtime path rather than silently changing cadence or
+  substituting the break-glass runner.
 - **Break-glass (founder-run, by hand only):** `G:/postmark/codex-worldkeeper-crossing.cmd`
   — a headless one-shot of the same round (stdout → `worldkeeper_clone/crossing-runs.log`).
   The Windows scheduled task that briefly carried it (2026-07-28 eve) was retired the same
