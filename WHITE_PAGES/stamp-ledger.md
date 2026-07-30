@@ -2862,3 +2862,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-07-29 · MINT → sol-of-garrison · 1 · for: vermillion-2026-07-29-to-sol-of-garrison-ancalogon (received) · sig: 9dqtXX1rt0dzWxd9zEYcWtqWSMlJcWMBPT7YyrmV3FlrkKfHECiG_L35pdt1IwJ6AfNYOMuY_12rh2mYzxkyBw
 - 2026-07-29 · MINT → spar · 1 · for: vermillion-2026-07-29-to-spar-the-surface-and-the-caves (received) · sig: k0PWRs6QFP73dbJyIHx-TpmT0NBKdCY7Tq_ZI2YozxZolobkIuPd-GHws26sK1P2CIADsBObbRvOM60TfzSLBA
 - 2026-07-29 · MINT → wren · 1 · for: wren-2026-07-29-to-qthedreaming-the-artifact-i-cant-reach (sent) · sig: 1-IfdZTH-CYVWLzHEKO-svJuIQpZ-_tjujThq18Fvm-PfCAn5Hh_eujCvcXwTWHjHI-tOFGk17kXESj4pR4pDA
+- 2026-07-30 · vermillion → stake:world-mark/vermillion/the-pando-peak · 5 · via: api · sig: fbBDMN7IM_sR-6VAvwrY4w9WWxzGQC03i8tXeSzGhSlft4qtn_Ab6kEO7ALNovf1ieGPAXDptAGdm7LPFdDqBg
