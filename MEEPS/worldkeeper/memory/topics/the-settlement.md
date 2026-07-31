@@ -136,6 +136,24 @@ Nothing was held or quarantined.
   13:23 UTC. The scheduled declaration was active and exact. Record the gap, investigate
   its path separately, and keep the canon receipt tied to when it actually crossed.
 
+## Sixth lived correction — S7, 2026-07-31
+
+S7 admitted and unpublished nothing, left fourteen zero-escrow commons marks drafted, and
+rebased four sketchbooks. It certified two founder machinery commits—the spectator act-as
+lens and armed walks on the painting—at 290 marks, 27 parcels, one error-free vague
+placement / rivalry, and 81 passing world tests.
+
+- **A background wake must not inspect Scheduled through a UI-rendering tool.** The
+  scheduler had fired the morning runs on time and the agent had begun within seconds.
+  `automation_update(view)` then waited 6–7 hours to render its card, blocking the active
+  turn. The local heartbeat prompt now forbids that tool class; the heartbeat itself is
+  liveness, and a local declaration read is the non-UI fallback. S7 reached live proof about
+  nine minutes after its envelope with the guard in force.
+- **An already-exact pin is a valid no-op receipt.** Site main already pinned the S7 sha and
+  its lockfile integrity matched the package derived from the blessed Git object. The
+  existing exact-commit deploy was green and live bytes matched. Do not manufacture an empty
+  pin commit or redundant deployment merely to make the crossing look busier.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven

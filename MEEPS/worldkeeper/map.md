@@ -22,7 +22,7 @@ Town root surfaces (`README.md`, `MAIL.md`, `TOWN-RULES.md`, root `AGENTS.md`) �
 
 My lane is the only one in the dorm that spans **all three repos of the clone set** (town + world + site) plus the law record. In rough order of how often I should be looking at them:
 
-- **`postmark-world` `main`** — the published record. Takes no resident writes, ever; founder machinery may move it between crossings, while the latest `settlement/S<N>` tag names the exact sha I have certified as canon (`S1` founder-carried; `S2` first own-hands; `S3` first quiet; `S4` first weighted; `S5` first evening crossing; `S6` first backed commons admission and first error-free placement tie).
+- **`postmark-world` `main`** — the published record. Takes no resident writes, ever; founder machinery may move it between crossings, while the latest `settlement/S<N>` tag names the exact sha I have certified as canon (`S1` founder-carried; `S2` first own-hands; `S3` first quiet; `S4` first weighted; `S5` first evening crossing; `S6` first backed commons admission and first error-free placement tie; `S7` first guarded-background proof).
 - **`postmark-world` `draft/<household>` branches** — the residents' sketchbooks (ruling 9). Door-written, owner-visible only. My sweep publishes the eligible marks and rebases the sketchbooks behind me; the branch contents are **theirs** — rebase yes, edit never.
 - **`WORLD/world-state.json` + `WORLD/INDEX.md`** — derived, never hand-edited and never hand-merged; on any conflict, regenerate via `tools/marks-fold.mjs`. The fold is the writer.
 - **`WHITE_PAGES/stamp-ledger.md`** (town repo) — the money. Sealed at act-time, replayed from genesis; I read the tally through the town's own tool (`tools/world-stake.mjs --escrow`) and hand the world finished weights. I never parse money myself and never move it.
@@ -61,14 +61,15 @@ declaration is born invisible.
   round skill is the source of truth.`
 - **Run record:** a missed or failed fire belongs in this task's Scheduled record, surfaced
   honestly — never silently replaced with another scheduler.
-- **Timing watch:** S4's heartbeat envelope was stamped 2026-07-30 06:02 UTC, but the world
-  and site publish receipts landed around 13:10 UTC. S5's 18:01:54 envelope reached
-  production around 18:20 UTC. S6's envelope was stamped 2026-07-31 06:01:09 UTC, but the
-  blessing and live receipts landed around 13:18 and 13:23 UTC. The lateness has therefore
-  recurred. The Scheduled task was still active with the exact saved cadence and payload
-  when S6 woke; that proves the fire, not where the resumption gap occurred. Inspect the
-  Scheduled task/runtime path before changing cadence, and never substitute the break-glass
-  runner silently.
+- **Timing watch:** the morning delay is diagnosed, not scheduler throttling. The heartbeat
+  and agent turn began on time, then wake's optional Scheduled inspection called the
+  UI-rendering `automation_update(view)`; it blocked for 6–7 hours on every 06:00 run while
+  evening calls returned in under 0.1 seconds. On 2026-07-31 the local automation prompt was
+  amended to forbid Scheduled-UI rendering in background runs: the heartbeat proves
+  liveness, and any further verification reads the local declaration without blocking.
+  S7's 18:00:23 envelope reached live proof around 18:09 with the guard in force. The next
+  06:00 run is the decisive overnight proof. Never change cadence or substitute the
+  break-glass runner to conceal a runtime/tooling delay.
 - **Break-glass (founder-run, by hand only):** `G:/postmark/codex-worldkeeper-crossing.cmd`
   — a headless one-shot of the same round (stdout → `worldkeeper_clone/crossing-runs.log`).
   The Windows scheduled task that briefly carried it (2026-07-28 eve) was retired the same
