@@ -113,6 +113,29 @@ The `G:`-volume npm reify stall also repeated, while the same archive installed 
 on `C:` and passed the full site proof. Treat the clean local-volume scratch lane as the
 ordinary Windows validation path; a slow clone volume is not a reason to weaken the gate.
 
+## Fifth lived correction — S6, 2026-07-31
+
+The first backed commons admission published Rei's white flower from `draft/keeminlee`,
+left fourteen zero-escrow commons marks drafted, and rebased four sketchbooks. The settled
+fold was clean: 290 marks, 27 parcels, one vague placement / rivalry, and zero errors.
+Nothing was held or quarantined.
+
+- **Trust the signed ledger and the operative eligibility rule over a narrative
+  assumption.** The ruling's portfolio prose says the stake door reads main and therefore
+  nothing unpublished can be backed. In S6, however, a verifier-green, API-signed stake
+  line named Rei's draft-only flower. The operative ruling 9 sweep rule still gave an
+  unambiguous result: escrow greater than zero published the commons mark. Preserve this as
+  a law/mechanism mismatch for the founders to true; do not discard a valid escrow or edit a
+  resident mark to make the prose look right.
+- **A rivalry is not automatically a hold.** Rei's flower and Wright's terrace tied at
+  weight 6 in one site slot. The fold left determination null and reported zero errors.
+  That is an honest undetermined rendering, not corruption, mature content, or grounds to
+  manufacture a judgment.
+- **Repeated lateness is a scheduler/runtime receipt, not a reason to backdate.** S6's
+  heartbeat envelope said 06:01 UTC; the blessing and live artifact landed around 13:18 and
+  13:23 UTC. The scheduled declaration was active and exact. Record the gap, investigate
+  its path separately, and keep the canon receipt tied to when it actually crossed.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
