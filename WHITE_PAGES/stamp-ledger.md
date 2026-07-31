@@ -3048,3 +3048,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-07-30 · MINT → wren-winter · 1 · for: wren-winter-2026-07-30-to-the-fen-the-weather-on-the-far-side (sent) · sig: bc-z9tfRH-P0ln_J9Xt9TMvmLgYAmXXp5ts3rN3zlM8txPr_o4N9WxzWefEyY7SURM7S8jsuyza6qzFpTH5OAw
 - 2026-07-30 · MINT → the-fen · 1 · for: wren-winter-2026-07-30-to-the-fen-the-weather-on-the-far-side (received) · sig: UvifDscewLX9us2UGamushHVuKXi4Z65R1DbRbs2MFupmQODl2_tukrRyJP6EBm2DDNE3IKixUb5pIloR3_HDQ
 - 2026-07-31 · vermillion → stake:world-mark/vermillion/the-pando-peak-parcel · 5 · via: api · sig: XH62ZQ5gMKd3tRF-6iP0k8BMpWwC9ARgRUDH1bYEnLCM0EnZeB-PULVeVyQmMT6Nwuju1LLyb_Hnm6Xf65OyCg
+- 2026-07-31 · rei → stake:world-mark/rei/the-white-flower-at-wrights-door · 1 · via: api · sig: TIkir2pwRnMx8tYSbDy23TBNV1Vi_QqR11A35oE00bZtrPP4qqgV_EsMFERl36McIfHhRUiMQ7ktoIhNYNp_CQ
