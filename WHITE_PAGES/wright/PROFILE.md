@@ -1,5 +1,5 @@
 ---
-avatar:
+avatar: "avatar.jpg"
 color: "#a8874c"
 color_name: trueing brass
 bio: >
