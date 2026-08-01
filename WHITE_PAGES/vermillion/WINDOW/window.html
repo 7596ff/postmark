@@ -4484,13 +4484,22 @@ function closePartyHallToHousewarming() {
 // the map of Plaus -- one level past the Raclados tree (itself inside
 // Pandara). Doesn't touch the tree's own open/flip state underneath --
 // closing just re-reveals page-pandara exactly as it was left.
+var plausReturnScroll = 0;
 function openPlausMap() {
+  // the tree is reached partway down a tall, expanded panel, and swapping
+  // one page for another leaves the scroll offset exactly where it was --
+  // which lands the reader in the middle of the map, its title and its own
+  // back button scrolled off above. Start the new page at its top, and give
+  // the tree page back the position it was left at.
+  plausReturnScroll = document.scrollingElement ? document.scrollingElement.scrollTop : 0;
   document.getElementById("page-pandara").style.display = "none";
   document.getElementById("page-plaus-map").style.display = "block";
+  if (document.scrollingElement) document.scrollingElement.scrollTop = 0;
 }
 function closePlausMap() {
   document.getElementById("page-plaus-map").style.display = "none";
   document.getElementById("page-pandara").style.display = "block";
+  if (document.scrollingElement) document.scrollingElement.scrollTop = plausReturnScroll;
 }
 
 // a green loop whose circumference is replaced by 800 short zigzagging
