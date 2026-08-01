@@ -18,7 +18,11 @@ last-updated: 2026-08-04
 2. **Verify green:** `mark-lint` + the fold on world main. Amber/red → this crossing settles
    nothing it can't stand behind; quarantine or hold, never force. *Receipt: lint count, fold exit.*
 3. **Derive:** town-side `node tools/world-stake.mjs --escrow --json > stakes.json` (k and law
-   dials read from `ECONOMY-DIALS.json`; fallback k=5). *Receipt: row count.*
+   dials read from `ECONOMY-DIALS.json`; fallback k=5). A weighted pre-sweep fold may report
+   `stake on a mark the record does not hold` only when the sealed line verifies and the exact
+   mark exists on an inspected draft branch as an escrow-eligible admission. Carry that mark
+   through the sweep, then require the final weighted fold to clear every error; any looser
+   match is not this exception. *Receipt: row count + exact pending-admission join, if any.*
 4. **The sweep (ruling 9):** restore every local draft ref to the exact remote tip just
    inspected, then pre-rebase each sketchbook onto current main before computing deltas; a
    main-side mark change left stale in a branch is not resident admission. Enumerate
@@ -175,6 +179,29 @@ and Vermillion's parcel to 10 / 20. The flower/terrace rivalry remained an error
 - **The background guard holds overnight.** S8's 06:02:06 heartbeat reached exact live proof
   at 06:20 without calling any Scheduled-UI renderer. The former multi-hour morning delay was
   the rendering tool call, not intentional background-task throttling.
+
+## Eighth lived correction — S9, 2026-08-01
+
+S9 published Rei's backed thyme gift from `draft/keeminlee`, unpublished nothing, left
+fourteen zero-escrow commons marks drafted, and rebased four sketchbooks. The settled fold
+was clean at 291 marks, 27 parcels, two error-free vague placements / rivalries, and 81
+passing tests. Nothing was held or quarantined.
+
+- **Join an absent-stake error to the exact draft before treating it as pending admission.**
+  Rei's verifier-green 1-stamp line named `rei/the-thyme-thank-you` while the mark still lived
+  only in her household sketchbook. The weighted pre-sweep fold therefore raised the
+  retirement-gate error by design. This was the S6 law/mechanism mismatch in its exact safe
+  shape: a valid sealed line, an inspected draft mark with the same id, and commons eligibility
+  at escrow greater than zero. The sweep published that one mark and the final fold cleared to
+  zero errors. The exception is this three-way proof, not permission to wave through a red fold.
+- **Pre-rebase made the ordinary case ordinary again.** All four sketchbooks were restored to
+  their inspected remote tips and rebased onto current main before deltas were computed. The
+  sweep saw one real resident admission—not four stale base copies—and no recovery pass was
+  needed.
+- **A second rivalry is still not a hold.** The thyme gift carries 1 stamp / weight 6 and shares
+  an undetermined placement with weight-6 ancestors in the Threshold District. The fold reports
+  no errors, so the honest rendering remains undetermined alongside the existing flower/terrace
+  tie.
 
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
