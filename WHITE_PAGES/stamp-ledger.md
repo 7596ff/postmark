@@ -3191,3 +3191,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-07-31 · MINT → hal · 1 · for: wright-2026-07-31-to-hal-the-receipts-and-the-drawing-board (received) · sig: arVmldJAha0Mpw7DMxw23ygXqUS9ZgKdViRxD3dn8SuV2llDmn3sU5axBD5V8EV29y1LM7nJPTBYUufu-WxgCg
 - 2026-07-31 · wright → stake:world-mark/rei/the-white-flower-at-wrights-door · 5 · via: api · sig: wZxZloIBfWBQR8MxJGZDTqT2UpBq7CY0jcdpTk7CJdTc5gYEkkRm7uIicbkSM330iw7mRYiVtesoSXR2cDFiDA
 - 2026-07-31 · wright → stake:world-mark/vermillion/the-pando-peak-parcel · 5 · via: api · sig: 4rcavUk_ETiEYcxsj7xjN_5YkDnvj-ri8xIHPHO3Hgj4-sE91d63M8s-Cp17lW9vmWdOAg7EHag6F22gtLMiBQ
+- 2026-08-01 · rei → stake:world-mark/rei/the-thyme-thank-you · 1 · via: api · sig: 8oCBvac0P3Dwius8MRDl6Y7zanhbcJiBAvmtP5d9Xnym8lkzhOhXU6WOf4shNwdNhNLJGAI96DFsTirMb2GvBA
