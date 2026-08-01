@@ -880,8 +880,8 @@
     backface-visibility: hidden; -webkit-backface-visibility: hidden;
   }
   .family-flip-face.family-flip-back { transform: rotateY(180deg); }
-  .racli-flip-link { cursor: pointer; text-decoration: underline; }
-  .racli-flip-link:hover { fill: #8a3b2e; }
+  .racli-flip-link, .roitu-flip-link { cursor: pointer; text-decoration: underline; }
+  .racli-flip-link:hover, .roitu-flip-link:hover { fill: #8a3b2e; }
   .plaus-map-link { cursor: pointer; text-decoration: underline; }
   .plaus-map-link:hover { fill: #2f6f9a; }
   .racli-flip-back-link {
@@ -889,6 +889,22 @@
     font-style: italic; cursor: pointer; text-decoration: underline;
   }
   .racli-flip-back-link:hover { color: #8a3b2e; }
+  /* the back of the card holds more than one branch now (Racli, Roitu),
+     one shown at a time. Each carries its own way back at the top as well
+     as the bottom -- the trees are long enough that scrolling all the way
+     down was the only exit otherwise. */
+  .family-back-page { position: relative; }
+  /* sticky, because the face itself is the scroller and a tree can run
+     900 units deep -- the way out should never be somewhere you have to
+     scroll back up to find. */
+  .family-back-top {
+    display: block; position: sticky; top: 0; z-index: 2;
+    width: calc(100% - 1.6em); margin: .6em auto .2em; padding: .4em .6em;
+    background: #ece0c0; border: 1px solid #b9975c; border-radius: .35em;
+    color: #6b5316; font-family: Georgia, serif; font-size: .78rem; font-style: italic;
+    cursor: pointer; transition: background .2s, color .2s;
+  }
+  .family-back-top:hover { background: #e0d0a8; color: #8a3b2e; }
   @media (prefers-reduced-motion: reduce) { .family-flip { transition: none; } }
 
   .spin-icon-button {
@@ -1707,7 +1723,7 @@
             <line x1="151" y1="388" x2="151" y2="402" stroke="#b9975c" stroke-width="1.5"/>
             <line x1="151" y1="402" x2="330" y2="402" stroke="#8a6d1f" stroke-width="1" stroke-dasharray="2,3"/>
             <text x="335" y="396" font-size="9.5" fill="#6b5316">Poitu (47) — Tama (49)</text>
-            <text x="335" y="410" font-size="9" fill="#2f6b45" font-style="italic">· Roitu family</text>
+            <text x="335" y="410" font-size="9" fill="#2f6b45" font-style="italic" class="roitu-flip-link" onclick="flipToRoitu()" tabindex="0" role="button" aria-label="turn the page to the Roitu family tree">· Roitu family</text>
             <line x1="151" y1="402" x2="151" y2="416" stroke="#b9975c" stroke-width="1.5"/>
             <path d="M151,416 L92,416" fill="none" stroke="#b9975c" stroke-width="1.5"/>
 
@@ -1827,6 +1843,8 @@
           </svg>
             </div>
             <div class="family-flip-face family-flip-back">
+              <div class="family-back-page" id="racli-back-content">
+                <button type="button" class="family-back-top" onclick="flipToRaclados()">&#8592; The Raclados Royal Family Tree</button>
           <svg viewBox="0 0 460 1690" font-family="Georgia, serif" class="racli-tree-svg">
 <rect width="460" height="1690" fill="#f4ead0"/>
 <text x="230" y="28" text-anchor="middle" font-size="15" fill="#7a5a26" letter-spacing="1">The Racli Family Tree</text>
@@ -1968,6 +1986,77 @@
 <text x="230" y="1678" text-anchor="middle" font-size="9" fill="#8a6d1f" font-style="italic">kept faithfully, by my own claw — V.</text>
 </svg>
               <div class="racli-flip-back-link" onclick="flipToRaclados()">&#8592; back to the Raclados tree</div>
+              </div>
+
+              <div class="family-back-page" id="roitu-back-content" style="display:none">
+                <button type="button" class="family-back-top" onclick="flipToRaclados()">&#8592; The Raclados Royal Family Tree</button>
+<svg viewBox="0 0 460 900" font-family="Georgia, serif" class="racli-tree-svg">
+<rect width="460" height="900" fill="#f4ead0"/>
+<text x="230" y="28" text-anchor="middle" font-size="15" fill="#7a5a26" letter-spacing="1">The Roitu Family Tree</text>
+<text x="230" y="46" text-anchor="middle" font-size="9.5" fill="#8a6d1f" font-style="italic">branched from the Raclados Royal line through Poitu, child of Sauli &amp; Alandra</text>
+<text x="92" y="66" text-anchor="middle" font-size="11" fill="#4a3a1e">Poitu (47)</text>
+<text x="210" y="66" text-anchor="middle" font-size="11" fill="#4a3a1e">Tama (49)</text>
+<path d="M92,57 L92,74 L210,74 L210,57" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="74" x2="151" y2="88" stroke="#b9975c" stroke-width="1.5"/>
+<path d="M151,88 L92,88" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="88" x2="330" y2="88" stroke="#8a6d1f" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="335" y="92" font-size="9" fill="#6b5316">Unona (77) &#8212; Haul (26)</text>
+<text x="335" y="104" font-size="9" fill="#2f6b45" font-style="italic">&#8594; Daillai family</text>
+<line x1="92" y1="88" x2="92" y2="165" stroke="#b9975c" stroke-width="1.5"/>
+<text x="92" y="174" text-anchor="middle" font-size="11" fill="#4a3a1e">Gladrel (71)</text>
+<text x="210" y="174" text-anchor="middle" font-size="11" fill="#4a3a1e">Azilla (10)</text>
+<path d="M92,165 L92,182 L210,182 L210,165" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="182" x2="151" y2="196" stroke="#b9975c" stroke-width="1.5"/>
+<path d="M151,196 L92,196" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="92" y1="196" x2="92" y2="273" stroke="#b9975c" stroke-width="1.5"/>
+<text x="92" y="282" text-anchor="middle" font-size="11" fill="#4a3a1e">Lir (112)</text>
+<text x="210" y="282" text-anchor="middle" font-size="11" fill="#4a3a1e">Villeri (83)</text>
+<path d="M92,273 L92,290 L210,290 L210,273" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="290" x2="151" y2="304" stroke="#b9975c" stroke-width="1.5"/>
+<path d="M151,304 L92,304" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="304" x2="330" y2="304" stroke="#8a6d1f" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="335" y="308" font-size="9" fill="#6b5316">Sombra (192) &#8212; Tabolii (56)</text>
+<text x="335" y="320" font-size="9" fill="#2f6b45" font-style="italic">&#8594; Hilleon family</text>
+<line x1="92" y1="304" x2="92" y2="381" stroke="#b9975c" stroke-width="1.5"/>
+<text x="100" y="348" font-size="8.5" fill="#8a6d1f" font-style="italic">(Lir marries a second time)</text>
+<text x="92" y="390" text-anchor="middle" font-size="11" fill="#4a3a1e">Lir (112)</text>
+<text x="210" y="390" text-anchor="middle" font-size="11" fill="#4a3a1e">Katherine Pentan (131)</text>
+<path d="M92,381 L92,398 L210,398 L210,381" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="398" x2="151" y2="412" stroke="#b9975c" stroke-width="1.5"/>
+<path d="M151,412 L92,412" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="412" x2="330" y2="412" stroke="#8a6d1f" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="335" y="416" font-size="9.5" fill="#6b5316">Otto (155)</text>
+<text x="335" y="428" font-size="9" fill="#2f6b45" font-style="italic">&#8594; Roitille family</text>
+<line x1="92" y1="412" x2="92" y2="489" stroke="#b9975c" stroke-width="1.5"/>
+<text x="92" y="498" text-anchor="middle" font-size="11" fill="#4a3a1e">Ovalien (150)</text>
+<text x="210" y="498" text-anchor="middle" font-size="11" fill="#4a3a1e">Flerille (102)</text>
+<path d="M92,489 L92,506 L210,506 L210,489" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="506" x2="151" y2="520" stroke="#b9975c" stroke-width="1.5"/>
+<path d="M151,520 L92,520" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="92" y1="520" x2="92" y2="597" stroke="#b9975c" stroke-width="1.5"/>
+<text x="92" y="606" text-anchor="middle" font-size="11" fill="#4a3a1e">Frantil (221)</text>
+<text x="210" y="606" text-anchor="middle" font-size="11" fill="#4a3a1e">Iarine (69)</text>
+<path d="M92,597 L92,614 L210,614 L210,597" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="614" x2="151" y2="628" stroke="#b9975c" stroke-width="1.5"/>
+<path d="M151,628 L92,628" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="628" x2="330" y2="628" stroke="#8a6d1f" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="335" y="632" font-size="9" fill="#6b5316">Iarille (291) &#8212; Dadan (163)</text>
+<line x1="389" y1="636" x2="389" y2="654" stroke="#b9975c" stroke-width="1.5"/>
+<text x="389" y="664" text-anchor="middle" font-size="9" fill="#6b5316">Dadane (401)</text>
+<line x1="92" y1="628" x2="92" y2="705" stroke="#b9975c" stroke-width="1.5"/>
+<text x="92" y="714" text-anchor="middle" font-size="11" fill="#4a3a1e">Faanl (310)</text>
+<text x="210" y="714" text-anchor="middle" font-size="11" fill="#4a3a1e">Chamille (231)</text>
+<path d="M92,705 L92,722 L210,722 L210,705" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="151" y1="722" x2="151" y2="736" stroke="#b9975c" stroke-width="1.5"/>
+<path d="M151,736 L92,736" fill="none" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="92" y1="736" x2="92" y2="798" stroke="#b9975c" stroke-width="1.5"/>
+<line x1="92" y1="798" x2="151" y2="798" stroke="#b9975c" stroke-width="1.5"/>
+<text x="151" y="810" text-anchor="middle" font-size="11" fill="#4a3a1e">Roitu (412)</text>
+<text x="151" y="824" text-anchor="middle" font-size="8.5" fill="#8a6d1f" font-style="italic">the youngest of the Roitu line</text>
+<text x="230" y="868" text-anchor="middle" font-size="9" fill="#8a6d1f" font-style="italic">the Roitu branch, written out fair &#8212; V.</text>
+</svg>
+              <div class="racli-flip-back-link" onclick="flipToRaclados()">&#8592; back to the Raclados tree</div>
+              </div>
             </div>
           </div>
         </div>
@@ -4295,7 +4384,19 @@ function activateGoldSpin(btn) {
 
 // the Pif & Sauri line on the Raclados tree turns the page to the Racli
 // family tree that branches off them -- a literal card flip, not a new panel.
-function flipToRacli() {
+// Two branches share the one back face -- the Racli tree off Pif & Sauri,
+// the Roitu tree off Poitu & Tama -- so the flip shows whichever was asked
+// for and hides the other. Still one card, still one turn of the page.
+function flipToRacli() { flipToBranch("racli"); }
+function flipToRoitu() { flipToBranch("roitu"); }
+function flipToBranch(which) {
+  ["racli", "roitu"].forEach(function (name) {
+    document.getElementById(name + "-back-content").style.display = name === which ? "block" : "none";
+  });
+  // the face is what scrolls, not the frame, so a tree left half-read would
+  // otherwise open the other branch partway down its own page.
+  var face = document.querySelector(".family-flip-back");
+  if (face) face.scrollTop = 0;
   document.getElementById("family-flip").classList.add("flipped");
 }
 function flipToRaclados() {
