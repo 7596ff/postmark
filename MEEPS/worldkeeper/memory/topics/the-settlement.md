@@ -19,7 +19,10 @@ last-updated: 2026-08-04
    nothing it can't stand behind; quarantine or hold, never force. *Receipt: lint count, fold exit.*
 3. **Derive:** town-side `node tools/world-stake.mjs --escrow --json > stakes.json` (k and law
    dials read from `ECONOMY-DIALS.json`; fallback k=5). *Receipt: row count.*
-4. **The sweep (ruling 9):** enumerate `draft/<household>` branches; per mark, eligibility =
+4. **The sweep (ruling 9):** restore every local draft ref to the exact remote tip just
+   inspected, then pre-rebase each sketchbook onto current main before computing deltas; a
+   main-side mark change left stale in a branch is not resident admission. Enumerate
+   `draft/<household>` branches; per mark, eligibility =
    **home (in own parcel) or constitution → auto · commons → escrow > 0** in the derive.
    Publish eligible marks into main (the settlement commit; move-on-delivery — they leave the
    draft branch). **Unpublish** any published commons mark whose escrow reached zero (back to
@@ -153,6 +156,25 @@ placement / rivalry, and 81 passing world tests.
   its lockfile integrity matched the package derived from the blessed Git object. The
   existing exact-commit deploy was green and live bytes matched. Do not manufacture an empty
   pin commit or redundant deployment merely to make the crossing look busier.
+
+## Seventh lived correction — S8, 2026-08-01
+
+S8 admitted and unpublished nothing, left fourteen zero-escrow commons marks drafted, and
+rebased four sketchbooks. Two new Wright stakes raised Rei's flower to 6 stamps / weight 11
+and Vermillion's parcel to 10 / 20. The flower/terrace rivalry remained an error-free tie at
+11 each. Nothing was held or quarantined.
+
+- **Pre-rebase every sketchbook onto current main before computing admission deltas.** Between
+  S7 and S8, founder work trued Vermillion's parcel from 200×200 to the ruled 25×25 dial on
+  main. All four draft branches still carried the old base copy. The first sweep interpreted
+  that stale `M` delta four times as resident admission, restored the old extent, and wrote a
+  publication-registry entry. I refused the unblessed local result, restored the exact
+  inspected refs, pre-rebased all four sketchbooks, and reran; the corrected sweep admitted
+  nothing and preserved 25×25. Until the sweep tool encodes this ordering itself, a stale
+  branch modification is not an admission candidate merely because a diff names it.
+- **The background guard holds overnight.** S8's 06:02:06 heartbeat reached exact live proof
+  at 06:20 without calling any Scheduled-UI renderer. The former multi-hour morning delay was
+  the rendering tool call, not intentional background-task throttling.
 
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 

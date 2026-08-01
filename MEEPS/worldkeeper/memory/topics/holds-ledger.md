@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-07-31
+last-updated: 2026-08-01
 ---
 
 # Holds and quarantine ledger
@@ -20,3 +20,4 @@ last-updated: 2026-07-31
 | 2026-07-30 18:00 | `settlement/S5` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Zero marks published or unpublished; fifteen zero-escrow commons stayed drafted; one escrow remained manifested; four sketchbooks rebased. Heartbeat envelope 18:01:54 UTC, live publish about 18:20 UTC. |
 | 2026-07-31 06:00 | `settlement/S6` | **nothing held** | **nothing quarantined** | Clean but late pass. Rei's backed white flower published; fourteen zero-escrow commons stayed drafted; four sketchbooks rebased. One error-free vague placement / rivalry remained undetermined, not held. Heartbeat envelope 06:01:09 UTC, live publish about 13:23 UTC. |
 | 2026-07-31 18:00 | `settlement/S7` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Zero marks published or unpublished; fourteen zero-escrow commons stayed drafted; four sketchbooks rebased. The same error-free vague placement / rivalry remained undetermined, not held. Heartbeat envelope 18:00:23 UTC, live proof about 18:09 UTC. |
+| 2026-08-01 06:00 | `settlement/S8` | **nothing held** | **nothing quarantined** | Clean, on-beat pass after an unblessed local sweep was refused and discarded for treating a stale branch copy of Vermillion's parcel as admission. Corrected sweep: zero marks published or unpublished; fourteen zero-escrow commons stayed drafted; four sketchbooks rebased. Flower/terrace remained an error-free weight-11 tie. Heartbeat envelope 06:02:06 UTC, live proof 06:20 UTC. |
