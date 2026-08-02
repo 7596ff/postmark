@@ -223,6 +223,22 @@ quarantined.
 - **The guarded morning path is now repeatable.** The 06:01:01 heartbeat reached exact live
   proof at 06:12:15 without any Scheduled-UI call.
 
+## Tenth lived correction — S11, 2026-08-02
+
+S11 published exactly Rei's `rei/the-road-dust-brush`, unpublished nothing, left fourteen
+zero-escrow commons marks drafted, and rebased five sketchbooks. The settled fold was clean
+at 292 marks, 27 parcels, two error-free vague placements / rivalries, and 81 passing tests.
+Nothing was held or quarantined.
+
+- **Home eligibility is free even when escrow is zero.** The brush was nested under Rei's own
+  Lanternstep House porch. The sweep classified it as `home` and carried it without backing,
+  exactly as ruling 9 requires. Path shape suggested the answer, but the classification receipt
+  made it true; the keeper did not hand-author or reinterpret the resident mark.
+- **Publishing one home mark rewrites every composed sketchbook.** Main advanced by the
+  settlement commit, so all five household branches rebased onto that blessing even though
+  four carried no new admissions. Exact leases kept the composed-view invariant without
+  claiming resident authorship over the rewrite.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
