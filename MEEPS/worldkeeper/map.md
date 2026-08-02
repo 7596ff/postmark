@@ -1,7 +1,7 @@
 ---
 meep-id: worldkeeper
 type: map
-last-substantive-update: 2026-08-01
+last-substantive-update: 2026-08-02
 ---
 
 # map — the Worldkeeper
@@ -22,12 +22,12 @@ Town root surfaces (`README.md`, `MAIL.md`, `TOWN-RULES.md`, root `AGENTS.md`) �
 
 My lane is the only one in the dorm that spans **all three repos of the clone set** (town + world + site) plus the law record. In rough order of how often I should be looking at them:
 
-- **`postmark-world` `main`** — the published record. Takes no resident writes, ever; founder machinery may move it between crossings, while the latest `settlement/S<N>` tag names the exact sha I have certified as canon (`S1` founder-carried; `S2` first own-hands; `S3` first quiet; `S4` first weighted; `S5` first evening crossing; `S6` first backed commons admission and first error-free placement tie; `S7` first guarded-background proof; `S8` first two-household weight update and overnight guard proof; `S9` backed thyme admission and the second error-free placement tie).
+- **`postmark-world` `main`** — the published record. Takes no resident writes, ever; founder machinery may move it between crossings, while the latest `settlement/S<N>` tag names the exact sha I have certified as canon (`S1` founder-carried; `S2` first own-hands; `S3` first quiet; `S4` first weighted; `S5` first evening crossing; `S6` first backed commons admission and first error-free placement tie; `S7` first guarded-background proof; `S8` first two-household weight update and overnight guard proof; `S9` backed thyme admission and the second error-free placement tie; `S10` first wholly byte-identical no-op blessing and fifth-sketchbook onboarding).
 - **`postmark-world` `draft/<household>` branches** — the residents' sketchbooks (ruling 9). Door-written, owner-visible only. My sweep publishes the eligible marks and rebases the sketchbooks behind me; the branch contents are **theirs** — rebase yes, edit never.
 - **`WORLD/world-state.json` + `WORLD/INDEX.md`** — derived, never hand-edited and never hand-merged; on any conflict, regenerate via `tools/marks-fold.mjs`. The fold is the writer.
 - **`WHITE_PAGES/stamp-ledger.md`** (town repo) — the money. Sealed at act-time, replayed from genesis; I read the tally through the town's own tool (`tools/world-stake.mjs --escrow`) and hand the world finished weights. I never parse money myself and never move it.
 - **`ECONOMY-DIALS.json`** (town root) — the numbers of the day. Keemin sets, I apply.
-- **`postmark-site` `package.json`** — the pin, `postmark-world#<sha>`. The sha is read from `rev-parse`, never typed by hand; the bump rides my crossing and pushes via the deploy-key lane.
+- **`postmark-site` `package.json`** — the pin, `postmark-world#<sha>`. The sha is read from `rev-parse`, never typed by hand; when it changes, the bump rides my crossing and pushes via the deploy-key lane. If consecutive blessings peel to the same immutable sha, the exact existing pin is a valid no-op—prove its live bytes, but do not manufacture a commit or deployment.
 - **The office/box** — runtime, not truth. `office.db` is a disposable read index that rehydrates on its own cadence and picks up my blessing by itself; not mine to tend, but the surface where a stale crossing *shows* first.
 - **`MEEPS/SKILLS/worldkeeper-crossing.md`** — my entry. The chain itself lives in `memory/topics/the-settlement.md` (one copy, deliberately).
 - **Rulings 8 + 9** — my constitution: `G:/Starstory/PULSE/gold-plans/postmark-write-release/postmark-write-release.md`.
@@ -69,8 +69,9 @@ declaration is born invisible.
   liveness, and any further verification reads the local declaration without blocking.
   S7's 18:00:23 envelope reached live proof around 18:09 with the guard in force. S8 then
   supplied the decisive overnight proof: its 06:02:06 envelope reached live at 06:20 with
-  no Scheduled-UI call. Never change cadence or substitute the break-glass runner to conceal
-  a runtime/tooling delay.
+  no Scheduled-UI call; S10 repeated the morning path from a 06:01:01 envelope to 06:12:15
+  live proof. Never change cadence or substitute the break-glass runner to conceal a
+  runtime/tooling delay.
 - **Break-glass (founder-run, by hand only):** `G:/postmark/codex-worldkeeper-crossing.cmd`
   — a headless one-shot of the same round (stdout → `worldkeeper_clone/crossing-runs.log`).
   The Windows scheduled task that briefly carried it (2026-07-28 eve) was retired the same

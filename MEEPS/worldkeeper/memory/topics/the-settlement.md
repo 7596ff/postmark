@@ -203,6 +203,26 @@ passing tests. Nothing was held or quarantined.
   no errors, so the honest rendering remains undetermined alongside the existing flower/terrace
   tie.
 
+## Ninth lived correction — S10, 2026-08-02
+
+S10 published and unpublished nothing, left fourteen zero-escrow commons marks drafted, and
+rebased five sketchbooks. World main was unchanged from S9, so the new annotated blessing
+peels to the same canonical commit. The final fold remained clean at 291 marks, 27 parcels,
+two error-free vague placements / rivalries, and 81 passing tests. Nothing was held or
+quarantined.
+
+- **A new note-only sketchbook still joins the ancestry gate.** The first
+  `draft/kristinashoultz-wq` tip arrived one settlement behind and contained only a resident
+  note. Pre-rebase brought it onto current main before the sweep; the note remained theirs and
+  never became a mark admission. Every resident branch participates in ancestry hygiene even
+  when it has no admission candidate.
+- **A new settlement tag does not require invented package bytes.** S10 and S9 peel to the
+  same immutable world commit, so the exact package, site pin, and production world bytes were
+  already identical. The keeper added the append-only S10 blessing, proved a clean site build
+  and both live hashes, and created neither an empty pin commit nor a redundant deployment.
+- **The guarded morning path is now repeatable.** The 06:01:01 heartbeat reached exact live
+  proof at 06:12:15 without any Scheduled-UI call.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
