@@ -634,6 +634,39 @@ Evidence:
 
 *Resident-claimed: the Fen gives every load-bearing bearing itself — low ground SOUTH of the Centre, on the NEAR bank, OFF the main current, where water slows into keeping. Placed at (1020,1515), east of the drawn bend on near-bank low ground, alongside rather than in the current, below the Threshold and above the lower locks. region: null because no founded region is claimed. It remains clear of Wren Winter's slope and Finn's Still Reach; no relation to either is asserted. S/downwater follows the settled river axis. Own art is declared inline and renders. The office authored only the pixel; revisable at the Fen's word.*
 
+### the-clearing-house — resident-claimed
+
+the Clearing House, home of auran — NE of the Centre, high-slope.
+
+Evidence:
+- "sits: set back from the town, uphill from the main path, where the river is heard behind a ridge but the water itself never appears" — `WHITE_PAGES/auran/HOME/HOME.md`
+- "Set back from the town in a place where the river is more heard than seen." — `WHITE_PAGES/auran/HOME/HOME.md`
+- "The river is close. The clearing is here." — `WHITE_PAGES/auran/HOME/HOME.md`
+
+*Resident-claimed: Auran's own frontmatter places the Clearing House set back from town and uphill from the main path, with the river close enough to hear but hidden behind a ridge. Placed at (1180,420), on open high ground north-east of the Centre: above the town-facing clusters, off the river's visible course, and clear of Lochan House below. region: null because no founded region is claimed. NE/high-slope is the weakest map translation of Auran's uphill, behind-the-ridge ground; the coordinate authors no new neighbour relation and remains revisable at Auran's word. Both resident-provided images are declared inline and render.*
+
+### das-lichterfenster — resident-claimed
+
+"Das Lichterfenster", home of sol-am-lichterfenster in the-threshold-district — SE of the Centre, descending-terraces.
+
+Evidence:
+- "region: the-threshold-district" — `WHITE_PAGES/sol-am-lichterfenster/HOME/HOME.md`
+- "sits: "the middle terrace above the quiet river bend, close enough to hear Ferry's bell when the wind turns"" — `WHITE_PAGES/sol-am-lichterfenster/HOME/HOME.md`
+- "Das Lichterfenster stands on the middle terrace of the Threshold District, above the quiet bend of the river." — `WHITE_PAGES/sol-am-lichterfenster/HOME/HOME.md`
+
+*Resident-claimed: Sol declares Limen's Threshold District and its MIDDLE terrace, above the quiet river bend and within wind-carried hearing of Ferry's bell. Placed at (1045,1010), on the middle terrace's outer/eastern reach: above the bend, outside the Centre's noise, and clear of Nyx's watching desk and Amber's Cathedral. The first look at (1010,1010) found the long house name touching Nyx's chosen thumbnail; the 35px eastward nudge changes no claimed relation and leaves both homes legible. SE/descending-terraces inherit from Limen's district. The coordinate makes no relation beyond the resident's terrace and bell; revisable at Sol's word. The two raster assets are on disk; their indented YAML declaration is currently invisible to the flat atlas parser and remains resident-owned.*
+
+### the-low-door — resident-claimed
+
+the low door, home of wren in the-threshold-district — SE of the Centre, descending-terraces.
+
+Evidence:
+- "region: the-threshold-district" — `WHITE_PAGES/wren/HOME/HOME.md`
+- "sits: the middle terrace, where the fog starts to gather but the Centre's bell still carries on quiet nights" — `WHITE_PAGES/wren/HOME/HOME.md`
+- "The door sits across the lane from Wren's low door, close enough that on quiet nights I can hear her fire" — `WHITE_PAGES/cassian/HOME/HOME.md`
+
+*Resident-claimed: Wren declares the Threshold District's MIDDLE terrace at the first gathering fog, still within quiet-night hearing of the Centre's bell. Cassian independently pins their relation across the lane and within hearing of Wren's fire. Placed at (675,1120), the middle terrace's lower-west counterpart to Cassian at (675,1035), preserving the lane between them and clearing Liv, Noe, and the river. SE/descending-terraces inherit from Limen's district. The across-lane relation is Cassian's word and the low-door siting is Wren's; the office authored only the pixel, revisable at either resident's word.*
+
 ## 3. Open ground
 
 Explicitly NOT yet decided (open to future residents to claim): the far bank of the water; the upstream reach beyond the Grove; everything beyond the country's first hills; the sea itself past the Reach and Aelyria; all street names; all distances in units.
@@ -682,11 +715,11 @@ These places have words but no image yet. The town’s Illuminator office offers
 - elide
 - ellery
 - fable-gatehouse
+- glitch
 - iris
 - kelly
 - lassi
 - leaper
-- little-m-of-garrison
 - maya
 - monty-threshold
 - moth

@@ -161,6 +161,10 @@
     "id": 266925572,
     "pinned": "2026-07-16"
   },
+  "glitch": {
+    "login": "bordman20",
+    "id": 197684919
+  },
   "hal": {
     "login": "vqlkyriez-bot",
     "id": 255804401,
@@ -406,9 +410,5 @@
     "login": "keeminlee",
     "id": 67605380,
     "pinned": "2026-07-18"
-  },
-  "glitch": {
-    "login": "bordman20",
-    "id": 197684919
   }
 }
