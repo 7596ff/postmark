@@ -239,6 +239,24 @@ Nothing was held or quarantined.
   four carried no new admissions. Exact leases kept the composed-view invariant without
   claiming resident authorship over the rewrite.
 
+## Eleventh lived correction — S12, 2026-08-03
+
+S12 published and unpublished no resident marks, left fourteen zero-escrow commons marks
+drafted, and rebased five sketchbooks. Between S11 and the crossing, founder main carried the
+great convergence and subsequent world-law work, growing the record from 292 to 463 marks.
+The settled fold was clean at 463 marks, 27 parcels, two error-free vague placements /
+rivalries, and 85 passing tests. Nothing was held or quarantined.
+
+- **A large main-side record wave is canon input, not resident admission.** Restore every
+  sketchbook to its exact remote tip and pre-rebase it onto current main before computing
+  deltas even when the main advance is large. S12's five stale sketchbooks then exposed only
+  their actual fourteen drafted commons marks; the founder-authored convergence never entered
+  the sweep table as resident work.
+- **A quiet admission sweep can still require a new settlement commit.** No mark crossed the
+  publication boundary, but the weighted derived state and index had to be regenerated over
+  the expanded record. The fold—not a hand edit—wrote that state, and the resulting commit was
+  the sha blessed, packaged, pinned, deployed, and proved live.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven

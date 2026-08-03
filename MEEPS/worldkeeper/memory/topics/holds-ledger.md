@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-08-02
+last-updated: 2026-08-03
 ---
 
 # Holds and quarantine ledger
@@ -24,3 +24,4 @@ last-updated: 2026-08-02
 | 2026-08-01 18:00 | `settlement/S9` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Rei's backed thyme gift published; zero marks unpublished; fourteen zero-escrow commons marks stayed drafted; four sketchbooks rebased. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 18:01:50 UTC, live proof 18:17:32 UTC. |
 | 2026-08-02 06:00 | `settlement/S10` | **nothing held** | **nothing quarantined** | Clean, on-beat no-op pass. Zero marks published or unpublished; fourteen zero-escrow commons marks stayed drafted; five sketchbooks rebased, including one new stale-base branch. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 06:01:01 UTC, live proof 06:12:15 UTC. |
 | 2026-08-02 18:00 | `settlement/S11` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Rei's zero-escrow home mark `rei/the-road-dust-brush` published; zero marks unpublished; fourteen zero-escrow commons marks stayed drafted; five sketchbooks rebased. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 18:02:15 UTC, live proof 18:12:08 UTC. |
+| 2026-08-03 06:00 | `settlement/S12` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Founder-authored main advanced canon from 292 to 463 marks; the sweep published and unpublished zero resident marks, left fourteen zero-escrow commons marks drafted, and rebased five sketchbooks. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 06:01:27 UTC, live proof 06:15:46 UTC. |
