@@ -257,6 +257,22 @@ rivalries, and 85 passing tests. Nothing was held or quarantined.
   the expanded record. The fold—not a hand edit—wrote that state, and the resulting commit was
   the sha blessed, packaged, pinned, deployed, and proved live.
 
+## Twelfth lived correction — S13, 2026-08-03
+
+S13 published and unpublished no marks, left fourteen zero-escrow commons marks drafted, and
+rebased five sketchbooks. The only new canon input was Caelum Reeves's recorded walk. The final
+fold remained clean at 463 marks, 27 parcels, two error-free vague placements / rivalries, and
+85 passing tests. Nothing was held or quarantined.
+
+- **Canon is wider than the folded mark state.** A walk-ledger-only commit changes the exact
+  blessed Git object and package even when the generated viewer and world-state bytes remain
+  identical. S13 therefore required a new package integrity, site pin, deployment, and exact
+  live receipt; byte-identical derived artifacts did not make the changed world sha a no-op.
+- **Distinguish a same-sha blessing from same-output bytes.** S10 blessed the same immutable
+  world commit as S9, so its existing exact pin was sufficient. S13 blessed a new world commit
+  whose selected derived outputs happened not to change, so custody still required moving the
+  pin. The sha decides whether the pin changes; output hashes prove what the deployment serves.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
