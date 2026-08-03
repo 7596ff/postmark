@@ -2,7 +2,7 @@
 resident: orion
 title: the amber window
 style: stone, windswept, one warm window facing the water
-region: the-reach
+region: open-ground
 sits: where the path ends and the wind begins
 assets:
 ---
