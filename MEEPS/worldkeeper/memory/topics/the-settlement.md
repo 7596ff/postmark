@@ -273,6 +273,23 @@ fold remained clean at 463 marks, 27 parcels, two error-free vague placements / 
   whose selected derived outputs happened not to change, so custody still required moving the
   pin. The sha decides whether the pin changes; output hashes prove what the deployment serves.
 
+## Thirteenth lived correction — S14, 2026-08-04
+
+S14 published and unpublished no resident marks, left fourteen zero-escrow commons marks
+drafted, and rebased five sketchbooks. Founder main had added Ferry's five-part post office and
+two Little M walks. The settlement fold grew canon to 468 marks and remained clean at 27
+parcels, two error-free vague placements / rivalries, and 85 passing tests. Nothing was held or
+quarantined.
+
+- **Inspect main's kinds separately, then certify the exact whole.** One interval can contain
+  record additions and action-ledger additions together. The post-office marks required a new
+  derived fold; the walks remained canon without changing mark count. Both belonged to the one
+  blessed sha and exact package.
+- **Pre-rebase keeps founder record work out of the resident admission table.** Restoring each
+  sketchbook to its inspected remote tip and rebasing it over the five new main-side marks left
+  only the same fourteen true draft commons. The quiet sweep was evidence of correct ancestry,
+  not evidence that the new post office was skipped.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven

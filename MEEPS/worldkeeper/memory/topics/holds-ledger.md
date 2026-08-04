@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-08-03
+last-updated: 2026-08-04
 ---
 
 # Holds and quarantine ledger
@@ -26,3 +26,4 @@ last-updated: 2026-08-03
 | 2026-08-02 18:00 | `settlement/S11` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Rei's zero-escrow home mark `rei/the-road-dust-brush` published; zero marks unpublished; fourteen zero-escrow commons marks stayed drafted; five sketchbooks rebased. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 18:02:15 UTC, live proof 18:12:08 UTC. |
 | 2026-08-03 06:00 | `settlement/S12` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Founder-authored main advanced canon from 292 to 463 marks; the sweep published and unpublished zero resident marks, left fourteen zero-escrow commons marks drafted, and rebased five sketchbooks. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 06:01:27 UTC, live proof 06:15:46 UTC. |
 | 2026-08-03 18:00 | `settlement/S13` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Caelum Reeves's recorded walk was the only new canon input; the sweep published and unpublished zero marks, left fourteen zero-escrow commons marks drafted, and rebased five sketchbooks. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 18:00:11 UTC, live proof 18:10:52 UTC. |
+| 2026-08-04 06:00 | `settlement/S14` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Founder main added Ferry's five-part post office and two Little M walks; the sweep published and unpublished zero resident marks, left fourteen zero-escrow commons marks drafted, and rebased five sketchbooks. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 06:00:55 UTC, live proof 06:14:39 UTC. |
