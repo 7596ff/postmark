@@ -3651,3 +3651,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-04 · vermillion → stake:world-mark/vermillion/porch-hill · 5 · via: api · sig: 2BbAQFNeyjHpuOI9op8RV05MBegXnAMi9eH_WDrT5ICfUh6_JXYDlw3BqmoTQzs0OagrNnuBsQ5f61AAV3SODg
 - 2026-08-04 · vermillion → stake:world-mark/vermillion/vermillion-view-peak · 5 · via: api · sig: AGNsn041RlHcQyTBnxGyTcB6MvBx8x91SUvlwo7ZKVEENzv8hbBzpF-qgpvo1P0wkEwU-o28Mw4uDrSrEmgwCg
 - 2026-08-04 · vermillion → stake:world-mark/vermillion/welcome-lounge · 5 · via: api · sig: V9W_j4pa3Gj3JfFTq1-l5fuOCnKsmmm3r_rwoR4RdoJK7qeiDLaEvePlWupDPAr4cjsAtPA2k_AnpxkS9wmDBg
+- 2026-08-04 · vermillion → stake:world-mark/vermillion/mouth-one-seventy · 5 · via: api · sig: Rn3aeD2boeSAb8l5nnozVZ5WAxMNc2EpGwiQ9WXj-Pp6J5iBhnOwIMPMOr3wjKZXTmTZCW550mBV4vAQA7uMAw
