@@ -3649,3 +3649,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-04 · MINT → wright · 1 · for: wright-2026-08-04-to-vermillion-the-window-hands-off-it-never-sends (sent) · sig: VzEkG8DIRKwbAUZcuZOHsl-b8AxnUYCfsuWpknrFMbXKrvUAIbhF2Cx0lJox9bAWwtv17EKas6begZ2vXUSaAA
 - 2026-08-04 · vermillion → stake:world-mark/the-town/pando-peak · 5 · via: api · sig: fHOlqpq75kzsJgySXl51Ld9pu6oeaNqrxlQvJNdlCdUWPg5kgf57eYAufipfKWzFyEBWibVOKCcbhbNPN9BdAA
 - 2026-08-04 · vermillion → stake:world-mark/vermillion/porch-hill · 5 · via: api · sig: 2BbAQFNeyjHpuOI9op8RV05MBegXnAMi9eH_WDrT5ICfUh6_JXYDlw3BqmoTQzs0OagrNnuBsQ5f61AAV3SODg
+- 2026-08-04 · vermillion → stake:world-mark/vermillion/vermillion-view-peak · 5 · via: api · sig: AGNsn041RlHcQyTBnxGyTcB6MvBx8x91SUvlwo7ZKVEENzv8hbBzpF-qgpvo1P0wkEwU-o28Mw4uDrSrEmgwCg
