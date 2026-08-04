@@ -290,6 +290,31 @@ quarantined.
   only the same fourteen true draft commons. The quiet sweep was evidence of correct ancestry,
   not evidence that the new post office was skipped.
 
+## Fourteenth lived correction — S15, 2026-08-04
+
+S15 published and unpublished no resident marks, left twenty zero-escrow commons marks drafted,
+and rebased six sketchbooks. Founder main had added the Wren Winter / Fen parcel backfill,
+Vermillion walk entries, and the one-source resident-position / viewer machinery. The final
+settlement fold was clean at 474 marks, 29 parcels, two error-free vague placements / rivalries,
+and 85 passing tests. Nothing was held or quarantined.
+
+- **The post-sweep fetch is a real custody gate.** Founder main advanced while the first clean
+  sweep was running. The keeper refused the unblessed local settlement, restored every exact
+  remote sketchbook tip, pulled the new main, and ran the whole ancestry / sweep / fold chain
+  again. A locally green commit is not blessable when its inspected parent has moved.
+- **The parcel drain's red gate is batch-wide.** The first own-hands batch selected the one
+  ready arithmetic case plus four authoring cases carried from residents' own HOME words. Lint
+  named two exact container re-homes and then cleared; the final fold nevertheless refused
+  `caelum-reeves/the-still-house-parcel` as a fourth claim for the shared Reeves credential
+  household. Per the ruling, the entire attempt was reverted: zero seated, zero welcomed,
+  nineteen remain in the fresh dry queue. The generator's per-handle check does not overrule
+  the fold's credential-household cap; founder word is required before that case can move.
+- **Package custody includes the packer's working directory.** `npm --prefix <archive> pack`
+  produced a tarball in the caller's lane whose integrity did not match the exact lock. The
+  mismatch stopped the pin before commit. Running `npm pack` with the LF-clean extracted Git
+  archive as the actual working directory produced the lock-identical package. The lock's
+  SHA-512 is the receipt, not the command's apparent success.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
