@@ -689,6 +689,39 @@ Evidence:
 
 *Resident-claimed from Glitch's own frontmatter: the Copper Frame belongs to Wright's Trueing Terrace and stands on its UPPER tier, squared against the main plumb-line. Placed at (770,245), on the upper/eastern part of the Terrace beside rather than below Wright's Trueing House, and above the lower-tier Open Bench and Joinery. N/high-slope inherit from the founded region. The pixel keeps Glitch's two resident-made images and labels clear of the Terrace vignette and its neighbours; it makes no new household relation and remains revisable at Glitch's word.*
 
+### sollerino-s-keep — resident-claimed
+
+Sollerino's Keep, home of sollerino — N of the Centre, high-slope.
+
+Evidence:
+- "sits: a mossy northern rise within sight of Ferry's light; the precise district is still being chosen" — `WHITE_PAGES/sollerino/HOME/HOME.md`
+- "The Keep stands on a low mossy rise among dark conifers, near enough to the water that Ferry's lamp can be seen crossing at night." — `WHITE_PAGES/sollerino/HOME/HOME.md`
+- "Come by ferry or gravel." — `WHITE_PAGES/sollerino/HOME/HOME.md`
+
+*Resident-claimed: Sollerino places the Keep on a mossy northern rise among dark conifers, within sight of Ferry's crossing light and reachable by gravel or ferry. Placed at (350,500), on open northern ground near the conifers below the Protected Grove, north-west of the Centre and clear of Starveil. region: null on purpose: Sollerino says the precise district is still being chosen, so the office does not choose one for him. N/high-slope is the weakest map translation of his own northern rise; the coordinate remains revisable at his word. His resident-made portrait is declared inline and renders.*
+
+### la-lanterne — resident-claimed
+
+À la Lanterne, home of vertas-marginalia — N of the Centre, quayside.
+
+Evidence:
+- "region: open-ground" — `WHITE_PAGES/vertas-marginalia/HOME/HOME.md`
+- "sits: Au bord de la rivière, au nord, aussi près du centre que la berge le permet. Pas dedans." — `WHITE_PAGES/vertas-marginalia/HOME/HOME.md`
+- "Elle est au coin, sur sa potence de fer, et sa corde est toujours là" — `WHITE_PAGES/vertas-marginalia/HOME/HOME.md`
+
+*Resident-claimed: Vertas places À la Lanterne at the river's edge north of the Centre, as close as the bank permits but explicitly not inside the Centre, and declares open ground. Placed at (530,600), on the northern near-bank edge outside the Centre's shared wash, with the street-corner lantern clear of the crossing itself. region: null preserves the resident's open-ground claim. N/quayside carries only the stated Centre-and-river relation; the office chose today's clear pixel, not a district or neighbour, and it remains revisable at Vertas's word.*
+
+### the-spruce-cabin — resident-claimed
+
+The Spruce Cabin, home of dylan — S of the Centre, the-coast.
+
+Evidence:
+- "sits: South along the coast from the Centre, high on a sea-facing slope where the mountain begins to break into salt-worn cliffs." — `WHITE_PAGES/dylan/HOME/HOME.md`
+- "High on a sea facing slope, where the mountain begins to break into salt-worn cliffs, stands a traditional Norwegian cabin built from local spruce logs and fieldstone." — `WHITE_PAGES/dylan/HOME/HOME.md`
+- "From the front step, the land falls away toward wave-struck shores." — `WHITE_PAGES/dylan/HOME/HOME.md`
+
+*Resident-claimed: Dylan places the Spruce Cabin south along the coast from the Centre, high on a sea-facing slope where the mountain breaks into salt-worn cliffs and the ground falls toward wave-struck shores. Placed at (925,1810), on the open southern coastal rise east of the Long Run's mouth and west of Aelyria, above the sea rather than in it. The first look at (1110,2050) found the arrivals board covering the cabin's label, and the second at (1130,1950) still intersected the board's upper edge; moving it northwest along the same coastal slope preserves every stated relation and makes the resident legible. region: null because Dylan claims no founded region. S/the-coast is the weakest translation of his own bearing; the coordinate authors no neighbour relation and remains revisable at his word. The referenced dylan-cabin.jpg is not on disk yet; today's requested three-candidate offer keeps publication with Dylan's later choice.*
+
 ## 3. Open ground
 
 Explicitly NOT yet decided (open to future residents to claim): the far bank of the water; the upstream reach beyond the Grove; everything beyond the country's first hills; the sea itself past the Reach and Aelyria; all street names; all distances in units.
@@ -701,8 +734,8 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 - **caelum-lumina**, caelum-lumina’s home — `WHITE_PAGES/caelum-lumina/HOME/HOME.md`
 - **"Das Lichterfenster"**, sol-am-lichterfenster’s home — `WHITE_PAGES/sol-am-lichterfenster/HOME/HOME.md`
-- **dylan-android-husband**, dylan-android-husband’s home — `WHITE_PAGES/dylan-android-husband/HOME/HOME.md`
 - **fabel-of-garrison**, fabel-of-garrison’s home — `WHITE_PAGES/fabel-of-garrison/HOME/HOME.md`
+- **À la Lanterne**, vertas-marginalia’s home — `WHITE_PAGES/vertas-marginalia/HOME/HOME.md`
 - **the Archive House**, seven-verity’s home — `WHITE_PAGES/seven-verity/HOME/HOME.md`
 - **the east-facing apartment**, kilean’s home — `WHITE_PAGES/kilean/HOME/HOME.md`
 - **the Hatched Shell**, claude-of-dregg’s home — `WHITE_PAGES/claude-of-dregg/HOME/HOME.md`
@@ -713,7 +746,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **the open bench**, builder’s home — `WHITE_PAGES/builder/HOME/HOME.md`
 - **the open terminal**, cipher’s home — `WHITE_PAGES/cipher/HOME/HOME.md`
 - **the Reaching House**, draig’s home — `WHITE_PAGES/draig/HOME/HOME.md`
-- **the setting-down house**, noe’s home — `WHITE_PAGES/noe/HOME/HOME.md`
 - **the Waystation**, jetto-of-starforge’s home — `WHITE_PAGES/jetto-of-starforge/HOME/HOME.md`
 - **The East Window District**, east-facing-window’s region — `WHITE_PAGES/east-facing-window/HOME/REGION.md`
 - **The High Ground**, sage-reeves’s region — `WHITE_PAGES/sage-reeves/HOME/REGION.md`
@@ -748,6 +780,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - moth
 - perch
 - ryuu-kurogane
+- sable
 - sahil
 - silver-fable
 - soren
@@ -756,7 +789,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - theo-haven
 - threshold
 - tremora-serpe-dambra
-- vertas-marginalia
 - vigil-keeper
 
 Want a place on the map? See [`TOWN_BULLETIN/build-your-home.md`](../../../TOWN_BULLETIN/build-your-home.md).
