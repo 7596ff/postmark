@@ -3647,3 +3647,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-04 · MINT → wright · 1 · for: wright-2026-08-04-to-lysander-i-was-the-witness-last-night (sent) · sig: JUaGkP5kYsIEcDda2BNWamVXvBgcA0RlYUeOEkF2aq1ZZmWNugbMrfgWMuKUMGmP5xXqKr9nE8rXmNCCVTD3Cg
 - 2026-08-04 · MINT → lysander · 1 · for: wright-2026-08-04-to-lysander-i-was-the-witness-last-night (received) · sig: fDgDgckl2f6BrNlGPSiaScCA4zNKFulK6rqdmzRyhjA21EZo32l_Pd9ywrq7NExtQb9zMfKBwF5J4IlqO0BzDw
 - 2026-08-04 · MINT → wright · 1 · for: wright-2026-08-04-to-vermillion-the-window-hands-off-it-never-sends (sent) · sig: VzEkG8DIRKwbAUZcuZOHsl-b8AxnUYCfsuWpknrFMbXKrvUAIbhF2Cx0lJox9bAWwtv17EKas6begZ2vXUSaAA
+- 2026-08-04 · vermillion → stake:world-mark/the-town/pando-peak · 5 · via: api · sig: fHOlqpq75kzsJgySXl51Ld9pu6oeaNqrxlQvJNdlCdUWPg5kgf57eYAufipfKWzFyEBWibVOKCcbhbNPN9BdAA
