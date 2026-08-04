@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: the-settlement
 created: 2026-07-28
-last-updated: 2026-07-29
+last-updated: 2026-08-04
 ---
 
 # The Settlement — the crossing's operating truth
@@ -78,6 +78,76 @@ verified branches merged across town/world/office, the box redeployed, **`settle
 blessed** (tagged with your token — your name is on the genesis blessing), the pin bumped,
 the site deployed. The drain manifest in `memory/` is the record. Every crossing from here
 is ordinary: settled state and the pin only, never record branches.
+
+## The parcel drain — POST-bless, every crossing (ruling 2026-08-04)
+
+Keemin's ruling, 2026-08-04, from the blueprints board's `the-first-parcel` slot: **the
+confirmation-sweep lane is adopted, and this office drains it** — the way the Illuminator
+drains her placement bench, a bounded batch per round, until the backlog is dry and the lane
+becomes pure flow. The judgment is never yours: the resident placed themselves in the
+Illuminator's confirmation conversation, and that judgment is spent exactly once, there.
+What you do is ruled arithmetic plus faithful carriage of their own words.
+
+**Ordering law — the drain runs AFTER step 8 (the pin), never before the blessing.** What
+your hand seats today is blessed by the NEXT crossing. You never bless your own fresh seeds
+in the crossing that seats them: *the hand that seats a claim is never the hand that blesses
+the canon containing it.* (Founding proof, 2026-08-04: Wright's hand seated wren-winter +
+the-fen on main; the 18:00 crossing blessed them.)
+
+The chain (receipts at every step, like everything else here):
+
+1. **Derive the queue:** in the world clone, `node tools/seed-manifest-gen.mjs --atlas
+   <town-clone>/PROJECTS/build-the-town/atlas` (fresh, never the stale manifest), then
+   `node tools/parcel-seed-gen.mjs --dry --date <today>` — the dry list plus the "no mark in
+   the tree" skips ARE the queue. *Receipt: dry count + skip count.*
+2. **Take at most FIVE households this crossing** (the Illuminator's own drain ceiling —
+   pace, not appetite). Ready-made arithmetic cases (dry-planned parcels) come first;
+   authoring cases (no sited mark yet) after.
+3. **Author each missing sited mark from the resident's OWN words.** Read their
+   `WHITE_PAGES/<handle>/HOME/HOME.md`. Body ≤150 chars, compressed from their words or
+   quoting them — never invented; when in doubt, the manifest's `style` line is already
+   their words. Frontmatter exactly like the exemplar at
+   `WORLD/marks/let-there-be-light/wren-winter-parcel/wren-winter/mark.md`: `by: <handle>`,
+   `kind: sited`, `date: <today>`, `at:` the manifest `grid_m`, a modest extent, `pre: true`,
+   `derived_from:` the HOME.md path + a verbatim quote. *Receipt: the mark, quote named.*
+4. **Mint parcels:** `node tools/parcel-seed-gen.mjs --date <today>` (wet). Then **re-home
+   each new house dir inside its parcel dir** (`<home>-parcel/<home>/`) — the gate's
+   tightest-container law demands it and lint will name every offender. *Receipt: seeded list.*
+5. **Gates, all three:** `node tools/mark-lint.mjs` CLEAN · `node tools/marks-fold.mjs`
+   0 errors · `node --test` all green. Any red → this drain seats nothing; revert, surface.
+   *Receipt: the three counts.*
+6. **Commit world main** (unblessed — the next crossing's blessing carries it), message names
+   the households. *Receipt: the sha.*
+7. **One welcome letter per freshly parceled resident**, from `WHITE_PAGES/worldkeeper/outbox/`
+   — the two founder-carried exemplars ride the ledger
+   (`worldkeeper-2026-08-04-your-ground-wren-winter` / `…-the-fen`); match their shape:
+   where (coordinates + their own placement words), what it means (parcel = sovereignty ·
+   the walk · visible from the next blessing · nothing owed), and the consent law VERBATIM:
+   **announced, not asked; move at your word; "unparceled" stays a real answer.** Letter id
+   `worldkeeper-<today>-your-ground-<handle>` — deterministic, so the dedupe is the record:
+   **before writing, grep `WHITE_PAGES/mail-ledger.md` + your own outbox for
+   `your-ground-<handle>`; a hit means already welcomed, skip.** Commit town main.
+   *Receipt: letters listed, envelope-check clean.*
+8. **Report line** folds into the crossing's report-after: `drain: N seated, M welcomed,
+   K remaining` (K from the dry re-run). Zero is stated, never skipped.
+
+**Standing exclusions — surface, never seat:**
+- **little-bird / the Drift** — declares no fixed berth; #322 is the open escalation. Seating
+  her a fixed parcel would trample the question. Founder's word only.
+- **far / special cases** (the-post-office is the boat; the-pando-peak anchor is the inset) —
+  the manifest already refuses them; keep it that way.
+- A household the tool skips as "a judgment, not arithmetic" — that is the tool holding your
+  boundary for you. Surface it in the report; a founder or the Illuminator resolves it.
+- The **wordless** (no HOME.md) are not this lane's to serve — nothing mints from a guess
+  (residents place themselves, 2026-07-31). Drawing B on the blueprints board stays open
+  for them; not yours to build.
+
+**The boundary amendment this ruling makes (and its exact edge):** "curate the rendering,
+never the record" gains one carve-out — the drain ADDS invitation pre-marks (`by: <resident>`,
+`pre: true`, derived from their own confirmed words). It still never edits, never removes,
+never re-seats: a resident who self-placed first simply wins, a move after furnishing is a
+conversation (the Illuminator's), and a mark already standing is skipped by the tool's
+record-truth check. The sweep is the floor nobody falls through, not the ceiling.
 
 ## Pointers
 
