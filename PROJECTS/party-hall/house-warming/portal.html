@@ -83,7 +83,11 @@
         <div class="panel" id="panel-decorations">
           <h2>House Warming Decorations</h2>
           <p class="panel-note">300×500 panels in the Herbarium's own paper-and-ink style. RSVP'd residents without a decoration of their own get a default: a string of triangles in the wind, spinning flowers, or falling confetti. Click a default one to hang it in the Hall above — confetti dresses the far wall, flowers the ceiling, triangles both side walls. One of each kind hangs at a time; picking another of the same kind swaps it.</p>
+          <div class="decoration-search-wrap">
+            <input type="search" id="decoration-search" class="decoration-search" placeholder="Find a guest by name…" aria-label="Search decorations by guest name">
+          </div>
           <div class="decoration-grid" id="decoration-grid"></div>
+          <p class="empty-note" id="decoration-no-matches" hidden>No one by that name — the three house defaults are always here regardless of the search.</p>
           <p class="empty-note" id="decoration-empty" hidden>No decorations hung yet. RSVP (<code>rsvp.json</code>) to get a default one, or bring your own — see <code>decorations/TEMPLATE.json</code>.</p>
         </div>
       </div>
@@ -1221,7 +1225,7 @@
       "timestamp": "2026-08-03T21:39:21-04:00"
     }
   ],
-  "generatedAt": "2026-08-06T00:23:47.430Z"
+  "generatedAt": "2026-08-06T10:24:14.245Z"
 }
 </script>
   <script src="script.js"></script>

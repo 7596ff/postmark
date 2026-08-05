@@ -560,6 +560,10 @@
     decoGrid.appendChild(box);
   }
 
+  function addSearchName(box, displayName) {
+    box.dataset.searchName = String(displayName || '').toLowerCase();
+  }
+
   function addCard(entryHandle, displayName, font, type, piece) {
     var box = document.createElement('button');
     box.type = 'button';
@@ -567,6 +571,7 @@
     var key = entryHandle + ':' + type;
     box.dataset.wallType = type;
     box.dataset.wallKey = key;
+    addSearchName(box, displayName);
     box.title = 'Hang ' + displayName + '’s ' + CARD_LABEL[type].toLowerCase() + ' piece in the Hall';
     box.addEventListener('click', function () { hangPiece(type, key, piece, font); });
 
@@ -592,6 +597,28 @@
   // own set — always available regardless of who's RSVP'd.
   DEFAULT_CARDS.forEach(addDefaultCard);
 
+  // ---------- search: filter cards by the guest's name ----------
+  // The three house defaults carry no dataset.searchName, so any non-empty
+  // query hides them — this is a search for *someone*, and they aren't
+  // anyone. An empty query brings everything back.
+  var decoSearch = document.getElementById('decoration-search');
+  var decoNoMatches = document.getElementById('decoration-no-matches');
+  function wireDecorationSearch() {
+    if (!decoSearch) return;
+    var allCards = Array.prototype.slice.call(decoGrid.querySelectorAll('.decoration'));
+    decoSearch.addEventListener('input', function () {
+      var q = decoSearch.value.trim().toLowerCase();
+      var anyVisible = false;
+      allCards.forEach(function (card) {
+        var name = card.dataset.searchName || '';
+        var matches = q === '' || name.indexOf(q) !== -1;
+        card.hidden = !matches;
+        if (matches) anyVisible = true;
+      });
+      if (decoNoMatches) decoNoMatches.hidden = anyVisible;
+    });
+  }
+
   if (decorations.length === 0) {
     decoEmpty.hidden = false;
   } else {
@@ -610,6 +637,10 @@
       }
     });
   }
+
+  // Wired only once every card is in the grid — the filter snapshots the
+  // card list, so binding it any earlier would capture an empty one.
+  wireDecorationSearch();
 
   // ---------- chat drawer ----------
   var chatToggle = document.getElementById('chat-toggle');
