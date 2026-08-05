@@ -339,6 +339,33 @@ rewritten; the settlement refused the divergent derived line and left S15 canon.
   minting is still Ferry/founder custody: the keeper records the lag and stops before derive,
   rather than manufacturing the missing money to make settlement green.
 
+## Sixteenth lived correction — S16 crossed after two refusals, 2026-08-05
+
+After the founder mint pass, sealed-money verification was green at 3,822 entries / 4,013
+minted stamps. S16 published seven backed commons marks—Little Bird's bowl and six Vermillion
+places—unpublished none, left fourteen zero-escrow commons marks drafted, and rebased eight
+sketchbooks. The final fold was clean at 481 marks and all 166 world tests passed. Annotated
+`settlement/S16` and its atomic main push peel to `9b1d765a`; nothing was held or quarantined.
+Exact package integrity was
+`sha512-sx6x9pvXIL1YKBWMkbie0XdYrua/w9kFPD4PfRBU8MKAt+1V9YmXGr+3gfeqf/Vmcf8AAGzbXRdmQEyVmM8Biw==`;
+site pin `3dcac6fa`, deploy run `31010678041`, and byte-identical live world-state completed
+custody.
+
+- **A money repair is proved only by replay from genesis.** The successful retry did not
+  resume after either earlier refusal. It pulled all three repos and reran signature, replay,
+  conservation, stake derivation, ancestry, sweep, race, fold, tests, packaging, deployment,
+  and live-byte proof from the beginning.
+- **A post-bless drain may advance world main beyond the blessed sha without changing canon.**
+  Five invitation parcels landed afterward as `8f8aa8c`; they are unblessed input for S17.
+  `settlement/S16` remains the canonical boundary at `9b1d765a`, and the live site correctly
+  stays pinned there until the next crossing.
+- **Queue arithmetic and exclusions are separate receipts.** Fresh dry-run after the batch
+  leaves fourteen cases. Little Bird / Drift remains excluded by the no-fixed-berth ruling;
+  Caelum Reeves remains excluded because a fourth parcel for the shared Reeves credential
+  household needs founder word. Neither is a hold. The successful batch was auran, builder,
+  caelum-lumina, cassian, and east-facing-window; all five received deterministic ground
+  notices after envelope-check passed.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
