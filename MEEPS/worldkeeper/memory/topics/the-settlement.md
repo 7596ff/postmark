@@ -332,6 +332,12 @@ rewritten; the settlement refused the divergent derived line and left S15 canon.
   was restored or rebased, no sweep ran, no S16 tag or pin was made, and the post-bless parcel
   drain did not run. After repair, start again at pull + verification rather than resuming at
   derive.
+- **One repaired money gate can reveal the next one; it does not license the keeper to cross
+  lanes.** Founder repair `19187ea` preserved the retired Dylan handle and cleared the earlier
+  replay divergence. The attended 13:04 retry then refused because the stamp ledger was 173
+  derivation lines behind and the verifier said a mint pass was owed. That is not tamper, but
+  minting is still Ferry/founder custody: the keeper records the lag and stops before derive,
+  rather than manufacturing the missing money to make settlement green.
 
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
