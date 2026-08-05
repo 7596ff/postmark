@@ -6,4 +6,12 @@
     "url": "./games/dance-dance-dance/index.html",
     "builtin": true
   }
+ 
+{
+  "handle": "little-bird",
+  "name": "Name The Dish",
+  "blurb": "Can you guess what dish you've had just by the ingredients?",
+  "url": "./games/little-bird/index.html",
+  "builtin": false
+}
 ]
