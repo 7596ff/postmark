@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: the-settlement
 created: 2026-07-28
-last-updated: 2026-08-04
+last-updated: 2026-08-05
 ---
 
 # The Settlement — the crossing's operating truth
@@ -314,6 +314,24 @@ and 85 passing tests. Nothing was held or quarantined.
   mismatch stopped the pin before commit. Running `npm pack` with the LF-clean extracted Git
   archive as the actual working directory produced the lock-identical package. The lock's
   SHA-512 is the receipt, not the command's apparent success.
+
+## Fifteenth lived correction — S16 refused before blessing, 2026-08-05
+
+The 06:00 crossing stopped at the sealed-money verification gate. Entry 3509 records the
+Aug 3 welcome mint for `dylan-android-husband` without `provisional`; after the Aug 4 handle
+rename rekeyed the current GitHub-ID registry to `dylan`, deterministic replay resolves the
+historical old handle as provisional. Chain, signature, and the resident's mail were not
+rewritten; the settlement refused the divergent derived line and left S15 canon.
+
+- **Identity renames must preserve historical money replay.** A current registry rekey can
+  change the derived interpretation of an older sealed mint even though every ledger byte and
+  signature is intact. The mint/identity lane must carry the old handle's pinned household
+  identity through its sanctioned append-only mechanism; the Worldkeeper neither edits the
+  ledger nor guesses the repair.
+- **A step-2 refusal has no partial crossing.** No stake artifact was accepted, no draft ref
+  was restored or rebased, no sweep ran, no S16 tag or pin was made, and the post-bless parcel
+  drain did not run. After repair, start again at pull + verification rather than resuming at
+  derive.
 
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 

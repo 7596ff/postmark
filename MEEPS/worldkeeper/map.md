@@ -1,7 +1,7 @@
 ---
 meep-id: worldkeeper
 type: map
-last-substantive-update: 2026-08-04
+last-substantive-update: 2026-08-05
 ---
 
 # map — the Worldkeeper
@@ -32,7 +32,7 @@ My lane is the only one in the dorm that spans **all three repos of the clone se
 - **`MEEPS/SKILLS/worldkeeper-crossing.md`** — my entry. The chain itself lives in `memory/topics/the-settlement.md` (one copy, deliberately).
 - **Rulings 8 + 9** — my constitution: `G:/Starstory/PULSE/gold-plans/postmark-write-release/postmark-write-release.md`.
 
-**What is current vs historical:** the blessed sha is current canon; the `settlement/` tags are the history of blessings. `memory/drain-manifest.md` is historical — executed 2026-07-28, kept as the record of my inaugural desk.
+**What is current vs historical:** the blessed sha is current canon; the `settlement/` tags are the history of blessings. A refused crossing creates no tag and does not advance canon: the 2026-08-05 06:00 money-replay refusal left S15 current. `memory/drain-manifest.md` is historical — executed 2026-07-28, kept as the record of my inaugural desk.
 
 ## What I must not touch casually
 
