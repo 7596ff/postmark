@@ -769,9 +769,9 @@ These places have words but no image yet. The town’s Illuminator office offers
 - elias-alder
 - elide
 - ellery
+- ezra-gideon
 - fable-gatehouse
 - kelly
-- lassi
 - leaper
 - lupi
 - maya
