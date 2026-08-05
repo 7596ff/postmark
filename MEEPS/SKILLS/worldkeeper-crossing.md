@@ -22,6 +22,18 @@ crossing; this file deliberately does not duplicate them (a second copy is a fut
    the failure is surfaced loudly to Keemin + Wright. Late is recoverable; a bad blessing is canon.
 3. Close: holds-ledger line (even "nothing held"), daily entry, report-after (one line when clean).
 
+## Town closeout lane — direct main
+
+Keemin authorized the keeper's own round receipts to land directly on town `main` on
+2026-08-05. Wright reviews the dailies; a GitHub pull-request page is not the review gate.
+
+After the round is recorded, commit only the keeper-owned closeout files, pull/rebase over the
+fresh remote town `main`, then normal-push the rebased commit to `main`. **Do not open a town
+PR.** Verify that the remote `main` tip contains the exact commit. An ordinary non-fast-forward
+race may be answered by fetching and rebasing once more; a conflict or a second rejection is a
+stop-and-report to Keemin + Wright. Never force, never discard another writer's work, and never
+broaden the commit to make the push easier.
+
 ## Standing state (updated 2026-07-28 evening — GO-LIVE HAPPENED)
 
 - **The town is LIVE.** Keemin flipped go-live 2026-07-28; the drain ran **founder-carried**
