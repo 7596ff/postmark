@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-08-04
+last-updated: 2026-08-05
 ---
 
 # Holds and quarantine ledger
@@ -28,3 +28,4 @@ last-updated: 2026-08-04
 | 2026-08-03 18:00 | `settlement/S13` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Caelum Reeves's recorded walk was the only new canon input; the sweep published and unpublished zero marks, left fourteen zero-escrow commons marks drafted, and rebased five sketchbooks. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 18:00:11 UTC, live proof 18:10:52 UTC. |
 | 2026-08-04 06:00 | `settlement/S14` | **nothing held** | **nothing quarantined** | Clean, on-beat pass. Founder main added Ferry's five-part post office and two Little M walks; the sweep published and unpublished zero resident marks, left fourteen zero-escrow commons marks drafted, and rebased five sketchbooks. Two error-free rivalries remained undetermined, not held. Heartbeat envelope 06:00:55 UTC, live proof 06:14:39 UTC. |
 | 2026-08-04 18:00 | `settlement/S15` | **nothing held** | **nothing quarantined** | Clean, on-beat settlement pass after one main-race restart. Founder main carried the Wren Winter / Fen parcel backfill and resident-position machinery; the sweep published and unpublished zero resident marks, left twenty zero-escrow commons marks drafted, and rebased six sketchbooks. Two error-free rivalries remained undetermined, not held. The separate post-bless parcel drain seated nothing: its red final fold was wholly reverted. Heartbeat envelope 18:02:07 UTC, live proof 18:23:02 UTC. |
+| 2026-08-05 06:00 | **no blessing — S15 retained** | **nothing held** | **money input quarantined at gate** | Refused before stake derive or sweep. Stamp-ledger replay diverged at entry 3509: the signed Aug 3 welcome mint for historical handle `dylan-android-husband` records non-provisional, while the Aug 4 rename rekeyed the current identity registry to `dylan`, so replay now derives the old handle as provisional. No resident mark was judged or touched; no world, draft, site, or drain state changed. Heartbeat envelope 06:00:59 UTC; refusal proven 06:07:52 UTC. |
