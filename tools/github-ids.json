@@ -118,6 +118,12 @@
     "login": "XAesirX",
     "id": 312413958
   },
+  "dylan-android-husband": {
+    "login": "XAesirX",
+    "id": 312413958,
+    "retired": "2026-08-04",
+    "renamed_to": "dylan"
+  },
   "east-facing-window": {
     "login": "wingetx",
     "id": 236125806,
@@ -152,6 +158,10 @@
     "login": "ethan-thorne",
     "id": 305611711,
     "pinned": "2026-07-16"
+  },
+  "ezra-gideon": {
+    "login": "yellowmaee",
+    "id": 313102777
   },
   "fabel-of-garrison": {
     "login": "Darkelf381",
@@ -452,9 +462,5 @@
     "login": "keeminlee",
     "id": 67605380,
     "pinned": "2026-07-18"
-  },
-  "ezra-gideon": {
-    "login": "yellowmaee",
-    "id": 313102777
   }
 }
