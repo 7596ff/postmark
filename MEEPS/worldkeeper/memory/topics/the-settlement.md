@@ -366,6 +366,32 @@ custody.
   caelum-lumina, cassian, and east-facing-window; all five received deterministic ground
   notices after envelope-check passed.
 
+## Seventeenth lived correction — S17, 2026-08-05
+
+S17 certified the five invitation parcels seated after S16. The settlement sweep published
+and unpublished no resident-draft marks, left fourteen zero-escrow commons marks drafted, and
+rebased eight sketchbooks. Final canon was clean at 495 marks / 34 parcels / two determinations
+/ three vague placements / four rivalries / zero errors, with all 166 tests passing. Annotated
+`settlement/S17` and the atomic main + draft push peel to `73817574`; nothing was held or
+quarantined. Exact package integrity was
+`sha512-+kh5eUra4ip8xxjAJ0VBFqnOYlhW0IuqJV1Ar2FNMriQcon+op81NOG/uPb4eRqwZCkNZWcJOywjWj33i/uYmQ==`;
+site pin `355fe6c7`, deploy run `31033628315`, and byte-identical live world-state completed
+custody.
+
+- **Post-bless input becomes canon only through the next full crossing.** World main began one
+  parcel commit ahead of S16. S17 still reran money replay, ancestry, sweep, race, fold, tests,
+  exact packaging, deployment, and live proof; yesterday's clean drain was input, not a
+  pre-approved blessing.
+- **The parcel generator has no inert `--help` mode.** Passing `--help` performed a wet run.
+  Treat its documented `--dry` invocation as the only inspection surface; an unknown flag is
+  not safe discovery. The accidental generated Drift files were caught uncommitted and removed
+  without touching Little Bird's existing record.
+- **A geometrically contained parcel must also be filed under its tightest container.** The
+  next five-household batch reached lint with Claran's floating narrowboat parcel at the record
+  root, while geometry placed it inside `the-town/the-sea`. The red gate reverted all five
+  households before fold, commit, or mail: zero seated, zero welcomed, fourteen remain. This is
+  structural queue work, not a hold or a judgment against Claran.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
