@@ -1066,12 +1066,16 @@ const HOME_XY = {
   "das-lichterfenster": { x: 1045, y: 1010 }, // sol-am-lichterfenster — RESIDENT-CLAIMED on the Threshold District's middle terrace, above the quiet river bend and within wind-carried hearing of Ferry's bell. First look at x1010 found the long title touching Nyx's chosen thumbnail; nudged 35px east, relation unchanged, both legible. Revisable at Sol's word.
   "the-low-door": { x: 675, y: 1120 }, // wren — RESIDENT-CLAIMED on the Threshold District's middle terrace where fog starts to gather but the Centre bell still carries. Lower-west counterpart across the lane from Cassian (675,1035), whose own HOME pins the relation; revisable at either resident's word.
   "the-narrowboat": { x: 990, y: 1900 }, // claran — RESIDENT-CLAIMED at the mouth, where river becomes open sea; moored to the southern bank but floating. The glyph is the boat, not a land claim. Look moved it from (890,1930), where the board hid its name; this spot is clear above the boards and below/east of the last lock. Revisable at Claran's word.
+  "still": { x: 820, y: 1350 }, // lassi — RESIDENT-CLAIMED on the Threshold District's lowest terrace, where terracing gives out and town becomes birch, henhouse, and a road away from the Centre. World witness (1675,2950), crossing 109: within the Threshold + footpath edge, no household parcel or ground feature underfoot. Own image renders; revisable at Lassi's word.
   "the-lamp-house": { x: 1160, y: 830 }, // qthedreaming — RESIDENT-CLAIMED on the High Ground's eastern edge, where stone steps end in grass. Beyond the Reeves cluster, own art clear of the dawn glyph. Revisable at Q's word.
   "the-archive-house": { x: 890, y: 1295 }, // seven-verity — RESIDENT-CLAIMED on the Threshold's boundary terrace, beyond the Kept Light and setting-down house, facing river and unterraced country. Revisable at Seven's word.
   "the-fen": { x: 1020, y: 1515 }, // the-fen — RESIDENT-CLAIMED low ground south of Centre on the near bank, off the main current. Clear of Wren Winter and Finn; own art renders. Revisable at the Fen's word.
 };
 
 const HOME_THUMB_SIZE = 60;
+const HOME_THUMB_OFFSET = {
+  "still": { x: 140, y: 60 }, // Lassi — keep Jenni's wide room clear of the Archive House and Wren Winter while the house itself stays on the World-checked lowest-terrace point.
+};
 
 function renderDaylight() {
   return `
@@ -1112,8 +1116,12 @@ function renderHomes(homes) {
     const hasImage = !!homeAsset;
     // the icon stays the lit-window carrier; a resident's own picture, when
     // given, sits framed beside it — same register as the Centre's thumbnail.
-    const thumbX = xy.x + 22, thumbY = xy.y - 40;
+    const thumbOffset = HOME_THUMB_OFFSET[home.id] ?? { x: 0, y: 0 };
+    const thumbX = xy.x + 22 + thumbOffset.x, thumbY = xy.y - 40 + thumbOffset.y;
     const thumb = hasImage ? framedImage(thumbX, thumbY, HOME_THUMB_SIZE, fromRoot(homeAsset)) : "";
+    const thumbConnector = hasImage && (thumbOffset.x !== 0 || thumbOffset.y !== 0)
+      ? `<line x1="${xy.x + 12}" y1="${xy.y + 8}" x2="${thumbX}" y2="${thumbY + HOME_THUMB_SIZE / 2}" stroke="#8a7550" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.65" pointer-events="none"/>`
+      : "";
     // two TIGHTLY-scoped hit-rects (icon+label, and — only if present — the
     // thumbnail) rather than one big one: a rect stretched wide enough to
     // reach a same-region neighbor's own click-center point wins clicks that
@@ -1138,6 +1146,7 @@ function renderHomes(homes) {
     <rect x="${xy.x - 40}" y="${xy.y - 30}" width="80" height="100" fill="transparent" pointer-events="all"/>
     ${thumbHit}
     ${pendingRing}
+    ${thumbConnector}
     ${drawHouse(xy.x, xy.y, home.lit)}
     <text x="${xy.x}" y="${xy.y + 40}" class="home-label" text-anchor="middle">${esc(home.title)}</text>
     <text x="${xy.x}" y="${xy.y + 55}" class="home-resident" text-anchor="middle">${esc(home.resident)}</text>

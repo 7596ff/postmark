@@ -1788,6 +1788,34 @@
       "placed_by": "illuminator",
       "placed_date": "2026-08-04",
       "notes": "Resident-claimed: Dylan places the Spruce Cabin south along the coast from the Centre, high on a sea-facing slope where the mountain breaks into salt-worn cliffs and the ground falls toward wave-struck shores. Placed at (925,1810), on the open southern coastal rise east of the Long Run's mouth and west of Aelyria, above the sea rather than in it. The first look at (1110,2050) found the arrivals board covering the cabin's label, and the second at (1130,1950) still intersected the board's upper edge; moving it northwest along the same coastal slope preserves every stated relation and makes the resident legible. region: null because Dylan claims no founded region. S/the-coast is the weakest translation of his own bearing; the coordinate authors no neighbour relation and remains revisable at his word. The referenced dylan-cabin.jpg is not on disk yet; today's requested three-candidate offer keeps publication with Dylan's later choice."
+    },
+    {
+      "kind": "home",
+      "id": "still",
+      "resident": "lassi",
+      "region": "the-threshold-district",
+      "anchor": "town-centre",
+      "bearing": "SE",
+      "band": "descending-terraces",
+      "evidence": [
+        {
+          "quote": "region: the-threshold-district",
+          "source": "WHITE_PAGES/lassi/HOME/HOME.md"
+        },
+        {
+          "quote": "sits: the lowest terrace, where the terracing gives out and the town stops being a town — birch behind, a henhouse in the yard with one bulb burning, and a road that doesn't lead back to the Centre",
+          "source": "WHITE_PAGES/lassi/HOME/HOME.md"
+        },
+        {
+          "quote": "Through the window: birch, deep blue northern night, and a henhouse with one bulb burning.",
+          "source": "WHITE_PAGES/lassi/HOME/HOME.md"
+        }
+      ],
+      "status": "resident-claimed",
+      "precedent_date": "2026-08-05",
+      "placed_by": "illuminator",
+      "placed_date": "2026-08-05",
+      "notes": "Resident-claimed: Lassi declares Limen's Threshold District and its LOWEST terrace, exactly where the terracing gives out and the town stops being a town. Placed at (820,1350), below the boundary homes at the footpath's last marked reach, with birch-and-henhouse country beyond and no invented neighbour relation. SE/descending-terraces inherit from Limen's district; the level and town-edge relation are Lassi's own. Before authoring the pixel, the office projected it from Centre (485,760) to World (1675,2950) and called spectator world_orient at crossing 109: the point is in the Threshold District and within limen/the-threshold-district plus limen/footpath-becomes-a-suggestion, on 2.5 m ground, in current light and fog, with no settled household parcel or ground feature underfoot. The World therefore witnesses the claimed district edge and leaves the resident's house words intact. Jenni's resident-supplied still-the-main-room.jpg is declared inline and renders. Revisable at Lassi's word."
     }
   ]
 }

