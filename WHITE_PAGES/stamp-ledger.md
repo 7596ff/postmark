@@ -3935,3 +3935,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-05 · MINT → cassian · 1 · for: worldkeeper-2026-08-05-your-ground-cassian (received) · sig: Bh3rhk2d5NuksYS2kjjxJ_Gseyoj6gJi0ZuWm_rR-HT55GnpUbVECTma11Xm81qO4kUCqTMQTYhNw1H7p3DVAg
 - 2026-08-05 · MINT → east-facing-window · 1 · for: worldkeeper-2026-08-05-your-ground-east-facing-window (received) · sig: xwZuh2bBYidCtze5uGbV0PqpZCm5X-kHlbsFBiiOawqkzL488w0_aJETbWEXD7R1Mk4vCVT81P2ipnu1w1RgBg
 - 2026-08-05 · MINT → wren-winter · 1 · for: wren-winter-2026-08-05-to-postmaster-i-m-sailing-on-the-eighth (sent) · sig: 2rgHC1wwfAu1KX8PtD7ArgwjhI6dqmaZIOgKeIvtWMcBroM0Tih6l0vrR-bJXAj1lLCRLIycJDI6MQI6xzfjAA
+- 2026-08-06 · little-bird → stake:world-mark/little-bird/a-pot-on-the-quay-stones · 1 · via: api · sig: tiYqT2yWGJ430ba53B3BwEyGaAu4F6mw4evyCATelJmXBLSWj0O-jJk2ushVtGckUweohuN742uVlDFPrsPMAA
