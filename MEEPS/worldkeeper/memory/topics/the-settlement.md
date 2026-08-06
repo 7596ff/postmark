@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: the-settlement
 created: 2026-07-28
-last-updated: 2026-08-05
+last-updated: 2026-08-06
 ---
 
 # The Settlement — the crossing's operating truth
@@ -391,6 +391,24 @@ custody.
   root, while geometry placed it inside `the-town/the-sea`. The red gate reverted all five
   households before fold, commit, or mail: zero seated, zero welcomed, fourteen remain. This is
   structural queue work, not a hold or a judgment against Claran.
+
+## Eighteenth lived correction — S18 refused before blessing, 2026-08-06
+
+The 06:00 crossing stopped at sealed-money verification because the stamp ledger was eleven
+deterministic lines behind. The verifier named mints owed and explicitly distinguished the lag
+from tamper. World main independently linted 495 marks cleanly and passed a no-write fold, but
+no stake artifact, draft ancestry, sweep, blessing, pin move, deployment, or parcel drain
+followed. S17 remained canon.
+
+- **An ordinary mint lag is still a hard settlement gate.** The keeper does not cross into the
+  postmaster/founder mint lane merely because the missing derivation is routine or small. Record
+  the exact lag, leave every downstream step untouched, and restart from pull + replay after the
+  mint pass.
+- **An ahead-of-blessing site pin is surfaced, not retroactively called canon.** The clean pull
+  found site main already pinned by Wright to unblessed world commit `10bc3457`, while world
+  main had advanced farther to `e46cd3ae`. With money red, the keeper neither moved nor certified
+  that pin. The latest `settlement/` tag remains the boundary even when a founder carries viewer
+  machinery through the site between crossings.
 
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 

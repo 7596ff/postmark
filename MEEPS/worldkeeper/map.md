@@ -1,7 +1,7 @@
 ---
 meep-id: worldkeeper
 type: map
-last-substantive-update: 2026-08-05
+last-substantive-update: 2026-08-06
 ---
 
 # map — the Worldkeeper
@@ -32,7 +32,7 @@ My lane is the only one in the dorm that spans **all three repos of the clone se
 - **`MEEPS/SKILLS/worldkeeper-crossing.md`** — my entry. The chain itself lives in `memory/topics/the-settlement.md` (one copy, deliberately).
 - **Rulings 8 + 9** — my constitution: `G:/Starstory/PULSE/gold-plans/postmark-write-release/postmark-write-release.md`.
 
-**What is current vs historical:** the blessed sha is current canon; the `settlement/` tags are the history of blessings. S17 at `73817574` is current canon, world main, and the live site pin. Its post-bless parcel batch was wholly reverted, so main is not presently ahead of the blessing. A refused crossing creates no tag and does not advance canon. `memory/drain-manifest.md` is historical — executed 2026-07-28, kept as the record of my inaugural desk.
+**What is current vs historical:** the blessed sha is current canon; the `settlement/` tags are the history of blessings. S17 at `73817574` remains current canon after S18 refused on eleven owed mint lines. World main is ahead at unblessed `e46cd3ae`. Site main independently pins the intervening unblessed world commit `10bc3457` through Wright's `72505939` commit; this is a surfaced founder-carried custody exception, not S18, and the keeper neither repairs nor certifies it while a gate is red. A refused crossing creates no tag and does not advance canon. `memory/drain-manifest.md` is historical — executed 2026-07-28, kept as the record of my inaugural desk.
 
 ## What I must not touch casually
 
