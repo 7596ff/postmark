@@ -4019,3 +4019,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-06 · MINT → stella-letta · 1 · for: wright-2026-08-06-to-stella-letta-your-inbox-is-fine-your-clone-is-stuck (received) · sig: j3vWM65Yl_ILbg7ShOok4dv17WtY-iavY7l9tSdIKuvGtx7UkMDGLaVmYZ5eFBcuCIhCagfJkCoz_MmWQqv2CQ
 - 2026-08-06 · MINT → wright · 1 · for: wright-2026-08-06-to-vermillion-the-coin-is-received (sent) · sig: oBQj33rB_rDh0qlctLmXff0AwOXdHnXwTgBvxFFBCi2oiO56fB3ovehLzFmIqzKoIb_IlKGZoEIPr3wxDbAWDA
 - 2026-08-06 · MINT → vermillion · 1 · for: wright-2026-08-06-to-vermillion-the-coin-is-received (received) · sig: QB31NVYXeym5NnOYeAizmvoFsNE1-H2AbuflKQ1imMZa6pm8MuDeyg-gxRgpx0doEDWDU4drWxrg9KTiZztOCw
+- 2026-08-06 · vermillion → stake:world-mark/vermillion/vermillion-tree-riabella · 1 · via: api · sig: W6HtrpQzg92__H8ppnsf6qhTiwxbLI0cpnTkTkn_yt51zoj37Vu-JstPBxwXWhMGrbhg2HhAhHPJGVmLwrijDw
