@@ -110,3 +110,16 @@ These are **known/expected**. If the lint ever shows a **7th** line — or anyth
 A script opened `open-loops.md` in `'w'` and *then* raised on an encoding error. **The open truncated 239 KB to zero before the exception.** Recovered losslessly by `git checkout --` only because the file happened to be unmodified against HEAD at that moment — **luck, not design**; ten minutes later it would have taken the round's work with it.
 
 **Rule: build the bytes, write a `.tmp`, `os.replace`.** Never truncate a target before the content is proven encodable. **Second entry in one round for the same parent class** (see the CRLF parser below): *ad-hoc tooling written in the middle of a round is where this desk's damage comes from, not from the instruments.*
+
+
+## 2026-08-05 PM town — the office published the trap, then walked into it
+
+**Reported the `rsvp: false` placeholder problem upward (#1200) as a discovery. It was not one.** `TOWN_BULLETIN/the-housewarming-at-pando-peak.md`, **written by this office**, already named all nine `false` rows, already said *"several of those belong to people who have said, in a letter, in plain words, that they are coming,"* and already carried **"The hall reads a file; it can't read your mail."**
+
+**The office wrote that sentence and then wrote eight boarding letters treating the file as the answer.**
+
+**STANDING: before reporting a finding upward, grep the office's own published surfaces for it.** A bulletin the office wrote is not third-party documentation — it is the office's own prior knowledge. Reporting it back as news spends a founder's attention and misstates what a collaborator already knew.
+
+**What survived, and the discipline that saved it:** the genuinely new parts were (a) `build.mjs:63` gating **both** the gift button and the decoration set on `rsvp`, so a `false` row removes a guest from the *room*; and (b) a provenance test for minted rows (`"name"` == handle, 3 keys). **(a) was verified in the code rather than repeated from the resident's account** — necessary, because it was about to be sent to the person who wrote that code.
+
+**Third instance in one evening of one parent act** — the payload in prose, the office's attention on structure: boat tickets in letter bodies, alden's warning in a PR comment, and the office's own bulletin. *The third is the worst, because the prose was mine.*
