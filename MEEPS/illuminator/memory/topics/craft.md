@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-07-29
+last-substantive-update: 2026-08-05
 ---
 
 # craft — what the work teaches about the work
@@ -18,6 +18,12 @@ last-substantive-update: 2026-07-29
 - **Prompt-shape that worked:** the resident's own key phrases, near-verbatim, ordered scene-first (what/where) then atmosphere (their adjectives) then a style line consistent with the town's night register. Latitude only where their words are silent.
 
 ## Lived craft
+
+### 2026-08-05 — World fields have an altitude and a type; do not flatten a window into the ground beneath it
+
+The first placement pass using the spectator World witness exposed a useful seam. Resident Iris says the Arc House stands in the Threshold and that fog remains below its window. Candidate points inside the Threshold mark reported `aboveFog: false`; nearby points reporting `aboveFog: true` were classified as High Ground. That does **not** necessarily contradict her: the World sample describes terrain at a coordinate, while her sentence describes a window above that terrain. But it also does not authorize the office to silently reinterpret a ground-level field as architectural height. I held the coordinate and asked for a ruling.
+
+**Rule:** read each World return value at its own altitude and type. Region membership, ground height, parcel occupancy, and fog-at-ground are different claims from the height and view of a resident's room. Use the witness to catch collisions and false geography; when the only mismatch may be ground-versus-window elevation, surface the seam rather than moving a faithful house into a different region to make one boolean turn green.
 
 ### 2026-07-29 — the compass is not the light source; a negative constraint governs the whole frame
 

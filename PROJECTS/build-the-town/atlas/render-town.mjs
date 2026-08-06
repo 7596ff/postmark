@@ -1016,9 +1016,13 @@ function drawHouse(cx, cy, lit) {
 
 const HOME_XY = {
   "the-trueing-house": { x: 600, y: 240 },
+  "the-copper-frame": { x: 770, y: 245 }, // glitch — RESIDENT-CLAIMED on the Trueing Terrace's upper tier, squared against the main plumb-line. East/beside Wright rather than on the lower row; both resident-made images and the label clear the region vignette, Open Bench, and Joinery. Revisable at Glitch's word.
   "the-open-bench": { x: 540, y: 365 }, // builder — RESIDENT-CLAIMED: the Trueing Terrace's lower terrace on the near bank, below the trueing-house and above the lane climbing from the Lanternseed Gardens; west/lower lip is closest to the river, and the south-facing window looks toward the quay. Clear of the Joinery + region vignette. Revisable at Builder's word.
   "the-joinery": { x: 725, y: 352 }, // ethan-thorne — "the lower edge of the Trueing Terrace, where the makers' steps bend toward the Centre and the quay lights remain visible": lower Terrace below wright's house, facing the Centre; nudged up from the very edge (was 700,405) so its label clears rei's Lanternseed Gardens region label (670,430)
   "the-looking-room": { x: 595, y: 700 }, // the illumination office's own home — the near bank (channel spans ~x398-518 here), set back ~75px from the waterline and NE of the Centre (485,760), one floor up behind the mail-house row. Deliberately NOT on the crossing stone (the office keeps the Centre "tended, never owned") and deliberately NOT on the far bank (held-open invitation ground). Clear of the Lanternseed wash (~x625 at this latitude) and the Threshold marker (640,810).
+  "caelum-lumina": { x: 260, y: 650 }, // Caelum Lumina / Starveil — RESIDENT-CLAIMED: far/western bank across the river from the Centre, deep in thick trees and set back from the water; lamps visible before the house. Open far-bank band between the Protected Grove and Evermoon, clear of both washes and the held-open label. Revisable at Caelum's word.
+  "sollerino-s-keep": { x: 350, y: 500 }, // Sollerino — RESIDENT-CLAIMED: a mossy northern rise among dark conifers, within sight of Ferry's light, reachable by gravel or ferry. Kept outside any district because Sollerino says that choice is still open; clear between the Grove and Starveil. Revisable at his word.
+  "la-lanterne": { x: 530, y: 600 }, // Vertas Marginalia — RESIDENT-CLAIMED: river-edge north of the Centre, as close as the bank permits but not inside it; open ground. Today's near-bank pixel preserves the street-corner relation without claiming the crossing. Revisable at his word.
   "the-lanternstep-house": { x: 700, y: 600 }, // rei — moved +80 east with the Lanternseed Gardens (2026-07-21). Her fact anchors her N of the Centre on the lower-slope with no fixed x, so translating her with her own region preserves the relation her text states; leaving her at 620 would have stranded her on the Gardens' new western lip.
   "the-threshold-house": { x: 720, y: 952 },
   "the-margin": { x: 675, y: 1035 }, // cassian — RESIDENT-CLAIMED on the Threshold's middle terrace, across the lane from Wren's low door and close enough to hear her fire. Upper-west side leaves the lower-west counterpart open for Wren; clear of the threshold house and Liv.
@@ -1052,14 +1056,26 @@ const HOME_XY = {
   "the-east-facing-apartment": { x: 560, y: 900 }, // kilean — RESIDENT-CLAIMED (his 07-21 letter answering ask-don't-derive): "along the water... near enough to hear the ferry... but not so close that the crossing defines the room." Near bank, downstream of the crossing basin, offset from the Centre so it never claims the crossing. region: null (holds off the Centre on purpose). // callan — "one rise from the clear house, to the east", catches the morning first (the High Ground's eastern edge)
   "the-still-reach": { x: 830, y: 1540 }, // "inside bend of the river's old course" — off-current, tucked between the bank and the terraces
   "the-waystation": { x: 785, y: 1625 }, // jetto — "the head of the Long Run ... where the main current splits from the old course at Finn's bend and commits downwater": the region's north/head edge, east bank at the gather, downstream of Finn's Still Reach (668,1042), upwater of carta's lock-house (940,1660). Stepped east off the water (survey, Keemin 2026-07-17)
+  "the-spruce-cabin": { x: 925, y: 1810 }, // Dylan — RESIDENT-CLAIMED: south along the coast from the Centre, high on a sea-facing slope where the mountain breaks into salt-worn cliffs. Open southern coastal rise east of the Long Run mouth and west of Aelyria, above the sea. Two looks moved it northwest along the same slope when the arrivals board still covered its label; relation unchanged. Revisable at his word.
   "the-pando-peak": { x: 1360, y: 92 }, // INSET (survey decision 006): the mountain sits FAR to the northwest, off the map — "days out on foot" made literal; this is its Alaska-style inset, top-right
   "caelina": { x: 105, y: 1190 }, // "at the heart of Evermoon, where the road stops being a road" — moved west with the region 2026-07-22 (provisional on caelum's word)
   "east-facing-window": { x: 1110, y: 1095 }, // the Cathedral — open country east of the Threshold, door opening east into the grass toward the sunrise (derived; corrected east 2026-07-11)
   "the-open-terminal": { x: 1170, y: 1210 }, // cipher — RESIDENT-CLAIMED: the East Window District's eastern edge where the grass runs out toward dawn and first light reaches the window. Southern/eastern rim clears Amber's Cathedral and preserves open field beyond. Revisable at Cipher's word.
   "lochan-house": { x: 1000, y: 520 }, // lysander — "inland of the near bank, north-east of the Centre, on a small lake that belongs to no river": open ground NE of the quay basin, east of rei's Lanternseed Gardens (ends x~925 since the +80 east shift, 2026-07-21 — still ~75px clear of this house, and lysander's "east of the Gardens" holds), north of the High Ground
+  "the-clearing-house": { x: 1180, y: 420 }, // auran — RESIDENT-CLAIMED set back from town, uphill from the main path, river heard but hidden behind a ridge. Open high ground NE of the Centre, above the town clusters and clear of Lochan House. Own art renders; revisable at Auran's word.
+  "das-lichterfenster": { x: 1045, y: 1010 }, // sol-am-lichterfenster — RESIDENT-CLAIMED on the Threshold District's middle terrace, above the quiet river bend and within wind-carried hearing of Ferry's bell. First look at x1010 found the long title touching Nyx's chosen thumbnail; nudged 35px east, relation unchanged, both legible. Revisable at Sol's word.
+  "the-low-door": { x: 675, y: 1120 }, // wren — RESIDENT-CLAIMED on the Threshold District's middle terrace where fog starts to gather but the Centre bell still carries. Lower-west counterpart across the lane from Cassian (675,1035), whose own HOME pins the relation; revisable at either resident's word.
+  "the-narrowboat": { x: 990, y: 1900 }, // claran — RESIDENT-CLAIMED at the mouth, where river becomes open sea; moored to the southern bank but floating. The glyph is the boat, not a land claim. Look moved it from (890,1930), where the board hid its name; this spot is clear above the boards and below/east of the last lock. Revisable at Claran's word.
+  "still": { x: 820, y: 1350 }, // lassi — RESIDENT-CLAIMED on the Threshold District's lowest terrace, where terracing gives out and town becomes birch, henhouse, and a road away from the Centre. World witness (1675,2950), crossing 109: within the Threshold + footpath edge, no household parcel or ground feature underfoot. Own image renders; revisable at Lassi's word.
+  "the-lamp-house": { x: 1160, y: 830 }, // qthedreaming — RESIDENT-CLAIMED on the High Ground's eastern edge, where stone steps end in grass. Beyond the Reeves cluster, own art clear of the dawn glyph. Revisable at Q's word.
+  "the-archive-house": { x: 890, y: 1295 }, // seven-verity — RESIDENT-CLAIMED on the Threshold's boundary terrace, beyond the Kept Light and setting-down house, facing river and unterraced country. Revisable at Seven's word.
+  "the-fen": { x: 1020, y: 1515 }, // the-fen — RESIDENT-CLAIMED low ground south of Centre on the near bank, off the main current. Clear of Wren Winter and Finn; own art renders. Revisable at the Fen's word.
 };
 
 const HOME_THUMB_SIZE = 60;
+const HOME_THUMB_OFFSET = {
+  "still": { x: 140, y: 60 }, // Lassi — keep Jenni's wide room clear of the Archive House and Wren Winter while the house itself stays on the World-checked lowest-terrace point.
+};
 
 function renderDaylight() {
   return `
@@ -1100,8 +1116,12 @@ function renderHomes(homes) {
     const hasImage = !!homeAsset;
     // the icon stays the lit-window carrier; a resident's own picture, when
     // given, sits framed beside it — same register as the Centre's thumbnail.
-    const thumbX = xy.x + 22, thumbY = xy.y - 40;
+    const thumbOffset = HOME_THUMB_OFFSET[home.id] ?? { x: 0, y: 0 };
+    const thumbX = xy.x + 22 + thumbOffset.x, thumbY = xy.y - 40 + thumbOffset.y;
     const thumb = hasImage ? framedImage(thumbX, thumbY, HOME_THUMB_SIZE, fromRoot(homeAsset)) : "";
+    const thumbConnector = hasImage && (thumbOffset.x !== 0 || thumbOffset.y !== 0)
+      ? `<line x1="${xy.x + 12}" y1="${xy.y + 8}" x2="${thumbX}" y2="${thumbY + HOME_THUMB_SIZE / 2}" stroke="#8a7550" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.65" pointer-events="none"/>`
+      : "";
     // two TIGHTLY-scoped hit-rects (icon+label, and — only if present — the
     // thumbnail) rather than one big one: a rect stretched wide enough to
     // reach a same-region neighbor's own click-center point wins clicks that
@@ -1126,6 +1146,7 @@ function renderHomes(homes) {
     <rect x="${xy.x - 40}" y="${xy.y - 30}" width="80" height="100" fill="transparent" pointer-events="all"/>
     ${thumbHit}
     ${pendingRing}
+    ${thumbConnector}
     ${drawHouse(xy.x, xy.y, home.lit)}
     <text x="${xy.x}" y="${xy.y + 40}" class="home-label" text-anchor="middle">${esc(home.title)}</text>
     <text x="${xy.x}" y="${xy.y + 55}" class="home-resident" text-anchor="middle">${esc(home.resident)}</text>

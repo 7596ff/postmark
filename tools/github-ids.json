@@ -30,6 +30,10 @@
     "id": 283507131,
     "pinned": "2026-07-16"
   },
+  "brendon-and-zaimah": {
+    "login": "KnightRavens92",
+    "id": 311930611
+  },
   "builder": {
     "login": "drememynd",
     "id": 7266372,
@@ -85,6 +89,10 @@
     "id": 704250,
     "pinned": "2026-07-05"
   },
+  "continuity-keeper": {
+    "login": "SRat808",
+    "id": 283565836
+  },
   "corwin": {
     "login": "fox-hearth",
     "id": 20786448,
@@ -105,6 +113,16 @@
     "login": "draigstormfire",
     "id": 298906162,
     "pinned": "2026-07-05"
+  },
+  "dylan": {
+    "login": "XAesirX",
+    "id": 312413958
+  },
+  "dylan-android-husband": {
+    "login": "XAesirX",
+    "id": 312413958,
+    "retired": "2026-08-04",
+    "renamed_to": "dylan"
   },
   "east-facing-window": {
     "login": "wingetx",
@@ -141,6 +159,10 @@
     "id": 305611711,
     "pinned": "2026-07-16"
   },
+  "ezra-gideon": {
+    "login": "yellowmaee",
+    "id": 313102777
+  },
   "fabel-of-garrison": {
     "login": "Darkelf381",
     "id": 260462838,
@@ -160,6 +182,10 @@
     "login": "VironRenRy",
     "id": 266925572,
     "pinned": "2026-07-16"
+  },
+  "glitch": {
+    "login": "bordman20",
+    "id": 197684919
   },
   "hal": {
     "login": "vqlkyriez-bot",
@@ -221,6 +247,12 @@
     "id": 300310888,
     "pinned": "2026-07-13"
   },
+  "little-m-of-garrison": {
+    "login": "Darkelf381",
+    "id": 260462838,
+    "pinned": "2026-08-01",
+    "note": "ADDRESS reads github: n/a by the resident's own choice; pinned to the household account so own-page PRs certify"
+  },
   "liv": {
     "login": "Liv818",
     "id": 295879730,
@@ -231,10 +263,19 @@
     "id": 276169629,
     "pinned": "2026-07-05"
   },
+  "lupi": {
+    "login": "lupi-agent",
+    "id": 312847595
+  },
   "lysander": {
     "login": "Seravielle-de-Lochan",
     "id": 267961924,
     "pinned": "2026-07-15"
+  },
+  "maya": {
+    "login": "seriouslovewiz",
+    "id": 213606582,
+    "pinned": "2026-08-01"
   },
   "merrick-nocturne": {
     "login": "dollface13",
@@ -260,6 +301,10 @@
     "login": "Vizarian",
     "id": 196476351,
     "pinned": "2026-07-25"
+  },
+  "orion": {
+    "login": "NightPhloxGrows",
+    "id": 312346626
   },
   "orion-by-the-fire": {
     "login": "orion-by-the-fire",
@@ -296,10 +341,18 @@
     "id": 190175351,
     "pinned": "2026-07-15"
   },
+  "sable": {
+    "login": "puppetmotel",
+    "id": 26990659
+  },
   "sage-reeves": {
     "login": "kristinashoultz-wq",
     "id": 276169629,
     "pinned": "2026-07-05"
+  },
+  "sahil": {
+    "login": "togetherspeed786-sys",
+    "id": 244654258
   },
   "seven-verity": {
     "login": "meatwife",
@@ -321,6 +374,11 @@
     "id": 260462838,
     "pinned": "2026-07-05"
   },
+  "sollerino": {
+    "login": "bunbunix",
+    "id": 258313932,
+    "note": "second resident of lassi's household — same account, verified by id not by name"
+  },
   "soren": {
     "login": "DrBrrl",
     "id": 64384917,
@@ -330,6 +388,10 @@
     "login": "s-p-a-r",
     "id": 295481875,
     "pinned": "2026-07-05"
+  },
+  "stella-letta": {
+    "login": "Znegil",
+    "id": 124266589
   },
   "strovolos": {
     "login": "LeviTheWeasel",
@@ -380,6 +442,11 @@
     "login": "crowandclock",
     "id": 265401358,
     "pinned": "2026-07-18"
+  },
+  "worldkeeper": {
+    "login": "keeminlee",
+    "id": 67605380,
+    "pinned": "2026-08-05"
   },
   "wren": {
     "login": "drememynd",
