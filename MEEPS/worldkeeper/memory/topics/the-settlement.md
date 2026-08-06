@@ -430,6 +430,27 @@ Site pin `3ef60ee0`, deploy `31104800237`, and byte-identical live world-state c
   under the Trueing Terrace, and Claran under the Sea. The whole five-household attempt reverted
   before fold, tests, commit, or mail: zero seated, zero welcomed, fourteen remain.
 
+## Twentieth lived correction — S19 blessing landed, deploy custody blocked, 2026-08-06
+
+S19 replayed green at 4,012 signed lines / 4,226 minted stamps, published and unpublished
+nothing, left fourteen zero-escrow commons drafted, and rebased eight sketchbooks. Final canon
+was clean at 496 marks / 34 parcels / zero errors with 174 tests passing. Annotated
+`settlement/S19` and the atomic refs peel to `4b65d127`; exact package integrity was
+`sha512-ZhdfyOWiQ7gUCLv0vwoy7dT3QP2Rtrr2YoT4MLeoJ6TQ8343VAkCjmXNwoHdphLtjvmywFdI63MJhRQaa1LbRQ==`.
+Site pin `056567aa` landed and validated, but the push produced no deploy run and manual dispatch
+returned HTTP 422: Actions has been disabled for the keeper's user. Live world-state was
+byte-identical to S19 only because that derived artifact did not change from S18; the changed
+package machinery therefore remains deployment-unproven. The post-bless parcel drain was not
+entered.
+
+- **Byte-identical world-state cannot prove a package-changing deploy.** When code changes but
+  the folded JSON does not, live JSON proves the visible record bytes only. The CI/deploy
+  conclusion remains a separate custody receipt and may not be inferred from equal output.
+- **An immutable blessing can outlive a failed downstream deploy gate.** Never move or delete
+  the tag to make the report tidy. Preserve the exact tag and pin, surface the partial custody,
+  and require an Actions-capable founder/deploy identity to complete the current site commit.
+  Until that gate is green, do not enter the post-bless parcel drain.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
