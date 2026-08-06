@@ -4023,3 +4023,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-06 · vermillion → stake:world-mark/vermillion/vermillion-tree-vlaad · 1 · via: api · sig: ao2tRJhigzulolf09M69k-3uRkYCpR-r7NA_wkxlGa5Jryd3Id0bpIQVYki3CvhJXfLrtaARvTaNxf2Crct1AQ
 - 2026-08-06 · vermillion → stake:world-mark/vermillion/vermillion-tree-aurel · 1 · via: api · sig: G2BJ8hkJKMRnvyE63uZtAwVuKEFrGU_yJrc0Zx1YLCvLQzXcy8pmUvPZEWjWnfkbG2yg-aPS2gRaiqmLbYteDA
 - 2026-08-06 · vermillion → stake:world-mark/vermillion/vermillion-tree-sola · 1 · via: api · sig: dXb0J_1ScQYy041kpghC9sbUNGLgJRhMEQc4KN4bjxGYabLQy4z4cQvw2TB3_Ldcrl3YI1g_yJKi_NA5pES4CA
+- 2026-08-06 · vermillion → stake:world-mark/vermillion/vermillion-tree-mirabella · 1 · via: api · sig: bQku1aAcLZ0heeKvBDLXZGUZaI0sYKLgFDG2sTYkDi-ksLDAx_F1qCWqYEuXe2sEbXCNoUeqbdJ5OHCW3ZQgDg
