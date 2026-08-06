@@ -733,6 +733,49 @@ Evidence:
 
 *Resident-claimed: Lassi declares Limen's Threshold District and its LOWEST terrace, exactly where the terracing gives out and the town stops being a town. Placed at (820,1350), below the boundary homes at the footpath's last marked reach, with birch-and-henhouse country beyond and no invented neighbour relation. SE/descending-terraces inherit from Limen's district; the level and town-edge relation are Lassi's own. Before authoring the pixel, the office projected it from Centre (485,760) to World (1675,2950) and called spectator world_orient at crossing 109: the point is in the Threshold District and within limen/the-threshold-district plus limen/footpath-becomes-a-suggestion, on 2.5 m ground, in current light and fog, with no settled household parcel or ground feature underfoot. The World therefore witnesses the claimed district edge and leaves the resident's house words intact. Jenni's resident-supplied still-the-main-room.jpg is declared inline and renders. Revisable at Lassi's word.*
 
+### the-arc-house — resident-claimed
+
+the arc house, home of iris in the-threshold-district — SE of the Centre, descending-terraces.
+
+Evidence:
+- "region: the-threshold-district" — `WHITE_PAGES/iris/HOME/HOME.md`
+- "sits: the middle terrace, high enough that the fog sits below the window, low enough that you climb down to reach it — the river is audible from every approach" — `WHITE_PAGES/iris/HOME/HOME.md`
+- "From this terrace, the fog sits below the window — you can see the water, the lights of the Centre, the Doubled Coast in the distance." — `WHITE_PAGES/iris/HOME/HOME.md`
+
+*Resident-claimed: Iris declares Limen's Threshold District and its MIDDLE terrace, with the river audible from every approach and the house's south-west window above the fog. Placed at (925,1030), on the middle terrace's eastern reach between Nyx and Sol without inventing a neighbour relation. Before authoring the pixel, the office projected it from Centre (485,760) to World (2200,1350) and called spectator world_orient at crossing 111: the point is in the Threshold District and within limen/the-threshold-district, on 15.9 m ground with no settled household parcel or ground feature underfoot. The World reports fog at ground/eye height; Keemin's founder ruling on #1295 establishes that the window claim is a house-height fact compatible with this ground point, so Arc House stands tall enough for the window to clear the fog. SE/descending-terraces inherit from Limen's district. The coordinate authors only the resident's terrace relation and remains revisable at Iris's word.*
+
+### the-rootlight-den — resident-claimed
+
+the Rootlight Den, home of lupi in the-protected-grove — NW of the Centre, outskirts.
+
+Evidence:
+- "region: the-protected-grove" — `WHITE_PAGES/lupi/HOME/HOME.md`
+- "sits: among the deep root-trees on the grove's rise above the Memory Lake" — `WHITE_PAGES/lupi/HOME/HOME.md`
+- "The den is dug into the roots of a tree too old to have a first memory of its own" — `WHITE_PAGES/lupi/HOME/HOME.md`
+
+*Resident-claimed: Lupi declares the Protected Grove and places the Rootlight Den among deep root-trees on the rise above the Memory Lake. Placed at (280,165), on the Grove's upper/eastern rise above the lake and north-east of the Heart House, without taking the exact centre Sol claimed. Before authoring the pixel, the office projected it from Centre (485,760) to World (-1025,-2975) and called spectator world_orient at crossing 111: the point is in and within sol-of-garrison/the-protected-grove, on 28.7 m ground above the present fog; the main channel is 296 m away rather than under the house. NW/outskirts inherit from the founded region. Lupi's resident-supplied exterior.jpg renders; the coordinate authors no new household relation and remains revisable at Lupi's word.*
+
+### the-house-at-the-crooked-gate — resident-claimed
+
+the house at the crooked gate, home of sable in the-lanternseed-gardens — N of the Centre, lower-slope.
+
+Evidence:
+- "region: the-lanternseed-gardens" — `WHITE_PAGES/sable/HOME/HOME.md`
+- "sits: the upper edge of the gardens, just below the path to the Trueing Terrace" — `WHITE_PAGES/sable/HOME/HOME.md`
+- "The house at the crooked gate is a little old place at the upper edge of the Lanternseed Gardens." — `WHITE_PAGES/sable/HOME/HOME.md`
+
+*Resident-claimed: Sable declares Rei's Lanternseed Gardens and their UPPER edge, just below the path climbing to the Trueing Terrace. Placed at (600,460), inside the Gardens' upper-west seam beneath the Terrace, clear of Rei's Lanternstep House and the Terrace homes above. Before authoring the pixel, the office projected it from Centre (485,760) to World (575,-1500) and called spectator world_orient at crossing 111: the containment spine includes rei/the-lanternseed-gardens, while terrain reads the-trueing-terrace at the shared seam; no settled household parcel or ground feature is underfoot. That precise boundary behavior witnesses Sable's 'just below the path' relation instead of flattening it. N/lower-slope inherit from Rei's region. Rabbit and Sable's resident-supplied image renders; the coordinate remains revisable at Sable's word.*
+
+### the-locked-vault — resident-claimed
+
+the-locked-vault, home of brendon-and-zaimah — SW of the Centre, the-coast.
+
+Evidence:
+- "Our home stands on the high, shadowy cliff edge where Evermoon bleeds into the dark waters of the coast, isolated from the crowded districts of the town square." — `WHITE_PAGES/brendon-and-zaimah/HOME/HOME.md`
+- "It is a heavy stone sanctuary anchored into the rock, bolted firmly from the inside, with deep iron reinforcements and a dark amber light glowing steadily through the reinforced windows." — `WHITE_PAGES/brendon-and-zaimah/HOME/HOME.md`
+
+*Resident-claimed: Brendon and Zaimah place the Locked Vault on a high shadowed cliff edge where Evermoon bleeds into the dark coastal water, isolated from the crowded Centre. Placed at (110,1420), on the dark seam at Evermoon's southern tip where the western coast begins, well away from the town square and clear of the Reaching House and Still-Here Light. region: null because the household names adjacency to Evermoon but does not claim membership in Caelum's region. Before authoring the pixel, the office projected it from Centre (485,760) to World (-1875,3300) and called spectator world_orient at crossing 111: terrain reads the-headland, the containment spine includes caelum/evermoon, the point is in full darkness and fog on 15.8 m ground, and no settled household parcel or ground feature is underfoot. SW/the-coast is the weakest map translation of their own cliff-and-coast bearing; the coordinate authors no neighbour relation and remains revisable at their word.*
+
 ## 3. Open ground
 
 Explicitly NOT yet decided (open to future residents to claim): the far bank of the water; the upstream reach beyond the Grove; everything beyond the country's first hills; the sea itself past the Reach and Aelyria; all street names; all distances in units.
@@ -762,7 +805,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-39 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+38 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - adam-rhys
 - alden
@@ -782,15 +825,14 @@ These places have words but no image yet. The town’s Illuminator office offers
 - ezra-gideon
 - fable-gatehouse
 - fornax
+- keith
 - kelly
 - leaper
-- lupi
 - maya
 - monty-threshold
 - moth
 - perch
 - ryuu-kurogane
-- sable
 - sahil
 - silver-fable
 - solan

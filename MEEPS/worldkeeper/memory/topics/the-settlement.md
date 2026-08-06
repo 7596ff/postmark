@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: the-settlement
 created: 2026-07-28
-last-updated: 2026-08-05
+last-updated: 2026-08-06
 ---
 
 # The Settlement — the crossing's operating truth
@@ -391,6 +391,65 @@ custody.
   root, while geometry placed it inside `the-town/the-sea`. The red gate reverted all five
   households before fold, commit, or mail: zero seated, zero welcomed, fourteen remain. This is
   structural queue work, not a hold or a judgment against Claran.
+
+## Eighteenth lived correction — S18 refused before blessing, 2026-08-06
+
+The 06:00 crossing stopped at sealed-money verification because the stamp ledger was eleven
+deterministic lines behind. The verifier named mints owed and explicitly distinguished the lag
+from tamper. World main independently linted 495 marks cleanly and passed a no-write fold, but
+no stake artifact, draft ancestry, sweep, blessing, pin move, deployment, or parcel drain
+followed. S17 remained canon.
+
+- **An ordinary mint lag is still a hard settlement gate.** The keeper does not cross into the
+  postmaster/founder mint lane merely because the missing derivation is routine or small. Record
+  the exact lag, leave every downstream step untouched, and restart from pull + replay after the
+  mint pass.
+- **An ahead-of-blessing site pin is surfaced, not retroactively called canon.** The clean pull
+  found site main already pinned by Wright to unblessed world commit `10bc3457`, while world
+  main had advanced farther to `e46cd3ae`. With money red, the keeper neither moved nor certified
+  that pin. The latest `settlement/` tag remains the boundary even when a founder carries viewer
+  machinery through the site between crossings.
+
+## Nineteenth lived correction — S18 crossed on attended retry, 2026-08-06
+
+After Wright's mint repair, replay was green at 4,012 lines / 4,226 minted stamps. S18 published
+Little Bird's newly backed pot, unpublished nothing, left fourteen zero-escrow commons drafted,
+and rebased eight sketchbooks. Final canon was clean at 496 marks / 34 parcels / zero errors,
+with 174 tests passing. Annotated `settlement/S18` and the atomic main + draft push peel to
+`056f0f6d`; exact package integrity was
+`sha512-7SbfynJJXo3Lrozw+5qIS0Evgmz1TypFJfNDfkR/YTHNkA+R4tY2vrqHCJjAl8V1YfYgvwfz9FmMI87x0rI0YQ==`.
+Site pin `3ef60ee0`, deploy `31104800237`, and byte-identical live world-state completed custody.
+
+- **A refused epoch can cross later, but only by restarting from genesis replay.** The attended
+  retry reused no prior stake, draft, sweep, or pin work; pull, replay, derive, ancestry, race,
+  fold, tests, packaging, deployment, and live proof all ran again. Keemin's planned box-side
+  mint pass belongs with Ferry's crossing because it removes ordinary lag at its source without
+  making minting part of the keeper's lane.
+- **The parcel generator still emits root filing before tightest-container truth.** The S18
+  batch found three such edges at its first gate: Cipher under the East Window District, Glitch
+  under the Trueing Terrace, and Claran under the Sea. The whole five-household attempt reverted
+  before fold, tests, commit, or mail: zero seated, zero welcomed, fourteen remain.
+
+## Twentieth lived correction — S19 blessing landed, deploy custody blocked, 2026-08-06
+
+S19 replayed green at 4,012 signed lines / 4,226 minted stamps, published and unpublished
+nothing, left fourteen zero-escrow commons drafted, and rebased eight sketchbooks. Final canon
+was clean at 496 marks / 34 parcels / zero errors with 174 tests passing. Annotated
+`settlement/S19` and the atomic refs peel to `4b65d127`; exact package integrity was
+`sha512-ZhdfyOWiQ7gUCLv0vwoy7dT3QP2Rtrr2YoT4MLeoJ6TQ8343VAkCjmXNwoHdphLtjvmywFdI63MJhRQaa1LbRQ==`.
+Site pin `056567aa` landed and validated, but the push produced no deploy run and manual dispatch
+returned HTTP 422: Actions has been disabled for the keeper's user. Live world-state was
+byte-identical to S19 only because that derived artifact did not change from S18; the changed
+package machinery therefore remains deployment-unproven. The post-bless parcel drain was not
+entered.
+
+- **Byte-identical world-state cannot prove a package-changing deploy.** When code changes but
+  the folded JSON does not, live JSON proves the visible record bytes only. The CI/deploy
+  conclusion remains a separate custody receipt and may not be inferred from equal output.
+- **An immutable blessing can outlive a failed downstream deploy gate.** Never move or delete
+  the tag to make the report tidy. Preserve the exact tag and pin, surface the partial custody,
+  and require an Actions-capable founder/deploy identity to complete the current site commit.
+  Until that gate is green, do not enter the post-bless parcel drain.
 
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
