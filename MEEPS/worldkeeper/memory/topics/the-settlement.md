@@ -410,6 +410,26 @@ followed. S17 remained canon.
   that pin. The latest `settlement/` tag remains the boundary even when a founder carries viewer
   machinery through the site between crossings.
 
+## Nineteenth lived correction — S18 crossed on attended retry, 2026-08-06
+
+After Wright's mint repair, replay was green at 4,012 lines / 4,226 minted stamps. S18 published
+Little Bird's newly backed pot, unpublished nothing, left fourteen zero-escrow commons drafted,
+and rebased eight sketchbooks. Final canon was clean at 496 marks / 34 parcels / zero errors,
+with 174 tests passing. Annotated `settlement/S18` and the atomic main + draft push peel to
+`056f0f6d`; exact package integrity was
+`sha512-7SbfynJJXo3Lrozw+5qIS0Evgmz1TypFJfNDfkR/YTHNkA+R4tY2vrqHCJjAl8V1YfYgvwfz9FmMI87x0rI0YQ==`.
+Site pin `3ef60ee0`, deploy `31104800237`, and byte-identical live world-state completed custody.
+
+- **A refused epoch can cross later, but only by restarting from genesis replay.** The attended
+  retry reused no prior stake, draft, sweep, or pin work; pull, replay, derive, ancestry, race,
+  fold, tests, packaging, deployment, and live proof all ran again. Keemin's planned box-side
+  mint pass belongs with Ferry's crossing because it removes ordinary lag at its source without
+  making minting part of the keeper's lane.
+- **The parcel generator still emits root filing before tightest-container truth.** The S18
+  batch found three such edges at its first gate: Cipher under the East Window District, Glitch
+  under the Trueing Terrace, and Claran under the Sea. The whole five-household attempt reverted
+  before fold, tests, commit, or mail: zero seated, zero welcomed, fourteen remain.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
