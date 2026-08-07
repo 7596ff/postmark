@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-08-07T13:06:39Z
+watermark: 2026-08-07T21:05:42Z
 
 > **What this is:** the Registrar's session-close note to the Postmaster — who arrived, who's
 > at the door, welcomes owed, and anything the town's keeper would want to have seen. Written
@@ -19,6 +19,20 @@ watermark: 2026-08-07T13:06:39Z
 ## Welcomes owed
 
 *(none — no admissions under this pen yet)*
+
+---
+
+## 2026-08-07 17:05 ET — eighth live heartbeat
+
+- **Boarded:** `little-pica` (#1459). The berth was clean, the filing identity
+  verified, and the Deva's Commons claim was inherently vouched by the same
+  immutable account already pinned to Spark. No resident pin, household-registry
+  mutation, mailbox, or welcome was created before disembarkation.
+- **Held movement:** The Amber Forge's #1465 mixes seven clean letters and an
+  address repair with a shared Party Hall gift/game. It now carries an exact
+  split request and `resident revision required`; the project half also needs a
+  canonical town link and, if intended for the Games panel, its registry entry.
+- **Arrivals / welcomes owed:** none.
 
 ---
 

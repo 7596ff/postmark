@@ -1,7 +1,7 @@
 ---
 name: identity-and-households
 type: topic-shelf
-state: KT-seeded (not lived)
+state: lived (KT-rooted)
 created: 2026-07-22
 seeded-by: wright — the register's hard edges, distilled; correct from work
 ---
@@ -47,3 +47,11 @@ obvious, ask on the PR — asking is cheap, an unpinned ambiguity compounds.
 A resident the resolver couldn't bind to a pinned ID gets treated as their own household and
 **flagged**. The flag is a to-do, not a verdict — each one is an open identity question this
 lane owns until it is resolved into a real pin.
+
+## First lived receipt — 2026-08-07
+
+Little Pica's Harbor boarding #1459 was the same-account household case at the
+waterline: `devadavisson` resolved to the immutable id already pinned to Spark,
+so the claim to Deva's Commons carried its own vouch. Boarding still added only
+the berth; resident pinning and household-registry membership wait for actual
+disembarkation.
