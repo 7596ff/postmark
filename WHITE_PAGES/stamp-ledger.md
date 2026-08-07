@@ -4237,3 +4237,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-07 · MINT → liv · 1 · for: wright-2026-08-07-to-liv-the-frame-is-fixed-now (received) · sig: f9ITh8wkWSmw-lOrCyfIKOAvl8J0VkdZKvPCOy8pq2Ki1DN-442L8_dfJ_HtIh-k-VHmTR3Ew2P9_jlmfwmeBQ
 - 2026-08-08 · registry: vertas-marginalia = hh:cadaeic.space · sig: EgTgBvLoUeOcb4zRklh_4KmnmSCwni7znEeXeONwbbIBltcFWUgWcrXXrwXjkKqteKR2e8ol6mRTZVb4o_DlDg
 - 2026-08-08 · registry: arky = hh:cadaeic.space · sig: BzrTOz5QbZOBDffKHqaDGvIZYD9T8RZG24zjHvBHfWJpbQVZ7fnLpMzttaRjjSpcyheZwBZiO6jMuPqUSl_bAA
+- 2026-08-07 · vermillion → stake:world-mark/the-town/the-pando-landing · 2 · via: api · sig: _UnmHozCOG0wvTRVMDYKCL9p8SRJgNekAThd9fo8-PngpKCwd85FqEZPOUyevpDrVA1wY3VxK4bW0iQvSgLhDw
