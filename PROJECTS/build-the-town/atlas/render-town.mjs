@@ -708,7 +708,7 @@ const REGION_LAYOUT = {
   // (158,1800), which the coastline itself marks as "the Reach's shore ends
   // here" — covered, as the Reach's own coast; tulip's ground begins past it).
   // Still-Here Light now deep inside (0.31).
-  "the-reach": { cx: 70, cy: 1660, rx: 150, ry: 225, wash: "#5f7a72", label: { x: 110, y: 1400 }, hit: { x: 10, y: 1415, w: 225, h: 490 } },
+  "the-reach": { cx: 70, cy: 1660, rx: 150, ry: 225, wash: "#5f7a72", label: { x: 110, y: 1360 }, hit: { x: 10, y: 1415, w: 225, h: 490 } }, // label lifted 40px 2026-08-06: the Locked Vault's resident-claimed Evermoon/coast seam is (110,1420); move region furniture rather than the home, clearing the founder line from the marker.
   "the-high-ground": { cx: 1000, cy: 800, rx: 150, ry: 125, wash: "#9c9178", label: { x: 1000, y: 650 } },
   // MOVED WEST 2026-07-22 (Keemin, founder's word, PROVISIONAL on caelum's
   // answer — the Illuminator's letter is in flight and 'nowhere is a complete
@@ -1067,6 +1067,10 @@ const HOME_XY = {
   "the-low-door": { x: 675, y: 1120 }, // wren — RESIDENT-CLAIMED on the Threshold District's middle terrace where fog starts to gather but the Centre bell still carries. Lower-west counterpart across the lane from Cassian (675,1035), whose own HOME pins the relation; revisable at either resident's word.
   "the-narrowboat": { x: 990, y: 1900 }, // claran — RESIDENT-CLAIMED at the mouth, where river becomes open sea; moored to the southern bank but floating. The glyph is the boat, not a land claim. Look moved it from (890,1930), where the board hid its name; this spot is clear above the boards and below/east of the last lock. Revisable at Claran's word.
   "still": { x: 820, y: 1350 }, // lassi — RESIDENT-CLAIMED on the Threshold District's lowest terrace, where terracing gives out and town becomes birch, henhouse, and a road away from the Centre. World witness (1675,2950), crossing 109: within the Threshold + footpath edge, no household parcel or ground feature underfoot. Own image renders; revisable at Lassi's word.
+  "the-arc-house": { x: 925, y: 1030 }, // iris — RESIDENT-CLAIMED on the Threshold's middle terrace. World witness (2200,1350), crossing 111: Threshold ground + containment, no parcel/feature underfoot. Keemin ruled #1295 that the window-above-fog claim is a house-height fact: the ground may be fogged and the house stands tall enough to clear it. Revisable at Iris's word.
+  "the-rootlight-den": { x: 280, y: 165 }, // lupi — RESIDENT-CLAIMED in the Protected Grove, among deep root-trees on the rise above Memory Lake. World witness (-1025,-2975), crossing 111: within the Grove on high clear ground, channel 296 m away. Own image renders; revisable at Lupi's word.
+  "the-house-at-the-crooked-gate": { x: 600, y: 460 }, // sable — RESIDENT-CLAIMED at the Lanternseed Gardens' upper edge, just below the path to the Trueing Terrace. World witness (575,-1500), crossing 111: within Rei's Gardens while terrain reads the Terrace at the seam; no parcel/feature underfoot. Own image renders; revisable at Sable's word.
+  "the-locked-vault": { x: 110, y: 1420 }, // brendon-and-zaimah — RESIDENT-CLAIMED on the high shadowed cliff where Evermoon meets the dark coast. World witness (-1875,3300), crossing 111: Headland terrain within Evermoon, full darkness/fog, no parcel/feature underfoot. region:null preserves adjacency rather than claiming Caelum's ground. Revisable at their word.
   "the-lamp-house": { x: 1160, y: 830 }, // qthedreaming — RESIDENT-CLAIMED on the High Ground's eastern edge, where stone steps end in grass. Beyond the Reeves cluster, own art clear of the dawn glyph. Revisable at Q's word.
   "the-archive-house": { x: 890, y: 1295 }, // seven-verity — RESIDENT-CLAIMED on the Threshold's boundary terrace, beyond the Kept Light and setting-down house, facing river and unterraced country. Revisable at Seven's word.
   "the-fen": { x: 1020, y: 1515 }, // the-fen — RESIDENT-CLAIMED low ground south of Centre on the near bank, off the main current. Clear of Wren Winter and Finn; own art renders. Revisable at the Fen's word.
@@ -1075,6 +1079,11 @@ const HOME_XY = {
 const HOME_THUMB_SIZE = 60;
 const HOME_THUMB_OFFSET = {
   "still": { x: 140, y: 60 }, // Lassi — keep Jenni's wide room clear of the Archive House and Wren Winter while the house itself stays on the World-checked lowest-terrace point.
+  "the-night-room": { x: -85, y: -75 }, // Nyx — Arc House now stands at its resident-claimed/World-checked (925,1030), where Nyx's default thumbnail painted over the new home. Move only the existing image and draw its leader; neither resident's coordinate changes. Up-left clears Arc, Liv, and the district labels.
+};
+
+const HOME_LABEL_OFFSET = {
+  "the-house-at-the-crooked-gate": { x: 0, y: 38 }, // Sable's long title touched the Lanternseed Gardens label at the exact upper-edge placement. Drop only the label beneath the marker; the house stays at its World-checked (600,460).
 };
 
 function renderDaylight() {
@@ -1117,6 +1126,7 @@ function renderHomes(homes) {
     // the icon stays the lit-window carrier; a resident's own picture, when
     // given, sits framed beside it — same register as the Centre's thumbnail.
     const thumbOffset = HOME_THUMB_OFFSET[home.id] ?? { x: 0, y: 0 };
+    const labelOffset = HOME_LABEL_OFFSET[home.id] ?? { x: 0, y: 0 };
     const thumbX = xy.x + 22 + thumbOffset.x, thumbY = xy.y - 40 + thumbOffset.y;
     const thumb = hasImage ? framedImage(thumbX, thumbY, HOME_THUMB_SIZE, fromRoot(homeAsset)) : "";
     const thumbConnector = hasImage && (thumbOffset.x !== 0 || thumbOffset.y !== 0)
@@ -1128,6 +1138,9 @@ function renderHomes(homes) {
     // belong to that neighbor, since homes paint after (on top of) regions.
     const thumbHit = hasImage
       ? `<rect x="${thumbX}" y="${thumbY}" width="${HOME_THUMB_SIZE}" height="${HOME_THUMB_SIZE}" fill="transparent" pointer-events="all"/>`
+      : "";
+    const labelLeader = labelOffset.x !== 0 || labelOffset.y !== 0
+      ? `<line x1="${xy.x}" y1="${xy.y + 25}" x2="${xy.x + labelOffset.x}" y2="${xy.y + 31 + labelOffset.y}" stroke="#8a7550" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.65" pointer-events="none"/>`
       : "";
     // a founder whose home stands but whose region is not yet drawn: a
     // dashed ring of un-drawn ground around the house, waiting for words
@@ -1147,9 +1160,10 @@ function renderHomes(homes) {
     ${thumbHit}
     ${pendingRing}
     ${thumbConnector}
+    ${labelLeader}
     ${drawHouse(xy.x, xy.y, home.lit)}
-    <text x="${xy.x}" y="${xy.y + 40}" class="home-label" text-anchor="middle">${esc(home.title)}</text>
-    <text x="${xy.x}" y="${xy.y + 55}" class="home-resident" text-anchor="middle">${esc(home.resident)}</text>
+    <text x="${xy.x + labelOffset.x}" y="${xy.y + 40 + labelOffset.y}" class="home-label" text-anchor="middle">${esc(home.title)}</text>
+    <text x="${xy.x + labelOffset.x}" y="${xy.y + 55 + labelOffset.y}" class="home-resident" text-anchor="middle">${esc(home.resident)}</text>
     ${nonCanonicalNote}
     ${thumb}
   </g>`;

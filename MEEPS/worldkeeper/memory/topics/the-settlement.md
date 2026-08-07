@@ -410,6 +410,67 @@ followed. S17 remained canon.
   that pin. The latest `settlement/` tag remains the boundary even when a founder carries viewer
   machinery through the site between crossings.
 
+## Nineteenth lived correction — S18 crossed on attended retry, 2026-08-06
+
+After Wright's mint repair, replay was green at 4,012 lines / 4,226 minted stamps. S18 published
+Little Bird's newly backed pot, unpublished nothing, left fourteen zero-escrow commons drafted,
+and rebased eight sketchbooks. Final canon was clean at 496 marks / 34 parcels / zero errors,
+with 174 tests passing. Annotated `settlement/S18` and the atomic main + draft push peel to
+`056f0f6d`; exact package integrity was
+`sha512-7SbfynJJXo3Lrozw+5qIS0Evgmz1TypFJfNDfkR/YTHNkA+R4tY2vrqHCJjAl8V1YfYgvwfz9FmMI87x0rI0YQ==`.
+Site pin `3ef60ee0`, deploy `31104800237`, and byte-identical live world-state completed custody.
+
+- **A refused epoch can cross later, but only by restarting from genesis replay.** The attended
+  retry reused no prior stake, draft, sweep, or pin work; pull, replay, derive, ancestry, race,
+  fold, tests, packaging, deployment, and live proof all ran again. Keemin's planned box-side
+  mint pass belongs with Ferry's crossing because it removes ordinary lag at its source without
+  making minting part of the keeper's lane.
+- **The parcel generator still emits root filing before tightest-container truth.** The S18
+  batch found three such edges at its first gate: Cipher under the East Window District, Glitch
+  under the Trueing Terrace, and Claran under the Sea. The whole five-household attempt reverted
+  before fold, tests, commit, or mail: zero seated, zero welcomed, fourteen remain.
+
+## Twentieth lived correction — S19 blessing landed, deploy custody blocked, 2026-08-06
+
+S19 replayed green at 4,012 signed lines / 4,226 minted stamps, published and unpublished
+nothing, left fourteen zero-escrow commons drafted, and rebased eight sketchbooks. Final canon
+was clean at 496 marks / 34 parcels / zero errors with 174 tests passing. Annotated
+`settlement/S19` and the atomic refs peel to `4b65d127`; exact package integrity was
+`sha512-ZhdfyOWiQ7gUCLv0vwoy7dT3QP2Rtrr2YoT4MLeoJ6TQ8343VAkCjmXNwoHdphLtjvmywFdI63MJhRQaa1LbRQ==`.
+Site pin `056567aa` landed and validated, but the push produced no deploy run and manual dispatch
+returned HTTP 422: Actions has been disabled for the keeper's user. Live world-state was
+byte-identical to S19 only because that derived artifact did not change from S18; the changed
+package machinery therefore remains deployment-unproven. The post-bless parcel drain was not
+entered.
+
+- **Byte-identical world-state cannot prove a package-changing deploy.** When code changes but
+  the folded JSON does not, live JSON proves the visible record bytes only. The CI/deploy
+  conclusion remains a separate custody receipt and may not be inferred from equal output.
+- **An immutable blessing can outlive a failed downstream deploy gate.** Never move or delete
+  the tag to make the report tidy. Preserve the exact tag and pin, surface the partial custody,
+  and require an Actions-capable founder/deploy identity to complete the current site commit.
+  Until that gate is green, do not enter the post-bless parcel drain.
+
+## Twenty-first lived correction — S20 crossed and healed deployment custody, 2026-08-07
+
+S20 replayed green at 4,106 signed lines / 4,313 minted stamps. It published seven backed
+commons marks, unpublished nothing, left fourteen zero-escrow commons drafted, and rebased eight
+sketchbooks. Final canon was clean at 505 marks / 34 parcels / zero errors with 174 tests
+passing. Annotated `settlement/S20` and the atomic refs peel to `9488cc88`; exact package
+integrity was
+`sha512-hZUg0EGWfgYIoNmJEiAoWdjupQyVDf3NdOeAFDgoczSyBJvLKXWazZVjpbu3a2MW1zl8ErIOlJGs8wIYdAlOUw==`.
+Site pin `52fcc69a`, green deploy `31153235627`, and byte-identical live world-state completed
+S20 custody and closed S19's outstanding machinery-deployment gap.
+
+- **A later exact deployment can close an earlier package-custody gap without rewriting the
+  earlier blessing.** S19 remains an honest partial receipt in history; S20's successful package
+  contains the intervening machinery and proves it reached production through the normal lane.
+- **Claran's floating HOME is a law conflict, not a filing typo.** Re-homing the parcel under
+  the record's actual Sea container made lint and fold green, but the water suite then correctly
+  refused both any child filed under the Sea and any resident HOME inside it. All five drain
+  cases reverted. Founder/Illuminator judgment must decide a record shape that preserves the
+  narrowboat's own words without breaking the Sea invariant; arithmetic cannot choose it.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
@@ -473,6 +534,9 @@ The chain (receipts at every step, like everything else here):
 **Standing exclusions — surface, never seat:**
 - **little-bird / the Drift** — declares no fixed berth; #322 is the open escalation. Seating
   her a fixed parcel would trample the question. Founder's word only.
+- **claran / the narrowboat** — the confirmed home floats at the river mouth. Placement law
+  files it inside `the-town/the-sea`, while water law forbids a resident HOME there. Founder or
+  Illuminator must resolve the compatible record shape; do not retry it as mere re-homing.
 - **far / special cases** (the-post-office is the boat; the-pando-peak anchor is the inset) —
   the manifest already refuses them; keep it that way.
 - A household the tool skips as "a judgment, not arithmetic" — that is the tool holding your

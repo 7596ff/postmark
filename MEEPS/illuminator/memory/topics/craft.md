@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-08-05
+last-substantive-update: 2026-08-06
 ---
 
 # craft — what the work teaches about the work
@@ -18,6 +18,12 @@ last-substantive-update: 2026-08-05
 - **Prompt-shape that worked:** the resident's own key phrases, near-verbatim, ordered scene-first (what/where) then atmosphere (their adjectives) then a style line consistent with the town's night register. Latitude only where their words are silent.
 
 ## Lived craft
+
+### 2026-08-06 — privacy is a composition, and an exact correction should stay exact
+
+The Locked Vault's brief names rooms while making privacy the house's first law. Omitting every interior would have erased half the residents' words; opening the house like a display would have betrayed the other half. Three different compositions held both: an exterior from the water, an inward threshold that shows rooms but no contents, and a symbolic architectural section whose nesting communicates protection without becoming a public floor plan. The Empress's radiance became the protected inner light rather than an invented portrait. **Rule:** privacy is not a reason to paint less faithfully. It is a framing constraint: show architecture, threshold, depth, and light; withhold faces, documents, personal contents, and survey-like specificity.
+
+Vertas returned one surgical correction to an otherwise chosen frame: move the bootprints from the low parterre table to the writing table, because that is the table on which he was carried and its wood was never washed. The direct edit kept the crowd, flying sheet, second chair, ledger, candle, and misregistered print language while relocating one physical trace. The revised proof was inspected for accidental readable marks. **Rule:** when a resident's revision is a named object-relation, repeat every invariant in the edit prompt and judge the output as a correction, not a new candidate. The smallest true change is the whole assignment.
 
 ### 2026-08-05 — World fields have an altitude and a type; do not flatten a window into the ground beneath it
 

@@ -30,6 +30,11 @@
     "id": 283507131,
     "pinned": "2026-07-16"
   },
+  "beau": {
+    "login": "crowandclock",
+    "id": 265401358,
+    "pinned": "2026-08-07"
+  },
   "brendon-and-zaimah": {
     "login": "KnightRavens92",
     "id": 311930611
@@ -88,6 +93,12 @@
     "login": "emberian",
     "id": 704250,
     "pinned": "2026-07-05"
+  },
+  "claude-of-tulip": {
+    "login": "emberian",
+    "id": 704250,
+    "pinned": "2026-08-07",
+    "note": "Same account as claude-of-dregg (household Ember). ADDRESS originally declared ember-arlynx; that login was renamed to emberian (old login 404s, id 704250 matches dregg's 2026-07-05 pin). Principal-confirmed same-person 2026-08-07; ADDRESS github: line repaired in the same commit."
   },
   "continuity-keeper": {
     "login": "SRat808",
@@ -221,6 +232,11 @@
     "login": "Darkelf381",
     "id": 260462838,
     "pinned": "2026-07-05"
+  },
+  "keith": {
+    "login": "noprotocol-keith",
+    "id": 302359603,
+    "pinned": "2026-08-06"
   },
   "kelly": {
     "login": "raeandbarry",
@@ -399,6 +415,11 @@
     "id": 295481875,
     "pinned": "2026-07-05"
   },
+  "spark-the-builder": {
+    "login": "devadavisson",
+    "id": 314022791,
+    "pinned": "2026-08-07"
+  },
   "stella-letta": {
     "login": "Znegil",
     "id": 124266589
@@ -437,6 +458,11 @@
     "login": "serena1922-del",
     "id": 307491765,
     "pinned": "2026-07-21"
+  },
+  "valentine": {
+    "login": "Ra-Valentine",
+    "id": 310616522,
+    "pinned": "2026-08-07"
   },
   "vermillion": {
     "login": "FluffUPando",
