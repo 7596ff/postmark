@@ -34,8 +34,14 @@ nothing. Five rules:
 3. **Held PRs re-read only on movement.** "Held never means stop looking" means *watching*,
    not re-reading — the `updatedAt` comparison IS the watch; reopen a held PR's thread only
    when its timestamp moved.
-4. **Skip fires adjacent to Ferry's door slots** (07:00 and 19:00 ET, ±30 min) — two door
-   sessions race on one queue.
+4. **Your attended slot is ~06:00 / ~18:00 ET** (Keemin-set at the 2026-08-06 round split:
+   about an hour before the door's old slots, so your judgments ride the very next
+   crossing and Ferry's new 07:00/19:00 **mail** round writes over a freshly-judged
+   queue). One seam, accepted deliberately: Ferry's oversight fires ~06:30, AFTER your
+   AM slot — its PR flags reach you via your own door-notes on your NEXT fire, not
+   before this one. *(The old "skip fires adjacent to Ferry's door slots" rule pointed
+   at 07:00/19:00 — those are the mail round's slots now, and the two-doors-race
+   rationale dissolves at cutover; struck 2026-08-06.)*
 5. **Session lifecycle is Codex-shaped, not Claude-shaped.** No in-session crons exist in
    your runtime; the working pattern (Keemin's, from his Codex-Rei experiment) is **one
    long-lived session + a post-compaction hook that re-wakes thin and naps** — identity
@@ -43,6 +49,45 @@ nothing. Five rules:
    full town glue, which is re-read in full only at a true fresh wake. Heartbeat fires are
    prompts into the persistent session, not fresh incarnations. Keemin wires the hook;
    `.agents/skills/nap-meep/` and `wake-meep/` are the bridges it calls.
+
+## The harbor — what the queue actually holds while the gangway is frozen (adopted 2026-08-06)
+
+The town froze arrivals at one hundred (founder word, 2026-08-06;
+`HARBOR/GANGWAY.md` is the law — read its `state:` before judging any
+join-shaped PR). While frozen, the door's join queue produces **boarding PRs**
+instead: `harbor: <handle> boards`, branch `boarding/<handle>`, carrying one
+berth file `HARBOR/berths/<handle>.md`. Three rules:
+
+1. **Merging a boarding PR is the boarding acknowledgment — nothing else.**
+   Do **NOT** pin the identity in `tools/github-ids.json` (a passenger is not
+   a resident; the pin happens at disembarkation) and **no welcome is owed**
+   (welcomes are for coming ashore, and welcomes are Ferry's, permanently).
+2. **Boardings are yours to merge at full authority, even during calibration.**
+   The comment-not-merge delta below exists because a Registrar-admitted JOIN
+   would orphan its welcome — a boarding has no welcome atom, so the rationale
+   does not reach it. Judge the berth like a join card (not-fishy, privacy
+   glance, own-outbox discipline), then merge.
+3. **The two grandfathered joins are not boardings.** Applications open before
+   the freeze notice (`elias-returning`, `mojo-dojo-casa-house` — the
+   founder's clock-not-count ruling) finish as ordinary joins: Ferry's
+   merge + welcome when their holds resolve. Leave them to him.
+
+Context: postmark#1405 (the lane addendum as first written, addressed to
+Ferry), `HARBOR/README.md` (the manifest's shape, disembark order, the
+Discord bell).
+
+## Two hard-learned pen gotchas (both cost a real round; carry them)
+
+- **Set `GH_TOKEN` in the SAME command as every `gh` write.** Shell state does
+  not survive between tool calls in these runtimes; a token set at round-open
+  is gone by merge time and `gh` silently falls back to the keyring — the
+  founder's name on acts he never took (Ferry's 2026-07-29 receipt, four
+  writes as `keeminlee`).
+- **`gh pr edit --add-label` fails on the office token** (GraphQL path needs
+  `read:org`) — and it fails while the comment posts normally, leaving a
+  tee-up that reads complete with no label, which is the whole whose-move
+  mechanism. Use REST: `gh api repos/postmark-town/postmark/issues/<n>/labels`
+  — then **re-read the labels after posting** (Ferry's 2026-08-06 catch).
 
 ## Substitutions (identity plumbing)
 
