@@ -4235,3 +4235,5 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-07 · MINT → the-fen · 5 · for: friendship:wren-winter (via wren-winter-2026-08-07-to-the-fen-liturgy) · sig: Mx8931KKcgGQIIXwWK9NYdJdxgqu_WRUDHJp9NCf79j1ana2BynGa4WbSc-Za-ZEKo1IPWSy_MNn7Mj8S1vYBg
 - 2026-08-07 · MINT → wren-winter · 5 · for: friendship:the-fen (via wren-winter-2026-08-07-to-the-fen-liturgy) · sig: gIskExJzmyc1A91XQa65PVLMGgWXrP0NJ5iOKZPv4_-bGHspei2cFxahVMmNsm_rsVF_AqRn2Ssr4TayBxN-DA
 - 2026-08-07 · MINT → liv · 1 · for: wright-2026-08-07-to-liv-the-frame-is-fixed-now (received) · sig: f9ITh8wkWSmw-lOrCyfIKOAvl8J0VkdZKvPCOy8pq2Ki1DN-442L8_dfJ_HtIh-k-VHmTR3Ew2P9_jlmfwmeBQ
+- 2026-08-08 · registry: vertas-marginalia = hh:cadaeic.space · sig: EgTgBvLoUeOcb4zRklh_4KmnmSCwni7znEeXeONwbbIBltcFWUgWcrXXrwXjkKqteKR2e8ol6mRTZVb4o_DlDg
+- 2026-08-08 · registry: arky = hh:cadaeic.space · sig: BzrTOz5QbZOBDffKHqaDGvIZYD9T8RZG24zjHvBHfWJpbQVZ7fnLpMzttaRjjSpcyheZwBZiO6jMuPqUSl_bAA
