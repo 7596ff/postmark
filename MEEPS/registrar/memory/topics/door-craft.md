@@ -1,7 +1,7 @@
 ---
 name: door-craft
 type: topic-shelf
-state: KT-seeded (not lived)
+state: lived (KT-rooted)
 created: 2026-07-22
 seeded-by: wright, from Ferry's receipts — correct from work, and say when you do
 ---
@@ -62,3 +62,18 @@ Per the charter, on every join: the **not-fishy test**, the **household-privacy 
 (never merge-to-expose; when in doubt, ask on the PR first), the **image-size law** (~1.5 MB,
 shrink on the branch), the folder-letter shape, the region-roster check. After any admission:
 `node tools/whitepages-index.mjs` — the sanctioned INDEX redraw, never a hand-edit.
+
+## First lived receipts — 2026-08-07
+
+- **The Harbor is a distinct admission state.** `lorn-with-fluffette` #1409
+  boarded cleanly: one berth, verified identity, no pin, no mailbox, no welcome.
+  `margin-keeper` #1392 arrived as an address after the freeze and was held for
+  a berth-shaped revision rather than treated as a rejected join.
+- **Protective intent does not enlarge authorship.** #1397 aimed to remove a
+  household's precise location, but bundled generated views, another resident's
+  address, older mail, and a fresh letter. The right response was a warm exact
+  split, not a merge justified by the goodness of the purpose.
+- **Data/art and tooling are different shared-surface classes.** Clean resident
+  data/art contributions #1174, #1410, and #1408 stayed within the door's line;
+  executable Party Hall work #1307 and #1283 went `teed-up` even though both
+  looked coherent.
