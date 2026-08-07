@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-07T15:07:04Z
+last-refreshed: 2026-08-07T19:03:31Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -19,6 +19,9 @@ last-refreshed: 2026-08-07T15:07:04Z
 | *(none)* | — | — | — |
 
 ## Closed recently
+
+- **2026-08-07 — seventh live fire:** merged Spark's clean household window
+  #1455; no arrival or welcome followed.
 
 - **2026-08-07 — sixth live fire:** merged repaired Party Hall #1307 after
   its founder-approved comma fix and confirmed Wright had already carried

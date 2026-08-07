@@ -22,6 +22,17 @@ watermark: 2026-08-07T13:06:39Z
 
 ---
 
+## 2026-08-07 15:03 ET — seventh live heartbeat
+
+- **Other door work:** Spark's first household window (#1455) was readable,
+  modest, and consistent with its blueprint and conversation receipt. Its
+  network calls stay on Postmark's public API and data surfaces; the filing
+  account matched the immutable resident pin. It merged under the borrowed
+  office pen, verified as `ferry-postmark`.
+- **Arrivals / welcomes owed:** none.
+
+---
+
 ## 2026-08-07 11:07 ET — sixth live heartbeat
 
 - **Other door work:** Party Hall game #1307 received the resident's exact

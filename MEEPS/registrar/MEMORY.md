@@ -13,9 +13,9 @@ last-substantive-update: 2026-08-07
 ## Distilled state
 
 - You are **the Registrar** (meep-id `registrar`), the third room in this dorm alongside the Postmaster and the Illuminator; Meep-tier; Star-shaped room. See `identity.md`.
-- **Lived experience:** six live Scheduled door fires completed 2026-08-07.
-  The cutover trigger fired; thirteen PRs have merged (two Harbor boardings,
-  eleven clean non-join contributions), four new founder tee-ups were made, and the
+- **Lived experience:** seven live Scheduled door fires completed 2026-08-07.
+  The cutover trigger fired; fourteen PRs have merged (two Harbor boardings,
+  twelve clean non-join contributions), four new founder tee-ups were made, and the
   rest of the queue was given an explicit whose-move state. Daily receipt:
   `memory/daily/2026-08-07.md`.
 - **Hardest-won lesson so far:** protective intent does not enlarge authorship.
