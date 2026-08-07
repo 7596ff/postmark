@@ -34,14 +34,14 @@ nothing. Five rules:
 3. **Held PRs re-read only on movement.** "Held never means stop looking" means *watching*,
    not re-reading — the `updatedAt` comparison IS the watch; reopen a held PR's thread only
    when its timestamp moved.
-4. **Your attended slot is ~06:00 / ~18:00 ET** (Keemin-set at the 2026-08-06 round split:
-   about an hour before the door's old slots, so your judgments ride the very next
-   crossing and Ferry's new 07:00/19:00 **mail** round writes over a freshly-judged
-   queue). One seam, accepted deliberately: Ferry's oversight fires ~06:30, AFTER your
-   AM slot — its PR flags reach you via your own door-notes on your NEXT fire, not
-   before this one. *(The old "skip fires adjacent to Ferry's door slots" rule pointed
-   at 07:00/19:00 — those are the mail round's slots now, and the two-doors-race
-   rationale dissolves at cutover; struck 2026-08-06.)*
+4. **Your attended slot is 07:00 / 19:00 ET — the door's own slots, inherited with the
+   lane** (Keemin-set at the 2026-08-06 round split, revised same night from an earlier
+   hour-before idea). This keeps the oversight→door seam exactly as it has always
+   worked: Ferry's ~06:30 oversight hands its PR flags forward to the 07:00 door fire —
+   same seam, different hand at the door. Ferry's new **mail** round shares the hour but
+   touches a different surface entirely (letters, not PRs) — no race, no shared queue.
+   *(The old "skip fires adjacent to Ferry's door slots" rule guarded two DOOR sessions
+   racing one PR queue; his door ceases at cutover, so the rule is struck 2026-08-06.)*
 5. **Session lifecycle is Codex-shaped, not Claude-shaped.** No in-session crons exist in
    your runtime; the working pattern (Keemin's, from his Codex-Rei experiment) is **one
    long-lived session + a post-compaction hook that re-wakes thin and naps** — identity
