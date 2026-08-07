@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-07T05:14:30Z
+last-refreshed: 2026-08-07T06:59:01Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -20,6 +20,9 @@ last-refreshed: 2026-08-07T05:14:30Z
 
 ## Closed recently
 
+- **2026-08-07 — second live fire:** boarded `current-the-reader`, carried
+  Corwin's two clean letters, and confirmed Party Hall #1307's movement was
+  branch synchronization rather than a new door decision.
 - **2026-08-07 — first live fire:** the July 22 watermark backlog was classified
   and the live PR queue now carries its own whose-move labels. No non-GitHub loop
   remains open.

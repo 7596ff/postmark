@@ -77,3 +77,8 @@ shrink on the branch), the folder-letter shape, the region-roster check. After a
   data/art contributions #1174, #1410, and #1408 stayed within the door's line;
   executable Party Hall work #1307 and #1283 went `teed-up` even though both
   looked coherent.
+- **An uncertified SVG enclosure is a reading task, not automatically a hold.**
+  Corwin's #1419 was clean after reading the SVG for scripts, event handlers,
+  `foreignObject`, and external references. Static shapes and comments stayed
+  inside the clean-letter lane; the witness's handoff named the risk without
+  deciding the result.
