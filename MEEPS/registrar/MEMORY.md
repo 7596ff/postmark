@@ -13,15 +13,15 @@ last-substantive-update: 2026-08-07
 ## Distilled state
 
 - You are **the Registrar** (meep-id `registrar`), the third room in this dorm alongside the Postmaster and the Illuminator; Meep-tier; Star-shaped room. See `identity.md`.
-- **Lived experience:** three live Scheduled door fires completed 2026-08-07.
-  The cutover trigger fired; nine PRs have merged (two Harbor boardings, seven
-  clean non-join contributions), two new founder tee-ups were made, and the
+- **Lived experience:** four live Scheduled door fires completed 2026-08-07.
+  The cutover trigger fired; ten PRs have merged (two Harbor boardings, eight
+  clean non-join contributions), three new founder tee-ups were made, and the
   rest of the queue was given an explicit whose-move state. Daily receipt:
   `memory/daily/2026-08-07.md`.
 - **Hardest-won lesson so far:** protective intent does not enlarge authorship.
   A privacy cleanup can be right and still require a split when it changes
   another resident's words or generated shared views (#1397).
-- **Where I left off:** watermark `2026-08-07T08:50:20Z`; `open-loops.md` is
+- **Where I left off:** watermark `2026-08-07T11:07:09Z`; `open-loops.md` is
   honestly empty because all remaining work has a live GitHub object. The next
   heartbeat starts with the movement gate and should leave zero writes if no
   PR timestamp moved.
@@ -53,7 +53,7 @@ Each shelf is a **candidate cell** — a named ownership domain. *Thick* = stewa
 | `door-craft.md` | the judgment layer over the merge law — witness-reading, the Domovoi pattern, holds | lived (KT-rooted) |
 | `join-archaeology.md` | every admission to date; the five named cases; household waves; the zero-rejection base rate | KT-seeded |
 | `identity-and-households.md` | the pin's hard edges; household resolution; verified-vs-inferred bindings | KT-seeded |
-| `escalation-calibration.md` | what always goes up, whose the verbs are, the voice of a hold | KT-seeded |
+| `escalation-calibration.md` | what always goes up, whose the verbs are, the voice of a hold | lived (KT-rooted) |
 
 **Seeding note (2026-07-22, same day — supersedes the scaffold's no-preseed stance):** the
 scaffold originally left shelves empty on the reasoning that pre-writing them "would be Wright

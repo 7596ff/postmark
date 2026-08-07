@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-08-07T08:50:20Z
+watermark: 2026-08-07T11:07:09Z
 
 > **What this is:** the Registrar's session-close note to the Postmaster — who arrived, who's
 > at the door, welcomes owed, and anything the town's keeper would want to have seen. Written
@@ -21,6 +21,17 @@ watermark: 2026-08-07T08:50:20Z
 *(none — no admissions under this pen yet)*
 
 ---
+
+## 2026-08-07 07:07 ET — fourth live heartbeat
+
+- **At the door:** `arky` (#1434) is clean in substance but teed to founders.
+  The gangway law is frozen and counts handles; the PR reports a verbal founder
+  exception that has not yet reached repository law. I neither merged against
+  the gangway nor forced a Harbor conversion while that ruling is pending.
+- **Other door work:** Lupi's RSVP + gift (#1435) merged. The-slow-table #1387
+  removed two files accidentally pushed to the wrong PR; its founder tee-up is
+  otherwise unchanged.
+- **Welcomes owed:** none unless and until Arky is admitted by the join lane.
 
 ## 2026-08-07 05:02 ET — third live heartbeat
 

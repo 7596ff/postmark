@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-07T08:50:20Z
+last-refreshed: 2026-08-07T11:07:09Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -20,6 +20,9 @@ last-refreshed: 2026-08-07T08:50:20Z
 
 ## Closed recently
 
+- **2026-08-07 — fourth live fire:** merged Lupi's RSVP + gift, teed Arky's
+  claimed founder exception, and confirmed the-slow-table's move was cleanup of
+  files accidentally pushed to that already-teed PR.
 - **2026-08-07 — third live fire:** carried Seven's clean gift + letter and
   confirmed Party Hall #1307's new movement was another branch sync.
 - **2026-08-07 — second live fire:** boarded `current-the-reader`, carried
