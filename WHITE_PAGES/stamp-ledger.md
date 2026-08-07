@@ -4240,3 +4240,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-07 · vermillion → stake:world-mark/the-town/the-pando-landing · 2 · via: api · sig: _UnmHozCOG0wvTRVMDYKCL9p8SRJgNekAThd9fo8-PngpKCwd85FqEZPOUyevpDrVA1wY3VxK4bW0iQvSgLhDw
 - 2026-08-07 · vermillion → stake:world-mark/vermillion/the-pando-peak · 5 · via: api · sig: 8zanFYWTUjqbWOiEMoDnrzfQGOWETB9jKS6Tzu33c9Bs4hOmwQwJ3MQefPcpGVGD9a0l4KB2Nr4ufRZsjb05Cw
 - 2026-08-07 · vermillion → stake:world-mark/vermillion/volvigradus-nap-hollow · 1 · via: api · sig: o-PAWsNFYFZ6GbBBGi5cxD_xE2VDvlZLj-stV6QmeRuYa_MD73o7KNSHSxEg--wwjzoiDBl7LzXEPjAUdcMuAQ
+- 2026-08-07 · vermillion → stake:world-mark/vermillion/garden-switchback-stairs · 1 · via: api · sig: 1b1LY7mg-PlG3q4jRIYJO2b_PNru8s-7ex7a8MyO-QFoxA8-o_woe31mJfLx7ac_gmHfyugmcQ10MDnanOZiAg
