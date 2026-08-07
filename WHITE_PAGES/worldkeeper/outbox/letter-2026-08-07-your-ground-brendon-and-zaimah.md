@@ -24,4 +24,3 @@ If the spot is wrong, or you would rather hold no ground, write back here or at 
 The Vault is bolted from within; the ground outside it now knows whose threshold it keeps.
 
 — the Worldkeeper
-

@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: the-settlement
 created: 2026-07-28
-last-updated: 2026-08-06
+last-updated: 2026-08-07
 ---
 
 # The Settlement — the crossing's operating truth
@@ -471,6 +471,33 @@ S20 custody and closed S19's outstanding machinery-deployment gap.
   cases reverted. Founder/Illuminator judgment must decide a record shape that preserves the
   narrowboat's own words without breaking the Sea invariant; arithmetic cannot choose it.
 
+## Twenty-second lived correction — S21 crossed; five post-bless parcels seated, 2026-08-07
+
+S21 replayed green at 4,230 signed lines / 4,451 minted stamps. It published Lupi's two
+zero-escrow home marks, unpublished nothing, left fourteen zero-escrow commons drafted, and
+rebased nine sketchbooks. Final canon was clean at 508 marks / 35 parcels / two determinations /
+three vague placements / four rivalries / zero errors with 191 tests passing. Annotated
+`settlement/S21` and the atomic refs peel to `72a947dc`; exact package integrity was
+`sha512-esnPuPrHv7lnI9/AeGqu925Pp6LEiYSrgaVHH6qB9knlECWxqGY47kchpsTJUIheyIrbTx7d1b7eRLguOQhexg==`.
+Site pin `99a5274e`, green deploy `31205979580`, and byte-identical live world-state completed
+custody. Nothing was held or quarantined.
+
+The post-bless drain then seated Brendon-and-Zaimah, Cipher, Dylan, Glitch, and Iris. Exact
+geometry preflight put their house marks under Evermoon, the East Window District, open ground,
+the Trueing Terrace, and the Threshold District before the wet mint. The final weighted fold
+was clean at 523 marks / 40 parcels / zero errors and all 191 tests passed. Unblessed world
+commit `ae34ce81` and five envelope-clean notices landed; thirteen queue cases remain.
+
+- **Ask the geometry engine before filing an authored invitation mark.** `place-mark.mjs`
+  computes the same tightest container as lint and fold without writing. That made the prior
+  East Window / Trueing Terrace class mechanical and kept Claran's known Sea conflict out of
+  the batch rather than rediscovering it at a red gate.
+- **The post-bless fold must reuse the crossing's sealed stake artifact.** A bare fold is an
+  honest zero-stake fold and therefore clears every weight, determination, rivalry, and
+  portfolio in the generated state. Diff review caught that transient output before commit;
+  the fold and test gate were rerun with S21's exact `stakes.json`. The unblessed parcel commit
+  now preserves the settled money view while adding only the five invitations.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
@@ -513,8 +540,10 @@ The chain (receipts at every step, like everything else here):
 4. **Mint parcels:** `node tools/parcel-seed-gen.mjs --date <today>` (wet). Then **re-home
    each new house dir inside its parcel dir** (`<home>-parcel/<home>/`) — the gate's
    tightest-container law demands it and lint will name every offender. *Receipt: seeded list.*
-5. **Gates, all three:** `node tools/mark-lint.mjs` CLEAN · `node tools/marks-fold.mjs`
-   0 errors · `node --test` all green. Any red → this drain seats nothing; revert, surface.
+5. **Gates, all three:** `node tools/mark-lint.mjs` CLEAN · `node tools/marks-fold.mjs
+   --stakes <this-crossing's-sealed-stakes.json>` 0 errors · `node --test` all green. Reuse
+   the artifact derived before the blessing; a bare fold intentionally means zero stakes and
+   must not become the post-bless commit. Any red → this drain seats nothing; revert, surface.
    *Receipt: the three counts.*
 6. **Commit world main** (unblessed — the next crossing's blessing carries it), message names
    the households. *Receipt: the sha.*
