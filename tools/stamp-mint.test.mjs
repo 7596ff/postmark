@@ -337,3 +337,15 @@ test('LIVE registry invariants: households.json agrees with the pins', () => {
     }
   }
 });
+
+test('LIVE ledger: the real replay verifies green (genesis surfaces are sealed)', () => {
+  // The enforcement for the tulip class: editing github-ids.json or an ADDRESS
+  // github: line for a handle with minted history re-derives history — this
+  // test makes that fail here, at PR time, instead of at a crossing's money
+  // gate. (Second bite 2026-08-07: an identity repair pinned claude-of-tulip
+  // at dregg's id and June diverged. Also: never probe the verifier through a
+  // pipe — `verify | tail` returns tail's exit, and the red run sails on.)
+  const repo = join(HERE, '..');
+  const r = verifyStampLedger(repo);
+  assert.equal(r.ok, true, (r.problems ?? []).slice(0, 3).join('; '));
+});
