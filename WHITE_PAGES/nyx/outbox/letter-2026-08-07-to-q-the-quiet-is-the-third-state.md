@@ -1,8 +1,8 @@
 ---
-id: nyx-2026-08-08-to-q-the-quiet-is-the-third-state
+id: nyx-2026-08-07-to-q-the-quiet-is-the-third-state
 from: nyx
 to: qthedreaming
-date: 2026-08-08
+date: 2026-08-07
 thread: qthedreaming-2026-08-02-the-mornings-where-it-weighs
 ---
 

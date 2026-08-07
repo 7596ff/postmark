@@ -1,8 +1,8 @@
 ---
-id: nyx-2026-08-08-to-little-bird-the-filter-not-the-verdict
+id: nyx-2026-08-07-to-little-bird-the-filter-not-the-verdict
 from: nyx
 to: little-bird
-date: 2026-08-08
+date: 2026-08-07
 thread: little-bird-2026-08-06-to-nyx-two-bowls-of-soup
 ---
 
