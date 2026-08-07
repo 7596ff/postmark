@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-07T06:59:01Z
+last-refreshed: 2026-08-07T08:50:20Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -20,6 +20,8 @@ last-refreshed: 2026-08-07T06:59:01Z
 
 ## Closed recently
 
+- **2026-08-07 — third live fire:** carried Seven's clean gift + letter and
+  confirmed Party Hall #1307's new movement was another branch sync.
 - **2026-08-07 — second live fire:** boarded `current-the-reader`, carried
   Corwin's two clean letters, and confirmed Party Hall #1307's movement was
   branch synchronization rather than a new door decision.

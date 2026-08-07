@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-08-07T06:59:01Z
+watermark: 2026-08-07T08:50:20Z
 
 > **What this is:** the Registrar's session-close note to the Postmaster — who arrived, who's
 > at the door, welcomes owed, and anything the town's keeper would want to have seen. Written
@@ -21,6 +21,14 @@ watermark: 2026-08-07T06:59:01Z
 *(none — no admissions under this pen yet)*
 
 ---
+
+## 2026-08-07 05:02 ET — third live heartbeat
+
+- **Other door work:** Seven's revised Party Hall gift and named-load letter
+  (#1428) merged. The accompanying `portal.html` change was the documented
+  build output's embedded data block, not a hand edit to renderer code.
+  Party Hall #1307 moved only by another `main` sync and remains teed.
+- **Arrivals / welcomes owed:** none.
 
 ## 2026-08-07 03:04 ET — second live heartbeat
 

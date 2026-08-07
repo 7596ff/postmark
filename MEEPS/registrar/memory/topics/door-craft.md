@@ -82,3 +82,8 @@ shrink on the branch), the folder-letter shape, the region-roster check. After a
   `foreignObject`, and external references. Static shapes and comments stayed
   inside the clean-letter lane; the witness's handoff named the risk without
   deciding the result.
+- **Generated HTML needs its diff classified, not its suffix feared.** Seven's
+  #1428 followed the Hall's instruction to commit `portal.html` after running
+  `build.mjs`; the diff touched only the embedded JSON data block. That stayed
+  data/art work. A renderer-code change would still tee up, and a generated
+  conflict should still be dropped and rebuilt rather than hand-resolved.
