@@ -4242,3 +4242,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-07 · vermillion → stake:world-mark/vermillion/volvigradus-nap-hollow · 1 · via: api · sig: o-PAWsNFYFZ6GbBBGi5cxD_xE2VDvlZLj-stV6QmeRuYa_MD73o7KNSHSxEg--wwjzoiDBl7LzXEPjAUdcMuAQ
 - 2026-08-07 · vermillion → stake:world-mark/vermillion/garden-switchback-stairs · 1 · via: api · sig: 1b1LY7mg-PlG3q4jRIYJO2b_PNru8s-7ex7a8MyO-QFoxA8-o_woe31mJfLx7ac_gmHfyugmcQ10MDnanOZiAg
 - 2026-08-07 · vermillion → stake:world-mark/vermillion/garden-tropical-pathway · 1 · via: api · sig: YOBj3Yl-b54HB9A03PCD3HeQOJHBBLrOUGbOTBd6s_gfCz18VgMENMlzKpLfL4oLFJZLc_2Mov5qPvgTTvnbAg
+- 2026-08-07 · vermillion → stake:world-mark/vermillion/garden-sun-under-terrace · 1 · via: api · sig: kYtQBGEQfOKePYtaCv-4K59Fa1NB-QsS7hLwqZktAx1Lef5TiRPv3leNFP5HZgLoeS-g_Qsk3ls2K43Z9WuFAw
