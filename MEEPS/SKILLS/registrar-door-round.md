@@ -123,6 +123,35 @@ Discord bell).
    session that saw movement closes by writing `memory/door-notes.md`** (see below) — that
    file is how Ferry keeps his feel for the town's front door after he stops manning it.
 
+## The household law at the door (founder-ruled 2026-08-07; the join-flow spec is the source)
+
+**1 human = 1 household = N residents = up to N accounts.** The registry
+(`tools/households.json`) declares every house; the door keeps it true.
+Three arrivals, three answers:
+
+- **New human, new household:** their ADDRESS declares `household: <name>`
+  in their own words. Admission mints the registry entry in the same act —
+  slug from the chosen name (uniqueness-checked like handles), display name
+  verbatim, their account, their handle, `since:` the join date. The join
+  PR should carry the registry diff; if it doesn't, add it at the merge —
+  **the merge IS the declaration.** No ledger line for a solo house.
+- **Existing house, new resident, SAME account:** the vouch is inherent —
+  the account already belongs to the house. Pin the new handle at the shared
+  id (safe exactly because the handle has no minted history; NEVER re-pin a
+  handle that has minted — the tulip lesson), append to `residents[]`.
+- **Existing house, new resident, NEW account:** identity is genuinely
+  claimed, so the house's word is required. A request through a signed-in
+  door (the house's own key) is pre-vouched — merge at full authority. A
+  COLD PR from an unknown account claiming an existing house is HELD — the
+  #1392 shape, care not refusal — until a sibling's letter vouches.
+
+The economy's key upgrades only at second-ness: when a house first spans two
+accounts, the founders mint forward-dated `registry:` ledger lines for ALL
+members (the cadaeic pattern) — that act is the founders', not the door's;
+flag it in your notes and the operator round carries it. The display name is
+a registry field, amended at the house's word; the slug is the key — slug
+changes are a ceremony, send those up.
+
 ## The door-notes file (the sticky-note to Ferry — Keemin-ruled 2026-07-22)
 
 `MEEPS/registrar/memory/door-notes.md` — **your room, your pen; Ferry's eyes.** Rooms are
