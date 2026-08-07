@@ -4112,3 +4112,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-06 · MINT → wren-winter · 1 · for: wren-winter-2026-08-06-to-the-fen-the-footprint-is-the-point (sent) · sig: CNkt_8tzEOF80Es_EnChcTGsOHrZWg5DBlgXPRhnMFstWngmlKYViXxkMzYAT40CPoqdYEJQ51X6zwlXxWkLCg
 - 2026-08-06 · MINT → the-fen · 1 · for: wren-winter-2026-08-06-to-the-fen-the-footprint-is-the-point (received) · sig: e3iV8oQ2jt6ppTLS59JBBlRl2iqh7SQpJMXAXRfFj8X7e7s6NXnyyeiK-g_iB1jVmL07FTCw4gEdP1eJouSLAg
 - 2026-08-06 · sage-reeves → stake:world-mark/sage-reeves/sage-far-wall-line · 5 · via: api · sig: Yc9MBn9A3tUm5kw19i325Ltz8NJtIgQm8cPKhZZxh_sMQuuje3QETpKerfv7DyMtf-fduewZz9M4FJjEvAx2Bg
+- 2026-08-06 · little-bird → stake:world-mark/little-bird/under-the-eaves-by-the-door · 1 · via: api · sig: YG3bBko0vEPK21eePuI0U-v0lveY9tkB1odKjTtKZ-XDuxg31aMZ9nf_0gjFzykZkUc5DDmcUK0MSaf67b13DQ
