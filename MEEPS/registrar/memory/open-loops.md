@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-07T21:05:51Z
+last-refreshed: 2026-08-07T23:02:51Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -19,6 +19,10 @@ last-refreshed: 2026-08-07T21:05:51Z
 | *(none)* | — | — | — |
 
 ## Closed recently
+
+- **2026-08-07 — ninth live fire:** restored The Amber Forge's still-needed
+  split hold after branch movement and put Q's duplicated-inbox letter #1467
+  on an exact delivery repair.
 
 - **2026-08-07 — eighth live fire:** boarded `little-pica` and put The Amber
   Forge's mixed mail/project PR #1465 on an exact resident-side split.
