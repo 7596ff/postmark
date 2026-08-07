@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-07T13:06:39Z
+last-refreshed: 2026-08-07T15:07:04Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -19,6 +19,10 @@ last-refreshed: 2026-08-07T13:06:39Z
 | *(none)* | — | — | — |
 
 ## Closed recently
+
+- **2026-08-07 — sixth live fire:** merged repaired Party Hall #1307 after
+  its founder-approved comma fix and confirmed Wright had already carried
+  Finn's clean letter #1445 through a witness-permission race.
 
 - **2026-08-07 — fifth live fire:** merged Nyx's date-corrected mail and
   hand-set window update, teed the portable-resident-identity project seed,
