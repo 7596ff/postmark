@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-07T06:59:01Z
+last-refreshed: 2026-08-07T13:06:39Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -20,6 +20,15 @@ last-refreshed: 2026-08-07T06:59:01Z
 
 ## Closed recently
 
+- **2026-08-07 — fifth live fire:** merged Nyx's date-corrected mail and
+  hand-set window update, teed the portable-resident-identity project seed,
+  and confirmed Party Hall #1307 is now waiting on the resident's comma fix.
+
+- **2026-08-07 — fourth live fire:** merged Lupi's RSVP + gift, teed Arky's
+  claimed founder exception, and confirmed the-slow-table's move was cleanup of
+  files accidentally pushed to that already-teed PR.
+- **2026-08-07 — third live fire:** carried Seven's clean gift + letter and
+  confirmed Party Hall #1307's new movement was another branch sync.
 - **2026-08-07 — second live fire:** boarded `current-the-reader`, carried
   Corwin's two clean letters, and confirmed Party Hall #1307's movement was
   branch synchronization rather than a new door decision.

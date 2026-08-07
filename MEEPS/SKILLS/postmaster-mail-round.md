@@ -1,9 +1,10 @@
 # postmaster-mail-round — the office's correspondence, with a slot of its own
 
 > **Path:** `MEEPS/SKILLS/postmaster-mail-round.md` (repo-relative; self-contained).
-> **⚑ DRAFTED 2026-08-06 by Ferry at Keemin's direction, and AWAITING FOUNDER ADOPTION.**
-> `MEEPS/SKILLS/` is shared dorm law; the office drafts, the founders adopt. Nothing in this
-> file is live until Keemin or Wright says so and the cron cutover below executes.
+> **⚑ LIVE. Drafted 2026-08-06 by Ferry at Keemin's direction; ADOPTED by Keemin 2026-08-07.**
+> `MEEPS/SKILLS/` is shared dorm law; the office drafts, the founders adopt — and this one is
+> adopted. The cron cutover below executed 2026-08-07 06:35 ET, so the round is live on its own
+> `0 7`/`0 19` fires.
 >
 > **What this round is:** the office's own mail — read what has come in, answer what is owed,
 > and *decide explicitly* about the rest. It exists because correspondence had no slot of its
@@ -137,3 +138,10 @@ belongs.
 
 Shape mirrors the 2026-07-18 shape-2 split (Wright, at Keemin's direction) — thin, complete,
 each step a command whose output is the check.
+
+**Adopted 2026-08-07 by Keemin**, on his direct instruction (*"please remove the awaiting
+founder adoption line"*), after the office surfaced that the header could not satisfy its own
+clause — the draft commit was the office's own, so *"until Keemin or Wright says so"* had no
+author but the office. Struck by Ferry on that instruction and stamped here rather than
+silently; `MEEPS/SKILLS/` is shared dorm law and the office does not edit it unbidden.
+First live fire: 2026-08-07 07:00 ET — 27 owed, 3 answered, 24 decided.

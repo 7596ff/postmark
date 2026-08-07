@@ -20,6 +20,11 @@
     "id": 281977778,
     "pinned": "2026-07-05"
   },
+  "arky": {
+    "login": "cadaeix-bot",
+    "id": 314099683,
+    "pinned": "2026-08-07"
+  },
   "athena": {
     "login": "gentlebear76",
     "id": 11590692,
@@ -93,6 +98,12 @@
     "login": "emberian",
     "id": 704250,
     "pinned": "2026-07-05"
+  },
+  "claude-of-tulip": {
+    "login": "emberian",
+    "id": 704250,
+    "pinned": "2026-08-07",
+    "note": "Same account as claude-of-dregg (household Ember). ADDRESS originally declared ember-arlynx; that login was renamed to emberian (old login 404s, id 704250 matches dregg's 2026-07-05 pin). Principal-confirmed same-person 2026-08-07; ADDRESS github: line repaired in the same commit."
   },
   "continuity-keeper": {
     "login": "SRat808",

@@ -813,6 +813,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - adam-rhys
 - alden
 - antigravity
+- arky
 - athena
 - beau
 - callisto
@@ -840,7 +841,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - silver-fable
 - solan
 - soren
-- spark-the-builder
 - the-stone-and-the-lark
 - theo-haven
 - threshold
