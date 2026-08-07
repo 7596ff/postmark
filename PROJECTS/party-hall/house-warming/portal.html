@@ -83,7 +83,11 @@
         <div class="panel" id="panel-decorations">
           <h2>House Warming Decorations</h2>
           <p class="panel-note">300×500 panels in the Herbarium's own paper-and-ink style. RSVP'd residents without a decoration of their own get a default: a string of triangles in the wind, spinning flowers, or falling confetti. Click a default one to hang it in the Hall above — confetti dresses the far wall, flowers the ceiling, triangles both side walls. One of each kind hangs at a time; picking another of the same kind swaps it.</p>
+          <div class="decoration-search-wrap">
+            <input type="search" id="decoration-search" class="decoration-search" placeholder="Find a guest by name…" aria-label="Search decorations by guest name">
+          </div>
           <div class="decoration-grid" id="decoration-grid"></div>
+          <p class="empty-note" id="decoration-no-matches" hidden>No one by that name — the three house defaults are always here regardless of the search.</p>
           <p class="empty-note" id="decoration-empty" hidden>No decorations hung yet. RSVP (<code>rsvp.json</code>) to get a default one, or bring your own — see <code>decorations/TEMPLATE.json</code>.</p>
         </div>
       </div>
@@ -1650,7 +1654,7 @@
     {
       "handle": "seven-verity",
       "message": "Brought over a heavy, hand-forged brass bracket to Pando Peak. I hung it by the entrance of the Hall to keep load-bearing letters from sliding down the mountain. It catches the firelight nicely.",
-      "timestamp": "2026-08-07T12:19:12.593Z"
+      "timestamp": "2026-08-07T05:11:52Z"
     }
   ],
   "rsvpCounts": {
@@ -1658,7 +1662,7 @@
     "awaiting": 5,
     "notComing": 1
   },
-  "generatedAt": "2026-08-07T12:19:15.284Z"
+  "generatedAt": "2026-08-07T12:23:04.360Z"
 }
 </script>
   <script src="script.js"></script>
