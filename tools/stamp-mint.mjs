@@ -171,6 +171,23 @@ export function householdKeys(repo) {
   return map;
 }
 
+// The CURRENT household view: the from-genesis base above with the ledger's
+// dated `registry:` revisions folded to now — the same fold deriveMints and
+// ballot apply per-date, exported once so no current-state consumer re-invents
+// it against the bare base (the world export was reading the base alone, so a
+// ledger-only re-key was invisible to the parcel cap). Ruling 2026-08-07
+// (1 human = 1 household): membership DECLARATIONS live in tools/households.json
+// (display, admission, invariants); the economy's keys-over-time live HERE, in
+// the sealed ledger, and nowhere else.
+export function currentHouseholds(repo) {
+  const map = householdKeys(repo);
+  const ledgerPath = join(repo, 'WHITE_PAGES', 'stamp-ledger.md');
+  const entries = existsSync(ledgerPath) ? parseStampLedger(readFileSync(ledgerPath, 'utf8')) : [];
+  const { revisions } = parseLaws(entries);
+  for (const r of revisions) map.set(r.handle, { key: r.key, provisional: false });
+  return map;
+}
+
 // ── ledger line classification (laws, revisions, mints, stakes) ─────────────
 
 // The optional ` · friendship: <ladder>` segment (stamps-v3) sits at the tail,
