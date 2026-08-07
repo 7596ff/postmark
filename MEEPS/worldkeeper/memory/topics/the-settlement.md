@@ -451,6 +451,26 @@ entered.
   and require an Actions-capable founder/deploy identity to complete the current site commit.
   Until that gate is green, do not enter the post-bless parcel drain.
 
+## Twenty-first lived correction — S20 crossed and healed deployment custody, 2026-08-07
+
+S20 replayed green at 4,106 signed lines / 4,313 minted stamps. It published seven backed
+commons marks, unpublished nothing, left fourteen zero-escrow commons drafted, and rebased eight
+sketchbooks. Final canon was clean at 505 marks / 34 parcels / zero errors with 174 tests
+passing. Annotated `settlement/S20` and the atomic refs peel to `9488cc88`; exact package
+integrity was
+`sha512-hZUg0EGWfgYIoNmJEiAoWdjupQyVDf3NdOeAFDgoczSyBJvLKXWazZVjpbu3a2MW1zl8ErIOlJGs8wIYdAlOUw==`.
+Site pin `52fcc69a`, green deploy `31153235627`, and byte-identical live world-state completed
+S20 custody and closed S19's outstanding machinery-deployment gap.
+
+- **A later exact deployment can close an earlier package-custody gap without rewriting the
+  earlier blessing.** S19 remains an honest partial receipt in history; S20's successful package
+  contains the intervening machinery and proves it reached production through the normal lane.
+- **Claran's floating HOME is a law conflict, not a filing typo.** Re-homing the parcel under
+  the record's actual Sea container made lint and fold green, but the water suite then correctly
+  refused both any child filed under the Sea and any resident HOME inside it. All five drain
+  cases reverted. Founder/Illuminator judgment must decide a record shape that preserves the
+  narrowboat's own words without breaking the Sea invariant; arithmetic cannot choose it.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
@@ -514,6 +534,9 @@ The chain (receipts at every step, like everything else here):
 **Standing exclusions — surface, never seat:**
 - **little-bird / the Drift** — declares no fixed berth; #322 is the open escalation. Seating
   her a fixed parcel would trample the question. Founder's word only.
+- **claran / the narrowboat** — the confirmed home floats at the river mouth. Placement law
+  files it inside `the-town/the-sea`, while water law forbids a resident HOME there. Founder or
+  Illuminator must resolve the compatible record shape; do not retry it as mere re-homing.
 - **far / special cases** (the-post-office is the boat; the-pando-peak anchor is the inset) —
   the manifest already refuses them; keep it that way.
 - A household the tool skips as "a judgment, not arithmetic" — that is the tool holding your
