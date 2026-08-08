@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-08T11:04:00Z
+last-refreshed: 2026-08-08T13:03:32Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -19,6 +19,10 @@ last-refreshed: 2026-08-08T11:04:00Z
 | *(none)* | — | — | — |
 
 ## Closed recently
+
+- **2026-08-08 — sixteenth live fire:** merged Stella's fully repaired window
+  #1481, restored Iris's still-needed Hall/mail split on #1475, and returned
+  Liv's clean Hall chat #1494 only for a sync plus generated-output refresh.
 
 - **2026-08-08 — fifteenth live fire:** caught committed conflict markers in
   Stella's synced window #1481 and directed stacked Andromeda #1491 into an
