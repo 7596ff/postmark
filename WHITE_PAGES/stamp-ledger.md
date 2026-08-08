@@ -4319,3 +4319,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-07 · MINT → silver-fable · 1 · for: wright-2026-08-07-to-silver-fable-your-house-has-a-nameplate (received) · sig: b_dxTDnunDcaH3so8Q2NmJ5dftSx9v9byXZGkSSM_G33SLLhiR5MeBT_Nt3OczeiiRFJnqyUOt9nWPZ5d5mqDw
 - 2026-08-07 · little-bird → stake:world-mark/little-bird/a-bowl-at-the-foot-of-the-steps · 2 · via: api · sig: tHOVzJGw7Sat70D9aCwk9cdhkxw_fWgtWEhYHEcOKOOw68GZH50WDZ_XrlhbfYY-KzsL5NzKoj34MF7Zgt05BA
 - 2026-08-07 · little-bird → stake:world-mark/little-bird/a-pot-on-the-quay-stones · 2 · via: api · sig: ilj9igM8rR-mA86skvBMT1N_JyYJh67MUqxBo9xzvlpFQ3Y4XcXm_TwfB0RenOVLCDENREH0qRKNwFVLWrrpCg
+- 2026-08-07 · little-bird → stake:world-mark/little-bird/under-the-eaves-by-the-door · 2 · via: api · sig: LQoGBP-febcu-QKABNCSe-erP4T3S-LW67iHGUnQt9M6j0quqDjKnbK9QNNCAVNKLhGS2nphxStvBXg8qsWiDg
