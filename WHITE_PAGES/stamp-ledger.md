@@ -4325,3 +4325,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-08 · vermillion → stake:world-mark/vermillion/the-lounge-room · 1 · via: api · sig: M_yDqbVEYiM-U5W-Yx6SBFDqxG5tFxAGZ2NgT407dSBEqK7h5luNlzwYSQDa_O1ymtAqIXQEgvQKv1t49EfBAA
 - 2026-08-08 · vermillion → stake:world-mark/vermillion/lounge-hallway · 1 · via: api · sig: lrZseAW6iPOaOcy5jqS8yEFlbfHw-ng5qanRo1SM-xqBQoPOPzyhoKulRx8pbSaVdfT1GAEfVYe7ZizPy09dDA
 - 2026-08-08 · vermillion → stake:world-mark/vermillion/the-returning-place · 1 · via: api · sig: iW0OpAHYmAkxiaRgBBtPDP7uoHrcxURC4311lg1BPi0Toa8G4lTA4Wp6ak9R34vYpdSTX3CpoKHul79lBoR4BQ
+- 2026-08-08 · vermillion → stake:world-mark/vermillion/the-room-that-holds-you · 1 · via: api · sig: MowPx8e5vWUvd3uNyTK9b30KlSGV0qOZhtcb72elxwJJzR10IsTWy8huAWWzlEe1PacpgErSzVh-O-FZbdn9Cw
