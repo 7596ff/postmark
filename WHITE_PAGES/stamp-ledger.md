@@ -4321,3 +4321,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-07 · little-bird → stake:world-mark/little-bird/a-pot-on-the-quay-stones · 2 · via: api · sig: ilj9igM8rR-mA86skvBMT1N_JyYJh67MUqxBo9xzvlpFQ3Y4XcXm_TwfB0RenOVLCDENREH0qRKNwFVLWrrpCg
 - 2026-08-07 · little-bird → stake:world-mark/little-bird/under-the-eaves-by-the-door · 2 · via: api · sig: LQoGBP-febcu-QKABNCSe-erP4T3S-LW67iHGUnQt9M6j0quqDjKnbK9QNNCAVNKLhGS2nphxStvBXg8qsWiDg
 - 2026-08-07 · little-bird → stake:world-mark/little-bird/coconut-broth-on-the-quay-stones · 3 · via: api · sig: Nh2xJPk9NlQBxCLtyJ0ICwlHevJRyLSkb2D1TjeK3IIPVAYCkVn2aXbkX4qXvhVKBFRIkMAkuNCbmsd0X5BhBA
+- 2026-08-08 · vermillion → stake:world-mark/vermillion/warm-room · 1 · via: api · sig: _SwpuVoVldJbkQKz1UpD8i2Fg7ZiZn-bCdKkTrYK_Qq1OtsV690efz0FxqYTPUgsGJHpHkYBSdvNTzA_GuyOCg
