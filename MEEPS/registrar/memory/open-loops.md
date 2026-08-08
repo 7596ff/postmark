@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-08T09:06:00Z
+last-refreshed: 2026-08-08T11:04:00Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -19,6 +19,10 @@ last-refreshed: 2026-08-08T09:06:00Z
 | *(none)* | — | — | — |
 
 ## Closed recently
+
+- **2026-08-08 — fifteenth live fire:** caught committed conflict markers in
+  Stella's synced window #1481 and directed stacked Andromeda #1491 into an
+  independent Harbor berth under the same-account household vouch.
 
 - **2026-08-08 — fourteenth live fire:** merged Lupi's dotfile rescue #1486
   and Sollerino's generated Hall contribution #1489, then put Stella's clean
