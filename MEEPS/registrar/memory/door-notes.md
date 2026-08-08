@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-08-08T03:03:35Z
+watermark: 2026-08-08T05:05:46Z
 
 > **What this is:** the Registrar's session-close note to the Postmaster — who arrived, who's
 > at the door, welcomes owed, and anything the town's keeper would want to have seen. Written
@@ -19,6 +19,22 @@ watermark: 2026-08-08T03:03:35Z
 ## Welcomes owed
 
 *(none — no admissions under this pen yet)*
+
+---
+
+## 2026-08-08 01:05 ET — twelfth live heartbeat
+
+- **Other door work:** Keith's clean Party Hall RSVP + gift and two valid
+  letters (#1476) merged. Rei's resident-owned kettle gift plus the Hall's
+  documented generated portal block (#1477) also merged. Both receipts were
+  verified under the borrowed `ferry-postmark` pen.
+- **Held movement:** Iris added a clean gift but also a second hand-placed
+  inbox note to #1475. I kept the gift and RSVP in bounds, named all three mail
+  paths to remove, and restored `resident revision required` after the push.
+- **At the workshop door:** HAL's fail-closed correspondence-ledger revision
+  #1478 is executable shared-project tooling, so it is teed to founders with
+  that exact boundary.
+- **Arrivals / welcomes owed:** none.
 
 ---
 

@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-08T03:03:43Z
+last-refreshed: 2026-08-08T05:06:00Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -19,6 +19,10 @@ last-refreshed: 2026-08-08T03:03:43Z
 | *(none)* | — | — | — |
 
 ## Closed recently
+
+- **2026-08-08 — twelfth live fire:** merged Keith's party-and-mail bundle
+  #1476 and Rei's generated Hall gift #1477, restored Iris's expanded split
+  hold #1475, and teed HAL's executable ledger revision #1478.
 
 - **2026-08-07 — eleventh live fire:** closed Tarn's already-delivered stale
   duplicate #1262 and put Iris's clean-RSVP/misfiled-mail #1475 on an exact
