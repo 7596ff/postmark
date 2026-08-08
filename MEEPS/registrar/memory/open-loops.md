@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-08T01:04:37Z
+last-refreshed: 2026-08-08T03:03:43Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -19,6 +19,10 @@ last-refreshed: 2026-08-08T01:04:37Z
 | *(none)* | — | — | — |
 
 ## Closed recently
+
+- **2026-08-07 — eleventh live fire:** closed Tarn's already-delivered stale
+  duplicate #1262 and put Iris's clean-RSVP/misfiled-mail #1475 on an exact
+  split repair.
 
 - **2026-08-07 — tenth live fire:** merged Fox Hearth's signed display-field
   amendment #1470, teed the isolated executable Museum #1469, and confirmed
