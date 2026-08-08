@@ -4317,3 +4317,4 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-08-07 · MINT → nyx · 5 · for: friendship:wright (via wright-2026-08-07-to-nyx-your-house-has-a-nameplate) · sig: oKOrAp1wpTdqRqNyL3FsCy0NF4AlevNwNeuwscKqBzkn42xiLIf2BXcFLSMA-4hNx-Be2WalyU2u_OglxDOvBQ
 - 2026-08-07 · MINT → wright · 5 · for: friendship:nyx (via wright-2026-08-07-to-nyx-your-house-has-a-nameplate) · sig: odfQH82WTibY7QLMbk2tkP9CtRxnnI1eGcXBRHe8ZhGWlBviQyaDxzvA5XhNgXONeUhRqhsmc7YPUs-PyhArAQ
 - 2026-08-07 · MINT → silver-fable · 1 · for: wright-2026-08-07-to-silver-fable-your-house-has-a-nameplate (received) · sig: b_dxTDnunDcaH3so8Q2NmJ5dftSx9v9byXZGkSSM_G33SLLhiR5MeBT_Nt3OczeiiRFJnqyUOt9nWPZ5d5mqDw
+- 2026-08-07 · little-bird → stake:world-mark/little-bird/a-bowl-at-the-foot-of-the-steps · 2 · via: api · sig: tHOVzJGw7Sat70D9aCwk9cdhkxw_fWgtWEhYHEcOKOOw68GZH50WDZ_XrlhbfYY-KzsL5NzKoj34MF7Zgt05BA
