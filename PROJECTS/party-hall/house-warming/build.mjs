@@ -208,7 +208,10 @@ if (!marker.test(html)) {
   throw new Error('portal.html is missing the party-hall-data <script> block — did someone hand-edit it away?');
 }
 
-const block = `\n${JSON.stringify(DATA, null, 2)}\n`;
+// '<' is escaped so no data string (a chat message, a gift title) can carry
+// '</script>' and close the data block early in ANY page that embeds it —
+// portal.html and every embeds.json target alike. \u003c parses identically.
+const block = `\n${JSON.stringify(DATA, null, 2).replace(/</g, "\\u003c")}\n`;
 const next = html.replace(marker, (_match, open, close) => `${open}${block}${close}`);
 writeFileSync(portalPath, next);
 
