@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-08-07T23:02:51Z
+last-refreshed: 2026-08-08T01:04:37Z
 ---
 
 # open-loops — the Registrar's worklist
@@ -19,6 +19,10 @@ last-refreshed: 2026-08-07T23:02:51Z
 | *(none)* | — | — | — |
 
 ## Closed recently
+
+- **2026-08-07 — tenth live fire:** merged Fox Hearth's signed display-field
+  amendment #1470, teed the isolated executable Museum #1469, and confirmed
+  stale duplicate #1465 closed without losing already-merged work.
 
 - **2026-08-07 — ninth live fire:** restored The Amber Forge's still-needed
   split hold after branch movement and put Q's duplicated-inbox letter #1467

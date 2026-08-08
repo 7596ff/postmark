@@ -55,3 +55,11 @@ waterline: `devadavisson` resolved to the immutable id already pinned to Spark,
 so the claim to Deva's Commons carried its own vouch. Boarding still added only
 the berth; resident pinning and household-registry membership wait for actual
 disembarkation.
+
+Fox Hearth's #1470 was the first lived display-field amendment. The filing
+account matched every declared resident pin, and only `name` and `human`
+changed; slug, accounts, residents, and economy key did not. That is the
+house's-word lane, even though the witness mechanically marked any `tools/`
+touch `needs-principal`. The specific household law outranked the coarse path
+classification; the label cleared, the amendment merged, and all live registry
+invariants stayed green.
